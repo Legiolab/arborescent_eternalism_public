@@ -1,0 +1,21 @@
+{
+  "prefix_example": {
+    "purpose": "Finite illustration of shared prefixes and divergence.",
+    "histories": ["000", "001", "010", "100"]
+  },
+  "phantom_ray": {
+    "candidate_infinite_ray": "111...",
+    "every_tested_finite_prefix_is_locally_realisable": true,
+    "globally_admissible_under_finite_support_rule": false
+  },
+  "factorisation": {
+    "redundant_labels_for_same_record": ["A1", "A2"],
+    "quotient_recovers_single_record": "0"
+  },
+  "independent_events": {
+    "serialisations": ["ab", "ba"],
+    "same_physical_configuration": true,
+    "configuration": "{a,b}"
+  },
+  "status": "illustrative computational sanity checks; not mathematical proofs"
+}
