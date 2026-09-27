@@ -100,11 +100,17 @@ The reference-gap assumption
 
 means that the null symbol is the local mode of the reference law: every excitation carries at least `a` units of additional surprisal. In the explicit calibrated model, ablating the agentive term makes the null history the minimiser. The theorem therefore does not derive Past-Hypothesis-like preparation from rootedness alone. Its physical application requires both an argmin actualisation rule and an independently justified alignment, through the physical projection and macro-description, between the modal null sector of `w` and low physical inhomogeneity. If that alignment fails, a small value of `K_n` need not denote a low-entropy physical macrostate.
 
-The entropy-density corollary also assumes that the ternary coordinates count physical microstates uniformly. If the coordinates are only descriptive code symbols, raw type counting has no thermodynamic force; a separate measure bridge, such as the geometric rarity-transfer result above, is required.
+The entropy-density corollary also assumes that the ternary coordinates count physical microstates uniformly. If the coordinates are only descriptive code symbols, raw type counting has no thermodynamic force; a separate measure bridge, such as the geometric rarity-transfer result above, is required. The combinatorial estimate is the standard method-of-types bound; see Cover and Thomas (2006, chap. 11).
 
 Finally, the calibrated Mahalanobis term is extensive. The feature coordinates are history averages and their covariance under the product law scales as `Sigma_w=O(1/n)`. Therefore `Sigma_w^-1=O(n)`, and a fixed non-zero feature mismatch contributes `O(n)` to the cost. This blocks the incorrect inference that the null history is automatically a zero-rate competitor while the objective is active.
 
 The retained V6.75 failure is consistent with this scaling picture. The preregistered sector `K<=1` passes at depths six and seven but fails at depth eight, where the minimiser has `K=2`. A sector with a fixed absolute excitation count is not stable when the selected histories approach a non-zero excitation density. The scale-stable asymptotic statement is instead the density bound `limsup K_n/n<=u/a`.
+
+## Background references
+
+- Callender, C. (2004). Measures, explanations and the past: Should “special” initial conditions be explained? *The British Journal for the Philosophy of Science, 55*(2), 195–217. https://doi.org/10.1093/bjps/55.2.195
+- Cover, T. M., & Thomas, J. A. (2006). *Elements of Information Theory* (2nd ed.). Wiley. https://doi.org/10.1002/047174882X
+- Goldstein, S. (2001). Boltzmann’s approach to statistical mechanics. In J. Bricmont, D. Dürr, M. C. Galavotti, G. Ghirardi, F. Petruccione, & N. Zanghì (Eds.), *Chance in Physics: Foundations and Perspectives* (Lecture Notes in Physics, Vol. 574, pp. 39–54). Springer. https://doi.org/10.1007/3-540-44966-3_3
 
 ## Scope
 
