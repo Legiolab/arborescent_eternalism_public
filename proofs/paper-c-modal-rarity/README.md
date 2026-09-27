@@ -8,6 +8,7 @@
 
 | Claim | Evidence |
 |---|---|
+| Structural-entropy refinement, logarithmic cost, protected-sector selection, geometric rarity transfer, stopping-line calibration, symmetry freedom, physical weight examples, conditional relaxation and bounded-tilt typicality | `analytic_results.md` |
 | The earlier scalar-sigma finite witness is reproducible but is not the calibrated model used for the paper's main claims | `computational/j_generative_common.py` and `computational/results.json` |
 | The agentive term can be calibrated by the target-blind covariance Sigma_w, without a fitted scalar sigma_A | `computational/j_reference_calibrated_v6_73/` |
 | Invertible affine reparameterisation preserves Mahalanobis costs and the winner | `computational/j_feature_invariance_v6_74/` |
@@ -25,7 +26,7 @@
 python proofs/paper-c-modal-rarity/computational/run_all.py
 ```
 
-The scripts use only the Python standard library and overwrite their `results.json` files deterministically. See `computational/README.md` for the evidential status of each stage.
+The scripts use only the Python standard library and overwrite their `results.json` files deterministically. See `analytic_results.md` for the paper proofs and `computational/README.md` for the evidential status of each computational stage.
 
 ## Limits
 
