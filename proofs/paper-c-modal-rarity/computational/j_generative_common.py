@@ -158,6 +158,8 @@ def main() -> int:
         "agency_changes_selection_without_reweighting": len({tuple(item["winner"]) for item in agency.values()}) >= 2,
         "depth6_stable_under_two_percent_perturbation": stability6["base_winner_stability"] > 0.75,
         "depth7_stable_under_two_percent_perturbation": stability7["base_winner_stability"] > 0.75,
+    }
+    design_declarations = {
         "no_history_table_used": True,
         "no_free_lambda_coefficients": True,
         "no_entropy_target_used": True,
@@ -180,6 +182,7 @@ def main() -> int:
         "stability_depth6": stability6,
         "stability_depth7": stability7,
         "checks": checks,
+        "design_declarations": design_declarations,
         "passed": sum(checks.values()),
         "total": len(checks),
         "all_checks_pass": all(checks.values()),

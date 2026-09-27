@@ -16,6 +16,10 @@ This repository contains only material intended for public inspection, reproduct
 - Each paper may contain its own `calculations/` directory with the minimal code, inputs, environment and expected outputs needed to reproduce published results.
 - `shared/` — only genuinely shared public material used by more than one paper.
 
+Source code is licensed under the MIT License (`LICENSE-CODE`). Proof texts,
+documentation and recorded results are licensed under CC BY 4.0
+(`LICENSE-DOCUMENTATION`).
+
 Private research governance, internal canon, exploratory calculations, negative experiments, prompts, audits, roadmap, and research-harness material are deliberately excluded.
 
 ## Scientific status

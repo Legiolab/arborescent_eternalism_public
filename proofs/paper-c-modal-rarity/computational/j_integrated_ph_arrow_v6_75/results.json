@@ -1,0 +1,707 @@
+{
+  "gate": "V6.75",
+  "status": "mixed_pass_and_no_go",
+  "selection_formula": "J(H)=-log w_E(H)+B_E,Pi(H)+C_A(H)",
+  "physical_macro_observable": "K(H)=sum_i h_i^2",
+  "ph_like_sector": "L_n={H:K(H)<=1}",
+  "physical_measure": "uniform counting measure on the finite projected ternary phase space",
+  "sectors": {
+    "6": {
+      "depth": 6,
+      "history_count": 729,
+      "low_sector_definition": "K(H)=sum_i h_i^2 <= 1",
+      "low_sector_count": 13,
+      "low_sector_fraction_uniform_physical_measure": 0.01783264746227709,
+      "low_sector_surprisal": 4.026724374547121,
+      "winner": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "excitation": 1,
+        "weight": 0.005398212314060555,
+        "surprisal": 5.221687433173783,
+        "physical_energy": 0.1451388888888889,
+        "agentive_cost": 0.3460488380906008,
+        "J": 5.712875160153273
+      },
+      "winner_in_low_sector": true,
+      "best_outside_low_sector": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "excitation": 2,
+        "weight": 0.0031626856743085414,
+        "surprisal": 5.756333715408129,
+        "physical_energy": 0.21805555555555556,
+        "agentive_cost": 0.05000679886781995,
+        "J": 6.024396069831504
+      },
+      "protected_sector_margin": 0.3115209096782312,
+      "winner_without_A": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "excitation": 0,
+        "weight": 0.015625,
+        "surprisal": 4.1588830833596715,
+        "physical_energy": 0.0,
+        "agentive_cost": 0.0,
+        "J": 4.1588830833596715
+      },
+      "winner_without_A_in_low_sector": true,
+      "winner_without_B": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "excitation": 1,
+        "weight": 0.005398212314060555,
+        "surprisal": 5.221687433173783,
+        "physical_energy": 0.0,
+        "agentive_cost": 0.3460488380906008,
+        "J": 5.567736271264384
+      },
+      "winner_without_B_in_low_sector": true,
+      "selected_shell_multiplicity": 12,
+      "selected_shell_boltzmann_entropy": 2.4849066497880004,
+      "maximum_shell_excitation": 4,
+      "maximum_shell_multiplicity": 240,
+      "maximum_shell_boltzmann_entropy": 5.480638923341991,
+      "selected_boltzmann_entropy_deficit": 2.995732273553991
+    },
+    "7": {
+      "depth": 7,
+      "history_count": 2187,
+      "low_sector_definition": "K(H)=sum_i h_i^2 <= 1",
+      "low_sector_count": 15,
+      "low_sector_fraction_uniform_physical_measure": 0.006858710562414266,
+      "low_sector_surprisal": 4.982235819574558,
+      "winner": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "excitation": 1,
+        "weight": 0.005015560536556567,
+        "surprisal": 5.295210091818935,
+        "physical_energy": 0.11853741496598638,
+        "agentive_cost": 0.5656840066767865,
+        "J": 5.979431513461708
+      },
+      "winner_in_low_sector": true,
+      "best_outside_low_sector": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "excitation": 2,
+        "weight": 0.0017328038816227726,
+        "surprisal": 6.3580144416330455,
+        "physical_energy": 0.1741496598639456,
+        "agentive_cost": 0.05269017540942194,
+        "J": 6.584854276906413
+      },
+      "protected_sector_margin": 0.6054227634447056,
+      "winner_without_A": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "excitation": 0,
+        "weight": 0.0078125,
+        "surprisal": 4.852030263919617,
+        "physical_energy": 0.0,
+        "agentive_cost": 0.0,
+        "J": 4.852030263919617
+      },
+      "winner_without_A_in_low_sector": true,
+      "winner_without_B": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "excitation": 1,
+        "weight": 0.005015560536556567,
+        "surprisal": 5.295210091818935,
+        "physical_energy": 0.0,
+        "agentive_cost": 0.5656840066767865,
+        "J": 5.860894098495721
+      },
+      "winner_without_B_in_low_sector": true,
+      "selected_shell_multiplicity": 14,
+      "selected_shell_boltzmann_entropy": 2.6390573296152584,
+      "maximum_shell_excitation": 5,
+      "maximum_shell_multiplicity": 672,
+      "maximum_shell_boltzmann_entropy": 6.51025834052315,
+      "selected_boltzmann_entropy_deficit": 3.871201010907891
+    },
+    "8": {
+      "depth": 8,
+      "history_count": 6561,
+      "low_sector_definition": "K(H)=sum_i h_i^2 <= 1",
+      "low_sector_count": 17,
+      "low_sector_fraction_uniform_physical_measure": 0.002591068434689834,
+      "low_sector_surprisal": 5.955684965288661,
+      "winner": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "excitation": 2,
+        "weight": 0.0011162476525770177,
+        "surprisal": 6.797782528730296,
+        "physical_energy": 0.14434523809523808,
+        "agentive_cost": 0.1131127469383653,
+        "J": 7.055240513763899
+      },
+      "winner_in_low_sector": false,
+      "best_outside_low_sector": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "excitation": 2,
+        "weight": 0.0011162476525770177,
+        "surprisal": 6.797782528730296,
+        "physical_energy": 0.14434523809523808,
+        "agentive_cost": 0.1131127469383653,
+        "J": 7.055240513763899
+      },
+      "protected_sector_margin": 0.0,
+      "winner_without_A": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "excitation": 0,
+        "weight": 0.00390625,
+        "surprisal": 5.545177444479562,
+        "physical_energy": 0.0,
+        "agentive_cost": 0.0,
+        "J": 5.545177444479562
+      },
+      "winner_without_A_in_low_sector": true,
+      "winner_without_B": {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "excitation": 2,
+        "weight": 0.0011162476525770177,
+        "surprisal": 6.797782528730296,
+        "physical_energy": 0.0,
+        "agentive_cost": 0.1131127469383653,
+        "J": 6.910895275668661
+      },
+      "winner_without_B_in_low_sector": false,
+      "selected_shell_multiplicity": 112,
+      "selected_shell_boltzmann_entropy": 4.718498871295094,
+      "maximum_shell_excitation": 6,
+      "maximum_shell_multiplicity": 1792,
+      "maximum_shell_boltzmann_entropy": 7.491087593534876,
+      "selected_boltzmann_entropy_deficit": 2.772588722239781
+    }
+  },
+  "scaling_audit_depth3_to_depth10": {
+    "3": {
+      "history": [
+        0,
+        0,
+        0
+      ],
+      "excitation": 0,
+      "excitation_density": 0.0,
+      "J": 3.0946006261569314
+    },
+    "4": {
+      "history": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "excitation": 1,
+      "excitation_density": 0.25,
+      "J": 3.7197665410560825
+    },
+    "5": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "excitation": 1,
+      "excitation_density": 0.2,
+      "J": 4.352103177555144
+    },
+    "6": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "excitation": 1,
+      "excitation_density": 0.16666666666666666,
+      "J": 5.712875160153273
+    },
+    "7": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "excitation": 1,
+      "excitation_density": 0.14285714285714285,
+      "J": 5.979431513461708
+    },
+    "8": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "excitation": 2,
+      "excitation_density": 0.25,
+      "J": 7.055240513763899
+    },
+    "9": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "excitation": 1,
+      "excitation_density": 0.1111111111111111,
+      "J": 8.196548073264482
+    },
+    "10": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "excitation": 2,
+      "excitation_density": 0.2,
+      "J": 8.653939733993502
+    }
+  },
+  "claim_tests": {
+    "fixed_K_le_1_sector_selected_at_all_registered_depths": false,
+    "fixed_K_le_1_sector_has_positive_margin_at_all_registered_depths": false,
+    "maximum_observed_winner_excitation_depth3_to_depth10": 2,
+    "bounded_excitation_is_observed_not_proved": true
+  },
+  "relaxations": {
+    "6": {
+      "kernel": "P=(1-r)I+rU",
+      "mixing_rate": 0.2,
+      "initial_ensemble": "delta at the selected history",
+      "trajectory": [
+        {
+          "step": 0,
+          "selected_state_probability": 1.0,
+          "other_state_probability": 0.0,
+          "shannon_entropy": -0.0,
+          "relative_entropy_to_uniform": 6.591673732008658
+        },
+        {
+          "step": 1,
+          "selected_state_probability": 0.8002743484224966,
+          "other_state_probability": 0.0002743484224965706,
+          "shannon_entropy": 1.8162740315198107,
+          "relative_entropy_to_uniform": 4.7753997004888475
+        },
+        {
+          "step": 2,
+          "selected_state_probability": 0.640493827160494,
+          "other_state_probability": 0.000493827160493827,
+          "shannon_entropy": 3.022387442721662,
+          "relative_entropy_to_uniform": 3.569286289286996
+        },
+        {
+          "step": 3,
+          "selected_state_probability": 0.5126694101508917,
+          "other_state_probability": 0.0006694101508916323,
+          "shannon_entropy": 3.9044814153918916,
+          "relative_entropy_to_uniform": 2.6871923166167666
+        },
+        {
+          "step": 4,
+          "selected_state_probability": 0.41040987654320993,
+          "other_state_probability": 0.0008098765432098764,
+          "shannon_entropy": 4.56258378901615,
+          "relative_entropy_to_uniform": 2.029089942992508
+        },
+        {
+          "step": 5,
+          "selected_state_probability": 0.3286022496570645,
+          "other_state_probability": 0.0009222496570644717,
+          "shannon_entropy": 5.057897646320962,
+          "relative_entropy_to_uniform": 1.5337760856876965
+        },
+        {
+          "step": 6,
+          "selected_state_probability": 0.26315614814814825,
+          "other_state_probability": 0.0010121481481481479,
+          "shannon_entropy": 5.432355138643793,
+          "relative_entropy_to_uniform": 1.1593185933648655
+        },
+        {
+          "step": 7,
+          "selected_state_probability": 0.21079926694101517,
+          "other_state_probability": 0.001084066941015089,
+          "shannon_entropy": 5.716084134466866,
+          "relative_entropy_to_uniform": 0.8755895975417927
+        },
+        {
+          "step": 8,
+          "selected_state_probability": 0.16891376197530872,
+          "other_state_probability": 0.001141601975308642,
+          "shannon_entropy": 5.93126816176776,
+          "relative_entropy_to_uniform": 0.660405570240898
+        },
+        {
+          "step": 9,
+          "selected_state_probability": 0.13540535800274356,
+          "other_state_probability": 0.001187630002743484,
+          "shannon_entropy": 6.094473366994603,
+          "relative_entropy_to_uniform": 0.49720036501405485
+        },
+        {
+          "step": 10,
+          "selected_state_probability": 0.10859863482469141,
+          "other_state_probability": 0.0012244524246913578,
+          "shannon_entropy": 6.218178729115643,
+          "relative_entropy_to_uniform": 0.37349500289301485
+        },
+        {
+          "step": 11,
+          "selected_state_probability": 0.08715325628224971,
+          "other_state_probability": 0.001253910362249657,
+          "shannon_entropy": 6.3118363969951075,
+          "relative_entropy_to_uniform": 0.2798373350135508
+        },
+        {
+          "step": 12,
+          "selected_state_probability": 0.06999695344829633,
+          "other_state_probability": 0.0012774767122962962,
+          "shannon_entropy": 6.38263111888338,
+          "relative_entropy_to_uniform": 0.20904261312527783
+        }
+      ],
+      "shannon_non_decreasing": true,
+      "relative_entropy_non_increasing": true,
+      "equilibrium_entropy": 6.591673732008658
+    },
+    "7": {
+      "kernel": "P=(1-r)I+rU",
+      "mixing_rate": 0.2,
+      "initial_ensemble": "delta at the selected history",
+      "trajectory": [
+        {
+          "step": 0,
+          "selected_state_probability": 1.0,
+          "other_state_probability": 0.0,
+          "shannon_entropy": -0.0,
+          "relative_entropy_to_uniform": 7.690286020676768
+        },
+        {
+          "step": 1,
+          "selected_state_probability": 0.8000914494741656,
+          "other_state_probability": 9.144947416552353e-05,
+          "shannon_entropy": 2.0375381244695596,
+          "relative_entropy_to_uniform": 5.652747896207209
+        },
+        {
+          "step": 2,
+          "selected_state_probability": 0.640164609053498,
+          "other_state_probability": 0.00016460905349794232,
+          "shannon_entropy": 3.420395931166493,
+          "relative_entropy_to_uniform": 4.269890089510275
+        },
+        {
+          "step": 3,
+          "selected_state_probability": 0.512223136716964,
+          "other_state_probability": 0.0002231367169638774,
+          "shannon_entropy": 4.443768847868172,
+          "relative_entropy_to_uniform": 3.2465171728085966
+        },
+        {
+          "step": 4,
+          "selected_state_probability": 0.4098699588477367,
+          "other_state_probability": 0.00026995884773662547,
+          "shannon_entropy": 5.214810090038194,
+          "relative_entropy_to_uniform": 2.4754759306385745
+        },
+        {
+          "step": 5,
+          "selected_state_probability": 0.3279874165523549,
+          "other_state_probability": 0.0003074165523548239,
+          "shannon_entropy": 5.800405814777221,
+          "relative_entropy_to_uniform": 1.889880205899547
+        },
+        {
+          "step": 6,
+          "selected_state_probability": 0.2624813827160495,
+          "other_state_probability": 0.00033738271604938266,
+          "shannon_entropy": 6.247028203979138,
+          "relative_entropy_to_uniform": 1.4432578166976304
+        },
+        {
+          "step": 7,
+          "selected_state_probability": 0.21007655564700511,
+          "other_state_probability": 0.0003613556470050297,
+          "shannon_entropy": 6.588434031970335,
+          "relative_entropy_to_uniform": 1.101851988706433
+        },
+        {
+          "step": 8,
+          "selected_state_probability": 0.16815269399176963,
+          "other_state_probability": 0.0003805339917695473,
+          "shannon_entropy": 6.8497082083513545,
+          "relative_entropy_to_uniform": 0.8405778123254137
+        },
+        {
+          "step": 9,
+          "selected_state_probability": 0.13461360466758124,
+          "other_state_probability": 0.0003958766675811614,
+          "shannon_entropy": 7.049736921136555,
+          "relative_entropy_to_uniform": 0.6405490995402134
+        },
+        {
+          "step": 10,
+          "selected_state_probability": 0.10778233320823051,
+          "other_state_probability": 0.00040815080823045264,
+          "shannon_entropy": 7.20285449549522,
+          "relative_entropy_to_uniform": 0.487431525181548
+        },
+        {
+          "step": 11,
+          "selected_state_probability": 0.08631731604074994,
+          "other_state_probability": 0.00041797012074988566,
+          "shannon_entropy": 7.319996897815075,
+          "relative_entropy_to_uniform": 0.3702891228616929
+        },
+        {
+          "step": 12,
+          "selected_state_probability": 0.06914530230676547,
+          "other_state_probability": 0.0004258255707654321,
+          "shannon_entropy": 7.409535618346789,
+          "relative_entropy_to_uniform": 0.2807504023299794
+        }
+      ],
+      "shannon_non_decreasing": true,
+      "relative_entropy_non_increasing": true,
+      "equilibrium_entropy": 7.690286020676768
+    },
+    "8": {
+      "kernel": "P=(1-r)I+rU",
+      "mixing_rate": 0.2,
+      "initial_ensemble": "delta at the selected history",
+      "trajectory": [
+        {
+          "step": 0,
+          "selected_state_probability": 1.0,
+          "other_state_probability": 0.0,
+          "shannon_entropy": -0.0,
+          "relative_entropy_to_uniform": 8.788898309344878
+        },
+        {
+          "step": 1,
+          "selected_state_probability": 0.8000304831580553,
+          "other_state_probability": 3.0483158055174508e-05,
+          "shannon_entropy": 2.257841429661935,
+          "relative_entropy_to_uniform": 6.531056879682943
+        },
+        {
+          "step": 2,
+          "selected_state_probability": 0.6400548696844994,
+          "other_state_probability": 5.486968449931411e-05,
+          "shannon_entropy": 3.8168528999948954,
+          "relative_entropy_to_uniform": 4.972045409349983
+        },
+        {
+          "step": 3,
+          "selected_state_probability": 0.5120743789056548,
+          "other_state_probability": 7.43789056546258e-05,
+          "shannon_entropy": 4.981109864046576,
+          "relative_entropy_to_uniform": 3.8077884452983026
+        },
+        {
+          "step": 4,
+          "selected_state_probability": 0.40968998628257897,
+          "other_state_probability": 8.998628257887516e-05,
+          "shannon_entropy": 5.86483021593251,
+          "relative_entropy_to_uniform": 2.9240680934123686
+        },
+        {
+          "step": 5,
+          "selected_state_probability": 0.3277824721841184,
+          "other_state_probability": 0.00010247218411827464,
+          "shannon_entropy": 6.540546111928118,
+          "relative_entropy_to_uniform": 2.24835219741676
+        },
+        {
+          "step": 6,
+          "selected_state_probability": 0.2622564609053499,
+          "other_state_probability": 0.00011246090534979422,
+          "shannon_entropy": 7.059244388280761,
+          "relative_entropy_to_uniform": 1.7296539210641173
+        },
+        {
+          "step": 7,
+          "selected_state_probability": 0.20983565188233508,
+          "other_state_probability": 0.0001204518823350099,
+          "shannon_entropy": 7.4582925007717495,
+          "relative_entropy_to_uniform": 1.3306058085731287
+        },
+        {
+          "step": 8,
+          "selected_state_probability": 0.16789900466392327,
+          "other_state_probability": 0.00012684466392318244,
+          "shannon_entropy": 7.765663320049778,
+          "relative_entropy_to_uniform": 1.0232349892951005
+        },
+        {
+          "step": 9,
+          "selected_state_probability": 0.1343496868891938,
+          "other_state_probability": 0.00013195888919372044,
+          "shannon_entropy": 8.002553044547614,
+          "relative_entropy_to_uniform": 0.786345264797264
+        },
+        {
+          "step": 10,
+          "selected_state_probability": 0.1075102326694102,
+          "other_state_probability": 0.00013605026941015087,
+          "shannon_entropy": 8.18514377399535,
+          "relative_entropy_to_uniform": 0.6037545353495286
+        },
+        {
+          "step": 11,
+          "selected_state_probability": 0.08603866929358335,
+          "other_state_probability": 0.00013932337358329522,
+          "shannon_entropy": 8.325849535410205,
+          "relative_entropy_to_uniform": 0.46304877393467336
+        },
+        {
+          "step": 12,
+          "selected_state_probability": 0.06886141859292184,
+          "other_state_probability": 0.0001419418569218107,
+          "shannon_entropy": 8.434224156310393,
+          "relative_entropy_to_uniform": 0.3546741530344857
+        }
+      ],
+      "shannon_non_decreasing": true,
+      "relative_entropy_non_increasing": true,
+      "equilibrium_entropy": 8.788898309344878
+    }
+  },
+  "checks": {
+    "macroregion_fixed_before_selection": true,
+    "uniform_physical_measure_fixed_before_selection": true,
+    "no_entropy_term_in_J": true,
+    "all_enumerations_complete": true,
+    "strict_K_le_1_sector_passes_depth6_and_depth7": true,
+    "strict_K_le_1_sector_failure_detected_at_depth8": true,
+    "low_sector_rarity_decreases_with_depth": true,
+    "low_sector_fraction_matches_closed_form": true,
+    "source_selection_survives_A_ablation": true,
+    "all_relaxations_raise_shannon_entropy": true,
+    "all_relaxations_lower_relative_entropy": true,
+    "orientation_not_inferred_from_entropy": true
+  },
+  "passed": 12,
+  "total": 12,
+  "all_checks_pass": true,
+  "interpretation": "The integrated chain succeeds for the preregistered K<=1 sector at depths six and seven but fails at depth eight, where the selected history has K=2. The failure is retained rather than repairing the macroregion after inspection. A scaling audit through depth ten observes K<=2, which is compatible with an exponentially rare bounded-excitation family but is not a proof of bounded scaling. Source selection without A and entropy increase under the independent mixing kernel remain positive. The result is therefore a finite integrated pass plus a no-go for the specific fixed K<=1 claim, not a cosmological derivation."
+}

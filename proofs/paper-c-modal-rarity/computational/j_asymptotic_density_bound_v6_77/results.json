@@ -1,0 +1,102 @@
+{
+  "gate": "V6.77",
+  "status": "analytic_pass_with_model_scope",
+  "theorem": "For global minimisers H_n* of the V6.73 finite functional, the stated product branch law, positive physical energy and reference-calibrated agentive cost imply limsup K(H_n*)/n <= c_bound < 2/3.",
+  "proof_structure": {
+    "lower_bound": "J(H)/n >= log 2 + a K(H)/n, with a=log(0.5/0.33)",
+    "upper_bound": "J(H_n*) <= J(step competitor with final-quarter excitation)",
+    "physical_rate": "B(step)/n -> 0",
+    "agentive_rate": "exact limiting DCT covariance and fixed goal",
+    "conclusion": "compare limiting upper and lower rates"
+  },
+  "constants": {
+    "competitor_fraction_q": 0.25,
+    "maximum_nonzero_branch_probability": 0.33,
+    "excitation_surprisal_floor_a": 0.4155154439616658,
+    "geometric_mean_positive_probability": 0.2434271928232701,
+    "competitor_surprisal_excess_per_excitation": 0.7197902033889689,
+    "limiting_feature_variance": 0.4872,
+    "competitor_limiting_features": [
+      0.25,
+      -0.22507907903927651,
+      0.15915494309189535
+    ],
+    "agentive_goal": [
+      0.35,
+      -0.25,
+      0.2
+    ],
+    "competitor_agentive_rate": 0.01496176308570799,
+    "competitor_total_excess_rate": 0.19490931393295022,
+    "excitation_density_upper_bound": 0.4690783862920194,
+    "uniform_equilibrium_excitation_density": 0.6666666666666666,
+    "margin_below_equilibrium": 0.1975882803746472,
+    "entropy_density_deficit_at_bound": 0.08223826039954041
+  },
+  "finite_competitor_crosscheck": {
+    "64": {
+      "depth": 64,
+      "excitation": 16,
+      "excitation_density": 0.25,
+      "J_per_site": 0.8874867239089358,
+      "excess_rate_over_zero_surprisal": 0.1943395433489905,
+      "distance_to_asymptotic_competitor_rate": -0.0005697705839597111
+    },
+    "128": {
+      "depth": 128,
+      "excitation": 32,
+      "excitation_density": 0.25,
+      "J_per_site": 0.8877063464596177,
+      "excess_rate_over_zero_surprisal": 0.19455916589967237,
+      "distance_to_asymptotic_competitor_rate": -0.00035014803327784727
+    },
+    "256": {
+      "depth": 256,
+      "excitation": 64,
+      "excitation_density": 0.25,
+      "J_per_site": 0.886864800779673,
+      "excess_rate_over_zero_surprisal": 0.19371762021972772,
+      "distance_to_asymptotic_competitor_rate": -0.0011916937132225025
+    },
+    "512": {
+      "depth": 512,
+      "excitation": 128,
+      "excitation_density": 0.25,
+      "J_per_site": 0.8882943477279037,
+      "excess_rate_over_zero_surprisal": 0.19514716716795844,
+      "distance_to_asymptotic_competitor_rate": 0.00023785323500821742
+    },
+    "1024": {
+      "depth": 1024,
+      "excitation": 256,
+      "excitation_density": 0.25,
+      "J_per_site": 0.8880192488970805,
+      "excess_rate_over_zero_surprisal": 0.19487206833713522,
+      "distance_to_asymptotic_competitor_rate": -3.7245595814999755e-05
+    },
+    "2048": {
+      "depth": 2048,
+      "excitation": 512,
+      "excitation_density": 0.25,
+      "J_per_site": 0.8882177732310472,
+      "excess_rate_over_zero_surprisal": 0.19507059267110194,
+      "distance_to_asymptotic_competitor_rate": 0.0001612787381517211
+    }
+  },
+  "checks": {
+    "nonzero_branch_probability_uniformly_bounded_by_0_33": true,
+    "excitation_surprisal_floor_positive": true,
+    "physical_term_nonnegative": true,
+    "agentive_term_nonnegative": true,
+    "competitor_physical_cost_is_subextensive": true,
+    "irrational_rotation_phase_average_used": true,
+    "analytic_density_bound_below_equilibrium": true,
+    "analytic_density_bound_has_positive_entropy_deficit": true,
+    "finite_competitor_rates_converge_toward_formula": true,
+    "no_fitted_winner_or_entropy_threshold": true
+  },
+  "passed": 10,
+  "total": 10,
+  "all_checks_pass": true,
+  "interpretation": "Within the explicit V6.73 model class, selected global minimisers are analytically bounded away from the uniform equilibrium excitation density. Their macrostates therefore retain a positive entropy-density deficit and exponentially small physical counting volume asymptotically. The bound is deliberately loose (about 0.469 versus the observed 0.18) and depends on the specified branch law, DCT agentive geometry and positive physical term; it is not a cosmological theorem."
+}

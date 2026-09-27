@@ -401,13 +401,15 @@
     "depth7_winner_is_low_energy_relative_to_family": true,
     "agency_changes_selection_without_reweighting": true,
     "depth6_stable_under_two_percent_perturbation": true,
-    "depth7_stable_under_two_percent_perturbation": true,
+    "depth7_stable_under_two_percent_perturbation": true
+  },
+  "design_declarations": {
     "no_history_table_used": true,
     "no_free_lambda_coefficients": true,
     "no_entropy_target_used": true
   },
-  "passed": 14,
-  "total": 14,
+  "passed": 11,
+  "total": 11,
   "all_checks_pass": true,
   "interpretation": "One generative history code now produces reference weight, physical profile and agentive compatibility. The fixed coefficient-free J has unique stable minima at two depths, and counterfactual goals change selection while leaving w and the physical law untouched. This is a toy closure, not a derivation of the cosmological branch law, Pi or agency."
 }

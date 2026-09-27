@@ -1,0 +1,666 @@
+{
+  "gate": "V6.73",
+  "status": "accepted_with_scope",
+  "formula": "J(H)=-log w_E(H)+B_E,Pi(H)+0.5(F(H)-g_A)^T Sigma_w^-1(F(H)-g_A)",
+  "feature_map": "first three fixed cosine modes of the projected physical trajectory",
+  "calibration": "Sigma_w is the exact target-blind covariance of F under the frozen reference law",
+  "base_goal": [
+    0.35,
+    -0.25,
+    0.2
+  ],
+  "geometry_depth6": {
+    "mean": [
+      -0.01940600202822763,
+      0.009459473823473473,
+      -0.023597149997212994
+    ],
+    "covariance": [
+      [
+        0.08096571165017558,
+        -0.00013729070984749424,
+        -0.0004487943718016573
+      ],
+      [
+        -0.0001372907098474947,
+        0.040258458639186936,
+        0.000378890008526382
+      ],
+      [
+        -0.00044879437180165747,
+        0.000378890008526382,
+        0.04057384840170305
+      ]
+    ],
+    "inverse": [
+      [
+        12.351731761357092,
+        0.04084003369472106,
+        0.13624327081465593
+      ],
+      [
+        0.0408400336947212,
+        24.84181870010933,
+        -0.23152815155277648
+      ],
+      [
+        0.13624327081465598,
+        -0.23152815155277648,
+        24.650086405766555
+      ]
+    ]
+  },
+  "geometry_depth7": {
+    "mean": [
+      0.003650819501410685,
+      -0.012962200968327285,
+      0.004199321797512375
+    ],
+    "covariance": [
+      [
+        0.06927763189210873,
+        6.686691264016486e-05,
+        -0.0004944397428275249
+      ],
+      [
+        6.686691264016566e-05,
+        0.034391596074640624,
+        0.00019489257094152884
+      ],
+      [
+        -0.0004944397428275259,
+        0.00019489257094152786,
+        0.034934707584156934
+      ]
+    ],
+    "inverse": [
+      [
+        14.436161151261244,
+        -0.029226718228199666,
+        0.2044816851577601
+      ],
+      [
+        -0.029226718228200013,
+        29.077849365694206,
+        -0.16263218055249112
+      ],
+      [
+        0.20448168515776052,
+        -0.16263218055249032,
+        28.628629487346085
+      ]
+    ]
+  },
+  "depth6": {
+    "depth": 6,
+    "history_count": 729,
+    "winner": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weight": 0.005398212314060555,
+      "surprisal": 5.221687433173783,
+      "physical_energy": 0.1451388888888889,
+      "agentive_features": [
+        0.16666666666666666,
+        -0.1609876377148447,
+        0.1443375672974064
+      ],
+      "agentive_cost": 0.3460488380906008,
+      "J": 5.712875160153273
+    },
+    "runner_up": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "weight": 0.009154320131565804,
+      "surprisal": 4.693529365594017,
+      "physical_energy": 0.3701388888888889,
+      "agentive_features": [
+        0.16666666666666666,
+        -0.1178511301977579,
+        -3.061616997868383e-17
+      ],
+      "agentive_cost": 0.9276151840378977,
+      "J": 5.991283438520803
+    },
+    "absolute_margin": 0.2784082783675297,
+    "relative_margin": 0.048733478425959535,
+    "winner_energy_below_family_median": true,
+    "stability": {
+      "fraction": 0.02,
+      "trials": 2000,
+      "base_winner_stability": 1.0
+    },
+    "top_five": [
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "weight": 0.005398212314060555,
+        "surprisal": 5.221687433173783,
+        "physical_energy": 0.1451388888888889,
+        "agentive_features": [
+          0.16666666666666666,
+          -0.1609876377148447,
+          0.1443375672974064
+        ],
+        "agentive_cost": 0.3460488380906008,
+        "J": 5.712875160153273
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "weight": 0.009154320131565804,
+        "surprisal": 4.693529365594017,
+        "physical_energy": 0.3701388888888889,
+        "agentive_features": [
+          0.16666666666666666,
+          -0.1178511301977579,
+          -3.061616997868383e-17
+        ],
+        "agentive_cost": 0.9276151840378977,
+        "J": 5.991283438520803
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "weight": 0.0031626856743085414,
+        "surprisal": 5.756333715408129,
+        "physical_energy": 0.21805555555555556,
+        "agentive_features": [
+          0.3333333333333333,
+          -0.2788387679126026,
+          0.14433756729740635
+        ],
+        "agentive_cost": 0.05000679886781995,
+        "J": 6.024396069831504
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "weight": 0.015625,
+        "surprisal": 4.1588830833596715,
+        "physical_energy": 0.0,
+        "agentive_features": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "agentive_cost": 2.0433920664632463,
+        "J": 6.202275149822918
+      },
+      {
+        "history": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0
+        ],
+        "weight": 0.005739540119218955,
+        "surprisal": 5.160376190463298,
+        "physical_energy": 0.68125,
+        "agentive_features": [
+          0.0,
+          -0.1609876377148447,
+          0.1443375672974064
+        ],
+        "agentive_cost": 0.8956727548205708,
+        "J": 6.737298945283869
+      }
+    ]
+  },
+  "depth7": {
+    "depth": 7,
+    "history_count": 2187,
+    "winner": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weight": 0.005015560536556567,
+      "surprisal": 5.295210091818935,
+      "physical_energy": 0.11853741496598638,
+      "agentive_features": [
+        0.14285714285714285,
+        -0.13927541602597482,
+        0.1287098382717742
+      ],
+      "agentive_cost": 0.5656840066767865,
+      "J": 5.979431513461708
+    },
+    "runner_up": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "weight": 0.0017328038816227726,
+      "surprisal": 6.3580144416330455,
+      "physical_energy": 0.1741496598639456,
+      "agentive_features": [
+        0.2857142857142857,
+        -0.2509656278071219,
+        0.1604985431226761
+      ],
+      "agentive_cost": 0.05269017540942194,
+      "J": 6.584854276906413
+    },
+    "absolute_margin": 0.6054227634447056,
+    "relative_margin": 0.10125089016935736,
+    "winner_energy_below_family_median": true,
+    "stability": {
+      "fraction": 0.02,
+      "trials": 2000,
+      "base_winner_stability": 1.0
+    },
+    "top_five": [
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "weight": 0.005015560536556567,
+        "surprisal": 5.295210091818935,
+        "physical_energy": 0.11853741496598638,
+        "agentive_features": [
+          0.14285714285714285,
+          -0.13927541602597482,
+          0.1287098382717742
+        ],
+        "agentive_cost": 0.5656840066767865,
+        "J": 5.979431513461708
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "weight": 0.0017328038816227726,
+        "surprisal": 6.3580144416330455,
+        "physical_energy": 0.1741496598639456,
+        "agentive_features": [
+          0.2857142857142857,
+          -0.2509656278071219,
+          0.1604985431226761
+        ],
+        "agentive_cost": 0.05269017540942194,
+        "J": 6.584854276906413
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "weight": 0.002938498994616753,
+        "surprisal": 5.82985637405328,
+        "physical_energy": 0.5158163265306123,
+        "agentive_features": [
+          0.2857142857142857,
+          -0.2012588073284831,
+          0.03963986657766938
+        ],
+        "agentive_cost": 0.4359386451816571,
+        "J": 6.781611345765549
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "weight": 0.0033071972539138214,
+        "surprisal": 5.7116541993728,
+        "physical_energy": 0.4408163265306122,
+        "agentive_features": [
+          0.2857142857142857,
+          -0.027585204244827705,
+          0.16049854312267625
+        ],
+        "agentive_cost": 0.7737478511167228,
+        "J": 6.9262183770201355
+      },
+      {
+        "history": [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "weight": 0.003144636685871928,
+        "surprisal": 5.762056916688215,
+        "physical_energy": 0.425,
+        "agentive_features": [
+          0.0,
+          -0.20125880732848314,
+          0.21777980996587898
+        ],
+        "agentive_cost": 0.9223652910607941,
+        "J": 7.1094222077490095
+      }
+    ]
+  },
+  "depth7_with_frozen_depth6_geometry": {
+    "depth": 7,
+    "history_count": 2187,
+    "winner": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weight": 0.005015560536556567,
+      "surprisal": 5.295210091818935,
+      "physical_energy": 0.11853741496598638,
+      "agentive_features": [
+        0.14285714285714285,
+        -0.13927541602597482,
+        0.1287098382717742
+      ],
+      "agentive_cost": 0.4828168164171517,
+      "J": 5.896564323202073
+    },
+    "runner_up": {
+      "history": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "weight": 0.0017328038816227726,
+      "surprisal": 6.3580144416330455,
+      "physical_energy": 0.1741496598639456,
+      "agentive_features": [
+        0.2857142857142857,
+        -0.2509656278071219,
+        0.1604985431226761
+      ],
+      "agentive_cost": 0.045105537165850466,
+      "J": 6.577269638662842
+    },
+    "absolute_margin": 0.6807053154607692,
+    "relative_margin": 0.1154410056687245,
+    "winner_energy_below_family_median": true,
+    "stability": {
+      "fraction": 0.02,
+      "trials": 2000,
+      "base_winner_stability": 1.0
+    },
+    "top_five": [
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "weight": 0.005015560536556567,
+        "surprisal": 5.295210091818935,
+        "physical_energy": 0.11853741496598638,
+        "agentive_features": [
+          0.14285714285714285,
+          -0.13927541602597482,
+          0.1287098382717742
+        ],
+        "agentive_cost": 0.4828168164171517,
+        "J": 5.896564323202073
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "weight": 0.0017328038816227726,
+        "surprisal": 6.3580144416330455,
+        "physical_energy": 0.1741496598639456,
+        "agentive_features": [
+          0.2857142857142857,
+          -0.2509656278071219,
+          0.1604985431226761
+        ],
+        "agentive_cost": 0.045105537165850466,
+        "J": 6.577269638662842
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "weight": 0.002938498994616753,
+        "surprisal": 5.82985637405328,
+        "physical_energy": 0.5158163265306123,
+        "agentive_features": [
+          0.2857142857142857,
+          -0.2012588073284831,
+          0.03963986657766938
+        ],
+        "agentive_cost": 0.3750603934313168,
+        "J": 6.720733094015209
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "weight": 0.0033071972539138214,
+        "surprisal": 5.7116541993728,
+        "physical_energy": 0.4408163265306122,
+        "agentive_features": [
+          0.2857142857142857,
+          -0.027585204244827705,
+          0.16049854312267625
+        ],
+        "agentive_cost": 0.6609922396660691,
+        "J": 6.813462765569482
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "weight": 0.0078125,
+        "surprisal": 4.852030263919617,
+        "physical_energy": 0.0,
+        "agentive_features": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "agentive_cost": 2.0433920664632463,
+        "J": 6.895422330382863
+      }
+    ]
+  },
+  "counterfactual_goals_depth7": {
+    "base": {
+      "goal": [
+        0.35,
+        -0.25,
+        0.2
+      ],
+      "winner": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weight": 0.005015560536556567,
+      "physical_energy": 0.11853741496598638,
+      "agentive_features": [
+        0.14285714285714285,
+        -0.13927541602597482,
+        0.1287098382717742
+      ],
+      "agentive_cost": 0.5656840066767865
+    },
+    "reversed": {
+      "goal": [
+        -0.35,
+        0.25,
+        -0.2
+      ],
+      "winner": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "weight": 0.0018306371880359282,
+      "physical_energy": 0.1741496598639456,
+      "agentive_features": [
+        -0.2857142857142857,
+        0.2509656278071219,
+        -0.1604985431226761
+      ],
+      "agentive_cost": 0.05269017540942194
+    },
+    "neutral": {
+      "goal": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "winner": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": 0.0078125,
+      "physical_energy": 0.0,
+      "agentive_features": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "agentive_cost": 0.0
+    }
+  },
+  "checks": {
+    "feature_map_fixed_before_goal": true,
+    "feature_map_uses_only_projected_history": true,
+    "covariance_uses_only_reference_law": true,
+    "no_scalar_sigma_A": true,
+    "no_external_lambda_coefficients": true,
+    "depth6_enumeration_complete": true,
+    "depth7_enumeration_complete": true,
+    "unique_depth6_winner": true,
+    "unique_depth7_winner": true,
+    "goal_changes_selection_with_w_and_B_fixed": true,
+    "depth6_stable_under_two_percent_perturbation": true,
+    "depth7_stable_under_two_percent_perturbation": true,
+    "depth6_geometry_transports_to_depth7": true,
+    "depth6_winner_below_median_energy": true,
+    "depth7_winner_below_median_energy": true,
+    "no_entropy_target_used": true
+  },
+  "passed": 16,
+  "total": 16,
+  "all_checks_pass": true,
+  "interpretation": "The scalar agentive precision is eliminated. A fixed physical feature map and its reference-law covariance define a dimensionless Mahalanobis compatibility cost before the goal is evaluated. A pass establishes target-blind internal calibration in the finite model, not a unique physical feature map, an ontologically independent agency law, or cosmological validity."
+}
