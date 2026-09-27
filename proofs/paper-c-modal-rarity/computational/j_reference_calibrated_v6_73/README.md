@@ -12,6 +12,8 @@ The projection supplies a physical trajectory. Its first three fixed cosine mode
 
 This is dimensionless and has no scalar agentive precision. `A` supplies the target `g_A`; it does not alter `w`, `Pi`, the feature map or the covariance.
 
+The term is extensive. The three features are history averages, so under the product reference law their covariance satisfies `Sigma_w=O(1/n)`. Consequently `Sigma_w^-1=O(n)`, and a fixed non-zero mismatch contributes `O(n)` to `C_A`. This scaling is why the null history is not a zero-excess-rate competitor when the objective remains active.
+
 ## Falsification gates
 
 - exhaustive depth-six and depth-seven enumeration;
@@ -31,5 +33,4 @@ The covariance construction is a principled internal calibration, not a derivati
 ```bash
 python evidence/j_reference_calibrated_v6_73/j_reference_calibrated_gate.py
 ```
-
 

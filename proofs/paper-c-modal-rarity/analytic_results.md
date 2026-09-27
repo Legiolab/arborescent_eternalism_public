@@ -39,7 +39,7 @@ where `C=rho_Y,max K_Jac/rho_X,min`. Consequently,
 
 Injectivity and a positive lower Jacobian are not needed for this upper bound. They would be needed for a two-sided comparison.
 
-An explicit accepted example is `X={0,1}x[0,1]` with sheet densities `0.4` and `0.6`, `Y=[0,1]` with Lebesgue measure, and `e(s,x)=x^2`. Here `K_Jac=2` and `C=5`. The critical point at the root does not invalidate the upper bound. In contrast, `e(s,x)=sqrt(x)` maps an interval of length `epsilon` to one of length `sqrt(epsilon)`, so no uniform upper constant exists.
+An explicit example is `X={0,1}x[0,1]` with sheet densities `0.4` and `0.6`, `Y=[0,1]` with Lebesgue measure, and `e(s,x)=x^2`. Here `K_Jac=2` and `C=5`. The critical point at the root does not invalidate the upper bound. In contrast, `e(s,x)=sqrt(x)` maps an interval of length `epsilon` to one of length `sqrt(epsilon)`, so no uniform upper constant exists.
 
 ## 5. Stopping-line calibration
 
@@ -92,6 +92,20 @@ If a bad set has reference probability at most `exp(-cn)` and a normalised Gibbs
 
 Hence a positive exponential rarity rate of at least `c-b` survives when `c>b`. This preserves an independently established typicality estimate; it neither derives the reference rarity nor proves an argmin claim.
 
+## 9. Interpretive load of the asymptotic theorem
+
+The reference-gap assumption
+
+`-log w_n(H)+log w_n(0^n) >= a K_n(H)`, with `a>0`,
+
+means that the null symbol is the local mode of the reference law: every excitation carries at least `a` units of additional surprisal. In the explicit calibrated model, ablating the agentive term makes the null history the minimiser. The theorem therefore does not derive Past-Hypothesis-like preparation from rootedness alone. Its physical application requires both an argmin actualisation rule and an independently justified alignment, through the physical projection and macro-description, between the modal null sector of `w` and low physical inhomogeneity. If that alignment fails, a small value of `K_n` need not denote a low-entropy physical macrostate.
+
+The entropy-density corollary also assumes that the ternary coordinates count physical microstates uniformly. If the coordinates are only descriptive code symbols, raw type counting has no thermodynamic force; a separate measure bridge, such as the geometric rarity-transfer result above, is required.
+
+Finally, the calibrated Mahalanobis term is extensive. The feature coordinates are history averages and their covariance under the product law scales as `Sigma_w=O(1/n)`. Therefore `Sigma_w^-1=O(n)`, and a fixed non-zero feature mismatch contributes `O(n)` to the cost. This blocks the incorrect inference that the null history is automatically a zero-rate competitor while the objective is active.
+
+The retained V6.75 failure is consistent with this scaling picture. The preregistered sector `K<=1` passes at depths six and seven but fails at depth eight, where the minimiser has `K=2`. A sector with a fixed absolute excitation count is not stable when the selected histories approach a non-zero excitation density. The scale-stable asymptotic statement is instead the density bound `limsup K_n/n<=u/a`.
+
 ## Scope
 
-The results above prove conditional structural, geometric and probabilistic implications. They do not derive a realistic cosmological reference measure, the event-to-physical map, an initial macroregion, an agentive ontology, or a fundamental relaxation dynamics. The calibrated variational and asymptotic results have separate proof records in `computational/` and `variational_ph_proof.md`.
+The results above prove conditional structural, geometric and probabilistic implications. They do not derive a realistic cosmological reference measure, the event-to-physical map, the alignment of the reference mode with low physical inhomogeneity, an initial macroregion, an agentive ontology, an argmin actualisation law, or a fundamental relaxation dynamics. The calibrated variational and asymptotic results have separate proof records in `computational/` and `variational_ph_proof.md`.

@@ -32,10 +32,11 @@ so its volume decreases exponentially with depth. Neither `K`, `L_n` nor the phy
 
 The strict `K<=1` claim passes at depths six and seven but fails at depth eight, where the winner has `K=2`. A separate scaling audit through depth ten observes winner excitation no larger than two; that observation does not establish a bound at arbitrary depth. The gate therefore supplies an integrated finite pass and a no-go for the original fixed sector, not a cosmological derivation. It also does not derive the physical counting measure, coarse graining or mixing kernel, nor imply monotonic Boltzmann entropy along every microscopic realised trajectory.
 
+The failure has a structural interpretation rather than being a numerical anomaly. `K<=1` fixes an absolute excitation count, whereas the later minima are consistent with a non-zero excitation density. Any sector with `K` bounded independently of `n` will eventually exclude such histories. The V6.78 theorem therefore controls `K_n/n`, the scale-stable quantity, and the V6.75 failure is retained rather than hidden by redefining the preregistered sector after inspection.
+
 ## Run
 
 ```bash
 python evidence/j_integrated_ph_arrow_v6_75/j_integrated_ph_arrow_gate.py
 ```
-
 

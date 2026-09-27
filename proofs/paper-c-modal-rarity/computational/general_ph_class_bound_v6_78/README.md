@@ -20,7 +20,7 @@ Then every global minimiser obeys
 
 `limsup K_n(H_n*)/n <= u/a`.
 
-Under the uniform physical counting measure, equilibrium excitation density is `d/(d+1)`. If
+Under the stipulated uniform physical counting measure, equilibrium excitation density is `d/(d+1)`. This is a microstate-counting premise, not a consequence of using a `(d+1)`-symbol code. If the symbols are only descriptive labels, a separate physical measure bridge is required. If
 
 `u/a < d/(d+1)`,
 
@@ -34,16 +34,17 @@ The theorem isolates three sufficient ingredients:
 2. other contributions do not cancel that lower bound with negative divergences;
 3. at least one explicit low-density competitor has sufficiently low total rate.
 
+The first condition says more than "there is a root": the null symbol is the local mode of `w`, and each excitation costs at least `a` units of reference surprisal. A Past-Hypothesis-like physical reading additionally requires the physical projection and macro-description to align that modal null sector with low inhomogeneity. The theorem does not establish this alignment.
+
 The detailed V6.73 ternary generator and DCT geometry are one instance, not part of the theorem's logical form.
 
 ## Limits
 
-The conditions are sufficient, not necessary. If `u/a` is above equilibrium, the theorem is silent. It does not show that the minimiser is typical under `w`; rarity is evaluated under a separately specified physical macro-measure. Applying the theorem to cosmology still requires physically deriving the reference gap, competitor, projection and macro-measure.
+The conditions are sufficient, not necessary. If `u/a` is above equilibrium, the theorem is silent. It does not show that the minimiser is typical under `w`; rarity is evaluated under a separately specified physical macro-measure. Applying the theorem to cosmology still requires physically deriving the reference gap, competitor, projection, macro-measure, mode-to-homogeneity alignment and argmin actualisation rule.
 
 ## Run
 
 ```bash
 python evidence/general_ph_class_bound_v6_78/general_ph_class_bound_gate.py
 ```
-
 
