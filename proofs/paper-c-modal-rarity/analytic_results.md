@@ -106,6 +106,12 @@ Finally, the calibrated Mahalanobis term is extensive. The feature coordinates a
 
 The retained V6.75 failure is consistent with this scaling picture. The preregistered sector `K<=1` passes at depths six and seven but fails at depth eight, where the minimiser has `K=2`. A sector with a fixed absolute excitation count is not stable when the selected histories approach a non-zero excitation density. The scale-stable asymptotic statement is instead the density bound `limsup K_n/n<=u/a`.
 
+## 10. Delayed agentive selection and the calibrated rate
+
+The v1.6 late-agent witness is an independent finite calculation, not the source of the Mahalanobis asymptotic constant. It fixes the physical reference law before evaluating an objective supported only on a final action. Exhaustive enumeration of the 41 admissible histories shows that `2222` wins without the objective. The tied histories `0012` and `0112` win after the agentive strength exceeds `log(14580)`, with all three tied at the exact threshold. If the late score has no record of the earlier trajectory, common-preparation histories win instead. The reproducible calculation and its limits are in `computational/delayed_agentive_selection_v1_6/`.
+
+In the separate calibrated ternary Mahalanobis construction, the competitor rate `u≈0.1949` includes the agentive objective contribution (about `0.015` of the total). The bound `u/a≈0.4691` therefore describes that full calibrated objective. Ablating the objective makes the null history the minimiser in the integrated witness, with zero excitation density. An alternative extensive late objective requires a new competitor rate; the reported numerical bound cannot be transferred without calculation.
+
 ## Background references
 
 - Callender, C. (2004). Measures, explanations and the past: Should “special” initial conditions be explained? *The British Journal for the Philosophy of Science, 55*(2), 195–217. https://doi.org/10.1093/bjps/55.2.195
