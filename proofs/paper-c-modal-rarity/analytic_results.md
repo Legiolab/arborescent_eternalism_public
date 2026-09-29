@@ -1,6 +1,24 @@
 # Analytic results used in Paper C
 
 This note supplies a compact proof record for the structural and measure-theoretic propositions used in **Modal Rarity, Physical Preparation and Entropy in a Tenseless World**. It complements, but does not enlarge, the computational claims in `computational/`.
+## Concordance with Paper C v1.6
+
+The numbered headings below organise this supplement by topic. They are not the
+proposition numbers of the reordered manuscript.
+
+| Paper proposition | Result | Supplement section |
+|---|---|---|
+| 1 | Entropy under refinement | 1 |
+| 2 | Logarithmic additive cost | 2 |
+| 3 | Symmetry and orbit masses | 6 |
+| 4 | Geometric rarity transfer | 4 |
+| 5 | Stopping-line calibration | 5 |
+| 6 | Conditional preparation and relaxation | 7 |
+| 7 | Protected-sector selection | 3 |
+
+The gap-and-competitor asymptotic theorem in manuscript Section 5.3 is
+supported by the public V6.78 calculation and its derivation in that section.
+
 
 ## 1. Entropy under projective refinement
 
