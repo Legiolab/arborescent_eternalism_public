@@ -8,6 +8,8 @@ import sys
 
 HERE = Path(__file__).resolve().parent
 SCRIPTS = (
+    HERE / "spatial_preparation_reset_v1" / "check.py",
+    HERE / "local_delayed_objective_v1" / "check.py",
     HERE / "j_generative_common.py",
     HERE / "j_reference_calibrated_v6_73" / "j_reference_calibrated_gate.py",
     HERE / "j_feature_invariance_v6_74" / "j_feature_invariance_gate.py",
