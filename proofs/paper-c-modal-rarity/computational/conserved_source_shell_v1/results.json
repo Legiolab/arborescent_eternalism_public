@@ -1,0 +1,780 @@
+{
+  "model": "conserved_source_shell_v1",
+  "cases": [
+    {
+      "n": 2,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 2,
+      "source_shell_counting_fraction": 0.5,
+      "capacity_reward_threshold": 1.0831245900606299,
+      "MAP_cases": [
+        {
+          "beta": 1.0731245900606299,
+          "count": 2,
+          "all_capable": false
+        },
+        {
+          "beta": 1.0831245900606299,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 1.09312459006063,
+          "count": 2,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        0.6931471805599453,
+        0.6931471805599453
+      ],
+      "capable_MAP_bath_entropy": 0,
+      "conditional_ensemble_delta_joint_entropy": 0.7155397682880301,
+      "conditional_ensemble_bath_entropy": 2.4665357453785757,
+      "conditional_ensemble_sigma": 3.182075513666606,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          0.6931471805599453,
+          0
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 2,
+      "source_shell_counting_fraction": 0.5,
+      "capacity_reward_threshold": 0.7586942877905727,
+      "MAP_cases": [
+        {
+          "beta": 0.7486942877905727,
+          "count": 2,
+          "all_capable": false
+        },
+        {
+          "beta": 0.7586942877905727,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 0.7686942877905727,
+          "count": 2,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        0.6931471805599453,
+        0
+      ],
+      "capable_MAP_bath_entropy": 5,
+      "conditional_ensemble_delta_joint_entropy": 0.6445832467911276,
+      "conditional_ensemble_bath_entropy": 3.453150043530006,
+      "conditional_ensemble_sigma": 4.097733290321134,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          0.6931471805599453,
+          0
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 2,
+      "source_shell_counting_fraction": 0.5,
+      "capacity_reward_threshold": 0.506034083460002,
+      "MAP_cases": [
+        {
+          "beta": 0.496034083460002,
+          "count": 2,
+          "all_capable": false
+        },
+        {
+          "beta": 0.506034083460002,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 0.516034083460002,
+          "count": 2,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        0.6931471805599453,
+        0
+      ],
+      "capable_MAP_bath_entropy": 5,
+      "conditional_ensemble_delta_joint_entropy": 0.37491833083760684,
+      "conditional_ensemble_bath_entropy": 4.439764341681436,
+      "conditional_ensemble_sigma": 4.8146826725190435,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          0.6931471805599453,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 3,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 1.2831245900606298,
+      "MAP_cases": [
+        {
+          "beta": 1.2731245900606298,
+          "count": 3,
+          "all_capable": false
+        },
+        {
+          "beta": 1.2831245900606298,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 1.2931245900606299,
+          "count": 3,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.0986122886681098,
+        1.0986122886681098
+      ],
+      "capable_MAP_bath_entropy": 0,
+      "conditional_ensemble_delta_joint_entropy": 0.7379547533100757,
+      "conditional_ensemble_bath_entropy": 2.4498036180678633,
+      "conditional_ensemble_sigma": 3.1877583713779387,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.0986122886681098,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 3,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 0.9586942877905726,
+      "MAP_cases": [
+        {
+          "beta": 0.9486942877905726,
+          "count": 3,
+          "all_capable": false
+        },
+        {
+          "beta": 0.9586942877905726,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 0.9686942877905727,
+          "count": 3,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.0986122886681098,
+        0
+      ],
+      "capable_MAP_bath_entropy": 5,
+      "conditional_ensemble_delta_joint_entropy": 0.6743847108403047,
+      "conditional_ensemble_bath_entropy": 3.429725065295009,
+      "conditional_ensemble_sigma": 4.104109776135314,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.0986122886681098,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 3,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 0.7060340834600021,
+      "MAP_cases": [
+        {
+          "beta": 0.6960340834600021,
+          "count": 3,
+          "all_capable": false
+        },
+        {
+          "beta": 0.7060340834600021,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 0.7160340834600021,
+          "count": 3,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.0986122886681098,
+        0
+      ],
+      "capable_MAP_bath_entropy": 5,
+      "conditional_ensemble_delta_joint_entropy": 0.41171664396597296,
+      "conditional_ensemble_bath_entropy": 4.409646512522155,
+      "conditional_ensemble_sigma": 4.821363156488128,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.0986122886681098,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "conserved_source_excitations": 2,
+      "source_shell_size": 3,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 1.9662491801212596,
+      "MAP_cases": [
+        {
+          "beta": 1.9562491801212596,
+          "count": 3,
+          "all_capable": false
+        },
+        {
+          "beta": 1.9662491801212596,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 1.9762491801212596,
+          "count": 3,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.0986122886681098,
+        1.0986122886681098
+      ],
+      "capable_MAP_bath_entropy": 0,
+      "conditional_ensemble_delta_joint_entropy": 1.4086645515540146,
+      "conditional_ensemble_bath_entropy": 4.949803618067864,
+      "conditional_ensemble_sigma": 6.3584681696218786,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.0986122886681098,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "conserved_source_excitations": 2,
+      "source_shell_size": 3,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 1.3173885755811452,
+      "MAP_cases": [
+        {
+          "beta": 1.3073885755811452,
+          "count": 3,
+          "all_capable": false
+        },
+        {
+          "beta": 1.3173885755811452,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 1.3273885755811452,
+          "count": 3,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.0986122886681098,
+        0
+      ],
+      "capable_MAP_bath_entropy": 10,
+      "conditional_ensemble_delta_joint_entropy": 1.2593650295330774,
+      "conditional_ensemble_bath_entropy": 6.929725065295008,
+      "conditional_ensemble_sigma": 8.189090094828085,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.0986122886681098,
+          0
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "conserved_source_excitations": 2,
+      "source_shell_size": 3,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 0.812068166920004,
+      "MAP_cases": [
+        {
+          "beta": 0.802068166920004,
+          "count": 3,
+          "all_capable": false
+        },
+        {
+          "beta": 0.812068166920004,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 0.8220681669200041,
+          "count": 3,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.0986122886681098,
+        0
+      ],
+      "capable_MAP_bath_entropy": 10,
+      "conditional_ensemble_delta_joint_entropy": 0.7130383485468477,
+      "conditional_ensemble_bath_entropy": 8.909646512522155,
+      "conditional_ensemble_sigma": 9.622684861069002,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.0986122886681098,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 4,
+      "source_shell_counting_fraction": 0.25,
+      "capacity_reward_threshold": 1.4831245900606298,
+      "MAP_cases": [
+        {
+          "beta": 1.4731245900606298,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 1.4831245900606298,
+          "count": 8,
+          "all_capable": false
+        },
+        {
+          "beta": 1.4931245900606298,
+          "count": 4,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.3862943611198906,
+        1.3862943611198906
+      ],
+      "capable_MAP_bath_entropy": 0,
+      "conditional_ensemble_delta_joint_entropy": 0.7603697383321213,
+      "conditional_ensemble_bath_entropy": 2.433071490757151,
+      "conditional_ensemble_sigma": 3.193441229089272,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.3862943611198906,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 4,
+      "source_shell_counting_fraction": 0.25,
+      "capacity_reward_threshold": 1.1586942877905726,
+      "MAP_cases": [
+        {
+          "beta": 1.1486942877905726,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 1.1586942877905726,
+          "count": 8,
+          "all_capable": false
+        },
+        {
+          "beta": 1.1686942877905726,
+          "count": 4,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.3862943611198906,
+        0
+      ],
+      "capable_MAP_bath_entropy": 5,
+      "conditional_ensemble_delta_joint_entropy": 0.7041861748894818,
+      "conditional_ensemble_bath_entropy": 3.406300087060012,
+      "conditional_ensemble_sigma": 4.110486261949494,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.3862943611198906,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 1,
+      "source_shell_size": 4,
+      "source_shell_counting_fraction": 0.25,
+      "capacity_reward_threshold": 0.906034083460002,
+      "MAP_cases": [
+        {
+          "beta": 0.896034083460002,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 0.906034083460002,
+          "count": 8,
+          "all_capable": false
+        },
+        {
+          "beta": 0.916034083460002,
+          "count": 4,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.3862943611198906,
+        0
+      ],
+      "capable_MAP_bath_entropy": 5,
+      "conditional_ensemble_delta_joint_entropy": 0.4485149570943392,
+      "conditional_ensemble_bath_entropy": 4.379528683362873,
+      "conditional_ensemble_sigma": 4.828043640457212,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.3862943611198906,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 2,
+      "source_shell_size": 6,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 2.1662491801212598,
+      "MAP_cases": [
+        {
+          "beta": 2.15624918012126,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 2.1662491801212598,
+          "count": 12,
+          "all_capable": false
+        },
+        {
+          "beta": 2.1762491801212596,
+          "count": 6,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.791759469228055,
+        1.791759469228055
+      ],
+      "capable_MAP_bath_entropy": 0,
+      "conditional_ensemble_delta_joint_entropy": 1.4310795365760605,
+      "conditional_ensemble_bath_entropy": 4.933071490757151,
+      "conditional_ensemble_sigma": 6.364151027333212,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.791759469228055,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 2,
+      "source_shell_size": 6,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 1.5173885755811454,
+      "MAP_cases": [
+        {
+          "beta": 1.5073885755811454,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 1.5173885755811454,
+          "count": 12,
+          "all_capable": false
+        },
+        {
+          "beta": 1.5273885755811454,
+          "count": 6,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.791759469228055,
+        0
+      ],
+      "capable_MAP_bath_entropy": 10,
+      "conditional_ensemble_delta_joint_entropy": 1.2891664935822549,
+      "conditional_ensemble_bath_entropy": 6.906300087060011,
+      "conditional_ensemble_sigma": 8.195466580642265,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.791759469228055,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 2,
+      "source_shell_size": 6,
+      "source_shell_counting_fraction": 0.375,
+      "capacity_reward_threshold": 1.012068166920004,
+      "MAP_cases": [
+        {
+          "beta": 1.002068166920004,
+          "count": 6,
+          "all_capable": false
+        },
+        {
+          "beta": 1.012068166920004,
+          "count": 12,
+          "all_capable": false
+        },
+        {
+          "beta": 1.022068166920004,
+          "count": 6,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.791759469228055,
+        0
+      ],
+      "capable_MAP_bath_entropy": 10,
+      "conditional_ensemble_delta_joint_entropy": 0.7498366616752139,
+      "conditional_ensemble_bath_entropy": 8.879528683362873,
+      "conditional_ensemble_sigma": 9.629365345038087,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.791759469228055,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 3,
+      "source_shell_size": 4,
+      "source_shell_counting_fraction": 0.25,
+      "capacity_reward_threshold": 2.849373770181889,
+      "MAP_cases": [
+        {
+          "beta": 2.839373770181889,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 2.849373770181889,
+          "count": 8,
+          "all_capable": false
+        },
+        {
+          "beta": 2.8593737701818887,
+          "count": 4,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.3862943611198906,
+        1.3862943611198906
+      ],
+      "capable_MAP_bath_entropy": 0,
+      "conditional_ensemble_delta_joint_entropy": 2.1017893348199994,
+      "conditional_ensemble_bath_entropy": 7.433071490757151,
+      "conditional_ensemble_sigma": 9.534860825577152,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.3862943611198906,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 3,
+      "source_shell_size": 4,
+      "source_shell_counting_fraction": 0.25,
+      "capacity_reward_threshold": 1.876082863371718,
+      "MAP_cases": [
+        {
+          "beta": 1.866082863371718,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 1.876082863371718,
+          "count": 8,
+          "all_capable": false
+        },
+        {
+          "beta": 1.886082863371718,
+          "count": 4,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.3862943611198906,
+        0
+      ],
+      "capable_MAP_bath_entropy": 15,
+      "conditional_ensemble_delta_joint_entropy": 1.8741468122750276,
+      "conditional_ensemble_bath_entropy": 10.406300087060012,
+      "conditional_ensemble_sigma": 12.28044689933504,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.3862943611198906,
+          0
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "conserved_source_excitations": 3,
+      "source_shell_size": 4,
+      "source_shell_counting_fraction": 0.25,
+      "capacity_reward_threshold": 1.118102250380006,
+      "MAP_cases": [
+        {
+          "beta": 1.108102250380006,
+          "count": 4,
+          "all_capable": false
+        },
+        {
+          "beta": 1.118102250380006,
+          "count": 8,
+          "all_capable": false
+        },
+        {
+          "beta": 1.128102250380006,
+          "count": 4,
+          "all_capable": true
+        }
+      ],
+      "capable_MAP_memory_Boltzmann_trace": [
+        0,
+        1.3862943611198906,
+        0
+      ],
+      "capable_MAP_bath_entropy": 15,
+      "conditional_ensemble_delta_joint_entropy": 1.0511583662560884,
+      "conditional_ensemble_bath_entropy": 13.37952868336287,
+      "conditional_ensemble_sigma": 14.430687049618959,
+      "causal_law_identical": true,
+      "reversible_uncopy_control": {
+        "heat": 0,
+        "joint_entropy_change": 0,
+        "memory_Boltzmann_trace": [
+          0,
+          1.3862943611198906,
+          0
+        ]
+      }
+    }
+  ],
+  "conclusion": "A positive conserved source shell excludes the null message but is an independent boundary premise; capacity still needs a score threshold; matched causal operation is identical and reversible uncopy prevents a dissipation theorem."
+}
