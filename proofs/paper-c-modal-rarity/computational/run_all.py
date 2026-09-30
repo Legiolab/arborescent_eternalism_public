@@ -8,6 +8,7 @@ import sys
 
 HERE = Path(__file__).resolve().parent
 SCRIPTS = (
+    HERE / "operational_record_capacity_v1" / "check.py",
     HERE / "record_reset_thermodynamics_v1" / "check.py",
     HERE / "reliable_record_v1" / "check.py",
     HERE / "spatial_preparation_reset_v1" / "check.py",
