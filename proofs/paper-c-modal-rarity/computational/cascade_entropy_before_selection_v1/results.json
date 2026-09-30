@@ -1,0 +1,2639 @@
+{
+  "decision_id": "paper-c-cascade_entropy_before_selection_v1",
+  "source_sha256": "e39f2bfcd424860be9ad8a444e73d7f801b5abd28f64431d2c3d70427d137d3d",
+  "passed": 258,
+  "total": 258,
+  "all_checks_pass": true,
+  "overall_pass": true,
+  "checks": {
+    "normalized_mask0_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask0_lowFalse_coupledFalse": true,
+    "normalized_mask0_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask0_lowFalse_coupledTrue": true,
+    "normalized_mask0_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask0_lowTrue_coupledFalse": true,
+    "normalized_mask0_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask0_lowTrue_coupledTrue": true,
+    "normalized_mask1_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask1_lowFalse_coupledFalse": true,
+    "normalized_mask1_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask1_lowFalse_coupledTrue": true,
+    "normalized_mask1_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask1_lowTrue_coupledFalse": true,
+    "normalized_mask1_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask1_lowTrue_coupledTrue": true,
+    "normalized_mask2_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask2_lowFalse_coupledFalse": true,
+    "normalized_mask2_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask2_lowFalse_coupledTrue": true,
+    "normalized_mask2_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask2_lowTrue_coupledFalse": true,
+    "normalized_mask2_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask2_lowTrue_coupledTrue": true,
+    "normalized_mask3_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask3_lowFalse_coupledFalse": true,
+    "normalized_mask3_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask3_lowFalse_coupledTrue": true,
+    "normalized_mask3_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask3_lowTrue_coupledFalse": true,
+    "normalized_mask3_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask3_lowTrue_coupledTrue": true,
+    "normalized_mask4_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask4_lowFalse_coupledFalse": true,
+    "normalized_mask4_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask4_lowFalse_coupledTrue": true,
+    "normalized_mask4_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask4_lowTrue_coupledFalse": true,
+    "normalized_mask4_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask4_lowTrue_coupledTrue": true,
+    "normalized_mask5_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask5_lowFalse_coupledFalse": true,
+    "normalized_mask5_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask5_lowFalse_coupledTrue": true,
+    "normalized_mask5_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask5_lowTrue_coupledFalse": true,
+    "normalized_mask5_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask5_lowTrue_coupledTrue": true,
+    "normalized_mask6_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask6_lowFalse_coupledFalse": true,
+    "normalized_mask6_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask6_lowFalse_coupledTrue": true,
+    "normalized_mask6_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask6_lowTrue_coupledFalse": true,
+    "normalized_mask6_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask6_lowTrue_coupledTrue": true,
+    "normalized_mask7_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask7_lowFalse_coupledFalse": true,
+    "normalized_mask7_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask7_lowFalse_coupledTrue": true,
+    "normalized_mask7_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask7_lowTrue_coupledFalse": true,
+    "normalized_mask7_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask7_lowTrue_coupledTrue": true,
+    "normalized_mask8_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask8_lowFalse_coupledFalse": true,
+    "normalized_mask8_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask8_lowFalse_coupledTrue": true,
+    "normalized_mask8_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask8_lowTrue_coupledFalse": true,
+    "normalized_mask8_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask8_lowTrue_coupledTrue": true,
+    "normalized_mask9_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask9_lowFalse_coupledFalse": true,
+    "normalized_mask9_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask9_lowFalse_coupledTrue": true,
+    "normalized_mask9_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask9_lowTrue_coupledFalse": true,
+    "normalized_mask9_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask9_lowTrue_coupledTrue": true,
+    "normalized_mask10_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask10_lowFalse_coupledFalse": true,
+    "normalized_mask10_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask10_lowFalse_coupledTrue": true,
+    "normalized_mask10_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask10_lowTrue_coupledFalse": true,
+    "normalized_mask10_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask10_lowTrue_coupledTrue": true,
+    "normalized_mask11_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask11_lowFalse_coupledFalse": true,
+    "normalized_mask11_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask11_lowFalse_coupledTrue": true,
+    "normalized_mask11_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask11_lowTrue_coupledFalse": true,
+    "normalized_mask11_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask11_lowTrue_coupledTrue": true,
+    "normalized_mask12_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask12_lowFalse_coupledFalse": true,
+    "normalized_mask12_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask12_lowFalse_coupledTrue": true,
+    "normalized_mask12_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask12_lowTrue_coupledFalse": true,
+    "normalized_mask12_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask12_lowTrue_coupledTrue": true,
+    "normalized_mask13_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask13_lowFalse_coupledFalse": true,
+    "normalized_mask13_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask13_lowFalse_coupledTrue": true,
+    "normalized_mask13_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask13_lowTrue_coupledFalse": true,
+    "normalized_mask13_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask13_lowTrue_coupledTrue": true,
+    "normalized_mask14_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask14_lowFalse_coupledFalse": true,
+    "normalized_mask14_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask14_lowFalse_coupledTrue": true,
+    "normalized_mask14_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask14_lowTrue_coupledFalse": true,
+    "normalized_mask14_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask14_lowTrue_coupledTrue": true,
+    "normalized_mask15_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask15_lowFalse_coupledFalse": true,
+    "normalized_mask15_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask15_lowFalse_coupledTrue": true,
+    "normalized_mask15_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask15_lowTrue_coupledFalse": true,
+    "normalized_mask15_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask15_lowTrue_coupledTrue": true,
+    "normalized_mask16_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask16_lowFalse_coupledFalse": true,
+    "normalized_mask16_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask16_lowFalse_coupledTrue": true,
+    "normalized_mask16_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask16_lowTrue_coupledFalse": true,
+    "normalized_mask16_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask16_lowTrue_coupledTrue": true,
+    "normalized_mask17_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask17_lowFalse_coupledFalse": true,
+    "normalized_mask17_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask17_lowFalse_coupledTrue": true,
+    "normalized_mask17_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask17_lowTrue_coupledFalse": true,
+    "normalized_mask17_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask17_lowTrue_coupledTrue": true,
+    "normalized_mask18_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask18_lowFalse_coupledFalse": true,
+    "normalized_mask18_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask18_lowFalse_coupledTrue": true,
+    "normalized_mask18_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask18_lowTrue_coupledFalse": true,
+    "normalized_mask18_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask18_lowTrue_coupledTrue": true,
+    "normalized_mask19_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask19_lowFalse_coupledFalse": true,
+    "normalized_mask19_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask19_lowFalse_coupledTrue": true,
+    "normalized_mask19_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask19_lowTrue_coupledFalse": true,
+    "normalized_mask19_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask19_lowTrue_coupledTrue": true,
+    "normalized_mask20_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask20_lowFalse_coupledFalse": true,
+    "normalized_mask20_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask20_lowFalse_coupledTrue": true,
+    "normalized_mask20_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask20_lowTrue_coupledFalse": true,
+    "normalized_mask20_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask20_lowTrue_coupledTrue": true,
+    "normalized_mask21_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask21_lowFalse_coupledFalse": true,
+    "normalized_mask21_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask21_lowFalse_coupledTrue": true,
+    "normalized_mask21_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask21_lowTrue_coupledFalse": true,
+    "normalized_mask21_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask21_lowTrue_coupledTrue": true,
+    "normalized_mask22_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask22_lowFalse_coupledFalse": true,
+    "normalized_mask22_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask22_lowFalse_coupledTrue": true,
+    "normalized_mask22_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask22_lowTrue_coupledFalse": true,
+    "normalized_mask22_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask22_lowTrue_coupledTrue": true,
+    "normalized_mask23_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask23_lowFalse_coupledFalse": true,
+    "normalized_mask23_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask23_lowFalse_coupledTrue": true,
+    "normalized_mask23_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask23_lowTrue_coupledFalse": true,
+    "normalized_mask23_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask23_lowTrue_coupledTrue": true,
+    "normalized_mask24_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask24_lowFalse_coupledFalse": true,
+    "normalized_mask24_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask24_lowFalse_coupledTrue": true,
+    "normalized_mask24_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask24_lowTrue_coupledFalse": true,
+    "normalized_mask24_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask24_lowTrue_coupledTrue": true,
+    "normalized_mask25_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask25_lowFalse_coupledFalse": true,
+    "normalized_mask25_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask25_lowFalse_coupledTrue": true,
+    "normalized_mask25_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask25_lowTrue_coupledFalse": true,
+    "normalized_mask25_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask25_lowTrue_coupledTrue": true,
+    "normalized_mask26_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask26_lowFalse_coupledFalse": true,
+    "normalized_mask26_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask26_lowFalse_coupledTrue": true,
+    "normalized_mask26_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask26_lowTrue_coupledFalse": true,
+    "normalized_mask26_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask26_lowTrue_coupledTrue": true,
+    "normalized_mask27_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask27_lowFalse_coupledFalse": true,
+    "normalized_mask27_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask27_lowFalse_coupledTrue": true,
+    "normalized_mask27_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask27_lowTrue_coupledFalse": true,
+    "normalized_mask27_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask27_lowTrue_coupledTrue": true,
+    "normalized_mask28_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask28_lowFalse_coupledFalse": true,
+    "normalized_mask28_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask28_lowFalse_coupledTrue": true,
+    "normalized_mask28_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask28_lowTrue_coupledFalse": true,
+    "normalized_mask28_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask28_lowTrue_coupledTrue": true,
+    "normalized_mask29_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask29_lowFalse_coupledFalse": true,
+    "normalized_mask29_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask29_lowFalse_coupledTrue": true,
+    "normalized_mask29_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask29_lowTrue_coupledFalse": true,
+    "normalized_mask29_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask29_lowTrue_coupledTrue": true,
+    "normalized_mask30_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask30_lowFalse_coupledFalse": true,
+    "normalized_mask30_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask30_lowFalse_coupledTrue": true,
+    "normalized_mask30_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask30_lowTrue_coupledFalse": true,
+    "normalized_mask30_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask30_lowTrue_coupledTrue": true,
+    "normalized_mask31_lowFalse_coupledFalse": true,
+    "initial_gain_zero_mask31_lowFalse_coupledFalse": true,
+    "normalized_mask31_lowFalse_coupledTrue": true,
+    "initial_gain_zero_mask31_lowFalse_coupledTrue": true,
+    "normalized_mask31_lowTrue_coupledFalse": true,
+    "initial_gain_zero_mask31_lowTrue_coupledFalse": true,
+    "normalized_mask31_lowTrue_coupledTrue": true,
+    "initial_gain_zero_mask31_lowTrue_coupledTrue": true,
+    "paired_first_cycle_identical": true,
+    "uniform_no_agents_stationary_macro_mean": true
+  },
+  "rows": [
+    {
+      "mask": 0,
+      "active_agents": 0,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.4259122040668343e-16,
+            7.616520261710669e-17,
+            3.681205188767189e-17
+          ],
+          "late_mean_entropy_gain": 5.648862725238929e-17,
+          "positive_probability": 0.390625,
+          "negative_probability": 0.42578125,
+          "zero_probability": 0.18359375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.4259122040668343e-16,
+            7.616520261710669e-17,
+            3.681205188767189e-17
+          ],
+          "late_mean_entropy_gain": 5.648862725238929e-17,
+          "positive_probability": 0.390625,
+          "negative_probability": 0.42578125,
+          "zero_probability": 0.18359375
+        }
+      ],
+      "coupling_effect_on_mean": 0.0,
+      "coupling_effect_on_positive_probability": 0.0
+    },
+    {
+      "mask": 0,
+      "active_agents": 0,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.1391958853883742,
+            0.27839177077674837,
+            0.4175876561651224
+          ],
+          "late_mean_entropy_gain": 0.3479897134709354,
+          "positive_probability": 0.3333333333333333,
+          "negative_probability": 0.0,
+          "zero_probability": 0.6666666666666666
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.1391958853883742,
+            0.27839177077674837,
+            0.4175876561651224
+          ],
+          "late_mean_entropy_gain": 0.3479897134709354,
+          "positive_probability": 0.3333333333333333,
+          "negative_probability": 0.0,
+          "zero_probability": 0.6666666666666666
+        }
+      ],
+      "coupling_effect_on_mean": 0.0,
+      "coupling_effect_on_positive_probability": 0.0
+    },
+    {
+      "mask": 1,
+      "active_agents": 1,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            9.591462281528795e-17,
+            2.8780146668627715e-16,
+            4.718142922795904e-17
+          ],
+          "late_mean_entropy_gain": 1.674914479571181e-16,
+          "positive_probability": 0.3740234375,
+          "negative_probability": 0.4892578125,
+          "zero_probability": 0.13671875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            9.591462281528795e-17,
+            -1.909822126833216e-16,
+            -1.0906565635435822e-16
+          ],
+          "late_mean_entropy_gain": -1.5002393451883991e-16,
+          "positive_probability": 0.3837890625,
+          "negative_probability": 0.48046875,
+          "zero_probability": 0.1357421875
+        }
+      ],
+      "coupling_effect_on_mean": -3.17515382475958e-16,
+      "coupling_effect_on_positive_probability": 0.009765625
+    },
+    {
+      "mask": 1,
+      "active_agents": 1,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.520245289782791,
+            1.735798736160678,
+            1.7028301990378185
+          ],
+          "late_mean_entropy_gain": 1.7193144675992482,
+          "positive_probability": 0.8333333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.16666666666666666
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.520245289782791,
+            1.627692616768716,
+            1.6836737167805909
+          ],
+          "late_mean_entropy_gain": 1.6556831667746534,
+          "positive_probability": 0.8888888888888888,
+          "negative_probability": 0.0,
+          "zero_probability": 0.1111111111111111
+        }
+      ],
+      "coupling_effect_on_mean": -0.06363130082459478,
+      "coupling_effect_on_positive_probability": 0.05555555555555547
+    },
+    {
+      "mask": 2,
+      "active_agents": 1,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            7.818961136104446e-17,
+            -1.861947824654403e-16,
+            1.9881557337952938e-17
+          ],
+          "late_mean_entropy_gain": -8.315661256374368e-17,
+          "positive_probability": 0.380859375,
+          "negative_probability": 0.453125,
+          "zero_probability": 0.166015625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            7.818961136104446e-17,
+            1.4687212492210666e-16,
+            3.4220131069073734e-19
+          ],
+          "late_mean_entropy_gain": 7.36071631163987e-17,
+          "positive_probability": 0.369140625,
+          "negative_probability": 0.4609375,
+          "zero_probability": 0.169921875
+        }
+      ],
+      "coupling_effect_on_mean": 1.5676377568014238e-16,
+      "coupling_effect_on_positive_probability": -0.01171875
+    },
+    {
+      "mask": 2,
+      "active_agents": 1,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.4368417445140097,
+            0.5274749405918722,
+            0.8120651433495745
+          ],
+          "late_mean_entropy_gain": 0.6697700419707233,
+          "positive_probability": 0.5,
+          "negative_probability": 0.0,
+          "zero_probability": 0.5
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.4368417445140097,
+            0.6977605919766593,
+            0.9487718021076785
+          ],
+          "late_mean_entropy_gain": 0.823266197042169,
+          "positive_probability": 0.5833333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.4166666666666667
+        }
+      ],
+      "coupling_effect_on_mean": 0.15349615507144565,
+      "coupling_effect_on_positive_probability": 0.08333333333333337
+    },
+    {
+      "mask": 3,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            3.392638004296594e-16,
+            4.3418570063076534e-16,
+            1.3010426069826053e-16
+          ],
+          "late_mean_entropy_gain": 2.8214498066451293e-16,
+          "positive_probability": 0.39599609375,
+          "negative_probability": 0.498291015625,
+          "zero_probability": 0.105712890625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            3.392638004296594e-16,
+            3.590572663410979e-17,
+            -2.0088572190261889e-16
+          ],
+          "late_mean_entropy_gain": -8.248999763425455e-17,
+          "positive_probability": 0.3916015625,
+          "negative_probability": 0.497802734375,
+          "zero_probability": 0.110595703125
+        }
+      ],
+      "coupling_effect_on_mean": -3.646349782987675e-16,
+      "coupling_effect_on_positive_probability": -0.00439453125
+    },
+    {
+      "mask": 3,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.5778674913226676,
+            1.7230601586983953,
+            1.7117190414990149
+          ],
+          "late_mean_entropy_gain": 1.717389600098705,
+          "positive_probability": 0.875,
+          "negative_probability": 0.0,
+          "zero_probability": 0.125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.5778674913226676,
+            1.7160993565530942,
+            1.8401956502019579
+          ],
+          "late_mean_entropy_gain": 1.778147503377526,
+          "positive_probability": 0.9166666666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.08333333333333333
+        }
+      ],
+      "coupling_effect_on_mean": 0.060757903278821024,
+      "coupling_effect_on_positive_probability": 0.04166666666666663
+    },
+    {
+      "mask": 4,
+      "active_agents": 1,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -8.514781761614909e-16,
+            -1.8478362557531464e-16,
+            -2.1231727855876292e-17
+          ],
+          "late_mean_entropy_gain": -1.0300767671559546e-16,
+          "positive_probability": 0.419921875,
+          "negative_probability": 0.4365234375,
+          "zero_probability": 0.1435546875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -8.514781761614909e-16,
+            -3.686643140288562e-16,
+            -1.5654015898206725e-16
+          ],
+          "late_mean_entropy_gain": -2.626022365054617e-16,
+          "positive_probability": 0.4248046875,
+          "negative_probability": 0.431640625,
+          "zero_probability": 0.1435546875
+        }
+      ],
+      "coupling_effect_on_mean": -1.5959455978986625e-16,
+      "coupling_effect_on_positive_probability": 0.0048828125
+    },
+    {
+      "mask": 4,
+      "active_agents": 1,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.2276754900093545,
+            1.2233074922526386,
+            1.378511840861933
+          ],
+          "late_mean_entropy_gain": 1.3009096665572857,
+          "positive_probability": 0.75,
+          "negative_probability": 0.0,
+          "zero_probability": 0.25
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.2276754900093545,
+            1.325117573571989,
+            1.3791706332679683
+          ],
+          "late_mean_entropy_gain": 1.3521441034199786,
+          "positive_probability": 0.75,
+          "negative_probability": 0.0,
+          "zero_probability": 0.25
+        }
+      ],
+      "coupling_effect_on_mean": 0.05123443686269291,
+      "coupling_effect_on_positive_probability": 0.0
+    },
+    {
+      "mask": 5,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -6.130722828272955e-16,
+            -3.787084307173977e-16,
+            2.20804548690251e-17
+          ],
+          "late_mean_entropy_gain": -1.783139879241863e-16,
+          "positive_probability": 0.385498046875,
+          "negative_probability": 0.484619140625,
+          "zero_probability": 0.1298828125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -6.130722828272955e-16,
+            1.8979297842537657e-16,
+            -1.8456847920671204e-16
+          ],
+          "late_mean_entropy_gain": 2.6122496093322622e-18,
+          "positive_probability": 0.402587890625,
+          "negative_probability": 0.470458984375,
+          "zero_probability": 0.126953125
+        }
+      ],
+      "coupling_effect_on_mean": 1.8092623753351855e-16,
+      "coupling_effect_on_positive_probability": 0.01708984375
+    },
+    {
+      "mask": 5,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8925341707293823,
+            1.9072555632200452,
+            1.6976078714403664
+          ],
+          "late_mean_entropy_gain": 1.8024317173302056,
+          "positive_probability": 0.9375,
+          "negative_probability": 0.0,
+          "zero_probability": 0.0625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8925341707293823,
+            1.8698637874843658,
+            1.4420456764871041
+          ],
+          "late_mean_entropy_gain": 1.6559547319857348,
+          "positive_probability": 0.8888888888888888,
+          "negative_probability": 0.0625,
+          "zero_probability": 0.04861111111111111
+        }
+      ],
+      "coupling_effect_on_mean": -0.14647698534447073,
+      "coupling_effect_on_positive_probability": -0.04861111111111116
+    },
+    {
+      "mask": 6,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.2831942499829116e-16,
+            -3.3263322651855276e-16,
+            3.639361761172827e-17
+          ],
+          "late_mean_entropy_gain": -1.4811980445341225e-16,
+          "positive_probability": 0.40771484375,
+          "negative_probability": 0.46875,
+          "zero_probability": 0.12353515625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.2831942499829116e-16,
+            -2.198762005800603e-16,
+            -1.0048690666456667e-16
+          ],
+          "late_mean_entropy_gain": -1.6018155362231348e-16,
+          "positive_probability": 0.399169921875,
+          "negative_probability": 0.455078125,
+          "zero_probability": 0.145751953125
+        }
+      ],
+      "coupling_effect_on_mean": -1.2061749168901237e-17,
+      "coupling_effect_on_positive_probability": -0.008544921875
+    },
+    {
+      "mask": 6,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.3966189219873468,
+            1.3433405497530788,
+            1.5281094578864636
+          ],
+          "late_mean_entropy_gain": 1.435725003819771,
+          "positive_probability": 0.8125,
+          "negative_probability": 0.0,
+          "zero_probability": 0.1875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.3966189219873468,
+            1.4431801333414103,
+            1.5505603683174862
+          ],
+          "late_mean_entropy_gain": 1.4968702508294482,
+          "positive_probability": 0.8333333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.16666666666666666
+        }
+      ],
+      "coupling_effect_on_mean": 0.06114524700967716,
+      "coupling_effect_on_positive_probability": 0.02083333333333337
+    },
+    {
+      "mask": 7,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -7.441353848218479e-17,
+            -2.0925101928970236e-17,
+            -1.0524892589403034e-16
+          ],
+          "late_mean_entropy_gain": -6.308701391150029e-17,
+          "positive_probability": 0.39599609375,
+          "negative_probability": 0.50750732421875,
+          "zero_probability": 0.09649658203125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -7.441353848218479e-17,
+            2.168404344971009e-19,
+            -2.748723557793875e-16
+          ],
+          "late_mean_entropy_gain": -1.373277576724452e-16,
+          "positive_probability": 0.4005126953125,
+          "negative_probability": 0.4840087890625,
+          "zero_probability": 0.115478515625
+        }
+      ],
+      "coupling_effect_on_mean": -7.424074376094492e-17,
+      "coupling_effect_on_positive_probability": 0.0045166015625
+    },
+    {
+      "mask": 7,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9024832156582012,
+            1.866816360373047,
+            1.7071937410894327
+          ],
+          "late_mean_entropy_gain": 1.78700505073124,
+          "positive_probability": 0.9375,
+          "negative_probability": 0.015625,
+          "zero_probability": 0.046875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9024832156582012,
+            1.7961325768883636,
+            1.748210880208375
+          ],
+          "late_mean_entropy_gain": 1.7721717285483694,
+          "positive_probability": 0.9010416666666666,
+          "negative_probability": 0.015625,
+          "zero_probability": 0.08333333333333333
+        }
+      ],
+      "coupling_effect_on_mean": -0.0148333221828707,
+      "coupling_effect_on_positive_probability": -0.03645833333333337
+    },
+    {
+      "mask": 8,
+      "active_agents": 1,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.782002109490451e-17,
+            -1.761489717110043e-17,
+            -5.2959887994127874e-17
+          ],
+          "late_mean_entropy_gain": -3.528739258261415e-17,
+          "positive_probability": 0.400390625,
+          "negative_probability": 0.451171875,
+          "zero_probability": 0.1484375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.782002109490451e-17,
+            7.005606218832977e-16,
+            2.4541254987388295e-16
+          ],
+          "late_mean_entropy_gain": 4.729865858785903e-16,
+          "positive_probability": 0.361328125,
+          "negative_probability": 0.439453125,
+          "zero_probability": 0.19921875
+        }
+      ],
+      "coupling_effect_on_mean": 5.082739784612045e-16,
+      "coupling_effect_on_positive_probability": -0.0390625
+    },
+    {
+      "mask": 8,
+      "active_agents": 1,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.4560958328628976,
+            0.8350284370491413,
+            1.0120737067292518
+          ],
+          "late_mean_entropy_gain": 0.9235510718891966,
+          "positive_probability": 0.5833333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.4166666666666667
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.4560958328628976,
+            0.882785458672511,
+            1.035695792834855
+          ],
+          "late_mean_entropy_gain": 0.959240625753683,
+          "positive_probability": 0.5555555555555556,
+          "negative_probability": 0.0,
+          "zero_probability": 0.4444444444444444
+        }
+      ],
+      "coupling_effect_on_mean": 0.035689553864486356,
+      "coupling_effect_on_positive_probability": -0.02777777777777779
+    },
+    {
+      "mask": 9,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -6.194521349860149e-17,
+            5.986066541540866e-16,
+            1.0935872975410821e-16
+          ],
+          "late_mean_entropy_gain": 3.539826919540974e-16,
+          "positive_probability": 0.39990234375,
+          "negative_probability": 0.4912109375,
+          "zero_probability": 0.10888671875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -6.194521349860149e-17,
+            -2.6156377411212794e-18,
+            1.3379563028239477e-16
+          ],
+          "late_mean_entropy_gain": 6.558999627063675e-17,
+          "positive_probability": 0.385498046875,
+          "negative_probability": 0.4638671875,
+          "zero_probability": 0.150634765625
+        }
+      ],
+      "coupling_effect_on_mean": -2.8839269568346065e-16,
+      "coupling_effect_on_positive_probability": -0.014404296875
+    },
+    {
+      "mask": 9,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.6217870952423155,
+            1.8144014163717397,
+            1.7251835033771772
+          ],
+          "late_mean_entropy_gain": 1.7697924598744583,
+          "positive_probability": 0.8958333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.10416666666666667
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.6217870952423155,
+            1.7139457308643038,
+            1.9590879052173866
+          ],
+          "late_mean_entropy_gain": 1.8365168180408453,
+          "positive_probability": 0.9097222222222222,
+          "negative_probability": 0.0,
+          "zero_probability": 0.09027777777777778
+        }
+      ],
+      "coupling_effect_on_mean": 0.066724358166387,
+      "coupling_effect_on_positive_probability": 0.01388888888888884
+    },
+    {
+      "mask": 10,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.6302138053424804e-17,
+            2.2101461286117008e-16,
+            -0.030658786651889446
+          ],
+          "late_mean_entropy_gain": -0.015329393325944612,
+          "positive_probability": 0.384765625,
+          "negative_probability": 0.47802734375,
+          "zero_probability": 0.13720703125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.6302138053424804e-17,
+            -1.901148509453332e-16,
+            -1.548545634170312e-17
+          ],
+          "late_mean_entropy_gain": -1.0280015364351816e-16,
+          "positive_probability": 0.404296875,
+          "negative_probability": 0.48388671875,
+          "zero_probability": 0.11181640625
+        }
+      ],
+      "coupling_effect_on_mean": 0.01532939332594451,
+      "coupling_effect_on_positive_probability": 0.01953125
+    },
+    {
+      "mask": 10,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.7372327888323831,
+            1.0224631210680493,
+            1.2588569826103353
+          ],
+          "late_mean_entropy_gain": 1.1406600518391923,
+          "positive_probability": 0.6875,
+          "negative_probability": 0.0,
+          "zero_probability": 0.3125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            0.7372327888323831,
+            1.191571251147547,
+            1.3557620483097004
+          ],
+          "late_mean_entropy_gain": 1.2736666497286235,
+          "positive_probability": 0.7291666666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.2708333333333333
+        }
+      ],
+      "coupling_effect_on_mean": 0.13300659788943126,
+      "coupling_effect_on_positive_probability": 0.04166666666666663
+    },
+    {
+      "mask": 11,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -5.278370514109898e-17,
+            -9.410874857174178e-17,
+            -0.03065878665188947
+          ],
+          "late_mean_entropy_gain": -0.015329393325944782,
+          "positive_probability": 0.38037109375,
+          "negative_probability": 0.5068359375,
+          "zero_probability": 0.11279296875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -5.278370514109898e-17,
+            -1.0314320198715615e-16,
+            -1.336651872085176e-16
+          ],
+          "late_mean_entropy_gain": -1.1840419459783688e-16,
+          "positive_probability": 0.39141845703125,
+          "negative_probability": 0.49993896484375,
+          "zero_probability": 0.108642578125
+        }
+      ],
+      "coupling_effect_on_mean": 0.015329393325944664,
+      "coupling_effect_on_positive_probability": 0.01104736328125
+    },
+    {
+      "mask": 11,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.6596593881403028,
+            1.817802547717977,
+            1.7161512619681536
+          ],
+          "late_mean_entropy_gain": 1.766976904843065,
+          "positive_probability": 0.921875,
+          "negative_probability": 0.0,
+          "zero_probability": 0.078125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.6596593881403028,
+            1.8105244566400995,
+            1.9184886700008998
+          ],
+          "late_mean_entropy_gain": 1.8645065633204996,
+          "positive_probability": 0.9322916666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.06770833333333333
+        }
+      ],
+      "coupling_effect_on_mean": 0.09752965847743456,
+      "coupling_effect_on_positive_probability": 0.01041666666666663
+    },
+    {
+      "mask": 12,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.446136605245176e-16,
+            3.2040037669430615e-16,
+            -2.535406780357352e-16
+          ],
+          "late_mean_entropy_gain": 3.342984932928547e-17,
+          "positive_probability": 0.398193359375,
+          "negative_probability": 0.46484375,
+          "zero_probability": 0.136962890625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.446136605245176e-16,
+            -1.9849878305725627e-16,
+            4.8807732486687294e-17
+          ],
+          "late_mean_entropy_gain": -7.484552528528449e-17,
+          "positive_probability": 0.3720703125,
+          "negative_probability": 0.456298828125,
+          "zero_probability": 0.171630859375
+        }
+      ],
+      "coupling_effect_on_mean": -1.0827537461456996e-16,
+      "coupling_effect_on_positive_probability": -0.026123046875
+    },
+    {
+      "mask": 12,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.396783620088855,
+            1.431722888014541,
+            1.636599981265735
+          ],
+          "late_mean_entropy_gain": 1.534161434640138,
+          "positive_probability": 0.8333333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.16666666666666666
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.396783620088855,
+            1.5989029777781463,
+            1.7001030697372876
+          ],
+          "late_mean_entropy_gain": 1.649503023757717,
+          "positive_probability": 0.8263888888888888,
+          "negative_probability": 0.0,
+          "zero_probability": 0.1736111111111111
+        }
+      ],
+      "coupling_effect_on_mean": 0.11534158911757908,
+      "coupling_effect_on_positive_probability": -0.006944444444444531
+    },
+    {
+      "mask": 13,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.770780295740377e-16,
+            -5.34072907968676e-16,
+            2.4194649105371835e-17
+          ],
+          "late_mean_entropy_gain": -2.5493912943165206e-16,
+          "positive_probability": 0.4044189453125,
+          "negative_probability": 0.49176025390625,
+          "zero_probability": 0.10382080078125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.770780295740377e-16,
+            1.3298078458713614e-16,
+            2.408724532765999e-16
+          ],
+          "late_mean_entropy_gain": 1.8692661893186802e-16,
+          "positive_probability": 0.38818359375,
+          "negative_probability": 0.4632568359375,
+          "zero_probability": 0.1485595703125
+        }
+      ],
+      "coupling_effect_on_mean": 4.418657483635201e-16,
+      "coupling_effect_on_positive_probability": -0.0162353515625
+    },
+    {
+      "mask": 13,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9422207255853106,
+            1.975892565080626,
+            1.782381502785123
+          ],
+          "late_mean_entropy_gain": 1.8791370339328748,
+          "positive_probability": 0.9583333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.041666666666666664
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9422207255853106,
+            1.6180977422184333,
+            1.9932844222337143
+          ],
+          "late_mean_entropy_gain": 1.8056910822260737,
+          "positive_probability": 0.9618055555555556,
+          "negative_probability": 0.005208333333333333,
+          "zero_probability": 0.03298611111111111
+        }
+      ],
+      "coupling_effect_on_mean": -0.07344595170680113,
+      "coupling_effect_on_positive_probability": 0.00347222222222221
+    },
+    {
+      "mask": 14,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.715790916804628e-16,
+            -3.3068166260807885e-18,
+            -0.030658786651889154
+          ],
+          "late_mean_entropy_gain": -0.015329393325944579,
+          "positive_probability": 0.39276123046875,
+          "negative_probability": 0.4898681640625,
+          "zero_probability": 0.11737060546875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.715790916804628e-16,
+            -3.036308184045655e-16,
+            -2.260375182383881e-16
+          ],
+          "late_mean_entropy_gain": -2.648341683214768e-16,
+          "positive_probability": 0.40985107421875,
+          "negative_probability": 0.5029296875,
+          "zero_probability": 0.08721923828125
+        }
+      ],
+      "coupling_effect_on_mean": 0.015329393325944313,
+      "coupling_effect_on_positive_probability": 0.01708984375
+    },
+    {
+      "mask": 14,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.5513687183200293,
+            1.5273893825115474,
+            1.7225845633848
+          ],
+          "late_mean_entropy_gain": 1.6249869729481736,
+          "positive_probability": 0.875,
+          "negative_probability": 0.0,
+          "zero_probability": 0.125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.5513687183200293,
+            1.6795280380903987,
+            1.7419300991766682
+          ],
+          "late_mean_entropy_gain": 1.7107290686335337,
+          "positive_probability": 0.8854166666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.11458333333333333
+        }
+      ],
+      "coupling_effect_on_mean": 0.08574209568536006,
+      "coupling_effect_on_positive_probability": 0.01041666666666663
+    },
+    {
+      "mask": 15,
+      "active_agents": 4,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -1.4098355187279477e-16,
+            -1.5102936262723077e-16,
+            -0.030658786651889328
+          ],
+          "late_mean_entropy_gain": -0.01532939332594474,
+          "positive_probability": 0.3835906982421875,
+          "negative_probability": 0.517608642578125,
+          "zero_probability": 0.0988006591796875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -1.4098355187279477e-16,
+            5.881796785733862e-17,
+            -5.339695699491109e-18
+          ],
+          "late_mean_entropy_gain": 2.6739136078923753e-17,
+          "positive_probability": 0.3963470458984375,
+          "negative_probability": 0.499359130859375,
+          "zero_probability": 0.1042938232421875
+        }
+      ],
+      "coupling_effect_on_mean": 0.015329393325944766,
+      "coupling_effect_on_positive_probability": 0.01275634765625
+    },
+    {
+      "mask": 15,
+      "active_agents": 4,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9374438755728594,
+            1.936994583727634,
+            1.7824813889082027
+          ],
+          "late_mean_entropy_gain": 1.8597379863179182,
+          "positive_probability": 0.95703125,
+          "negative_probability": 0.01171875,
+          "zero_probability": 0.03125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9374438755728594,
+            1.6738566456304484,
+            1.9914625899709923
+          ],
+          "late_mean_entropy_gain": 1.8326596178007206,
+          "positive_probability": 0.9592013888888888,
+          "negative_probability": 0.016059027777777776,
+          "zero_probability": 0.024739583333333332
+        }
+      ],
+      "coupling_effect_on_mean": -0.027078368517197582,
+      "coupling_effect_on_positive_probability": 0.0021701388888888395
+    },
+    {
+      "mask": 16,
+      "active_agents": 1,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.2220723525090413e-16,
+            -3.9170361019417316e-16,
+            4.174178364069192e-18
+          ],
+          "late_mean_entropy_gain": -1.9376471591505198e-16,
+          "positive_probability": 0.412109375,
+          "negative_probability": 0.4736328125,
+          "zero_probability": 0.1142578125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.2220723525090413e-16,
+            0.061317573303777934,
+            1.776465259617499e-16
+          ],
+          "late_mean_entropy_gain": 0.030658786651889057,
+          "positive_probability": 0.416015625,
+          "negative_probability": 0.466796875,
+          "zero_probability": 0.1171875
+        }
+      ],
+      "coupling_effect_on_mean": 0.03065878665188925,
+      "coupling_effect_on_positive_probability": 0.00390625
+    },
+    {
+      "mask": 16,
+      "active_agents": 1,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.2145222275497567,
+            1.573639557072733,
+            1.7281851132759924
+          ],
+          "late_mean_entropy_gain": 1.6509123351743626,
+          "positive_probability": 0.7777777777777778,
+          "negative_probability": 0.0,
+          "zero_probability": 0.2222222222222222
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.2145222275497567,
+            1.6916533137963254,
+            1.8194287648576735
+          ],
+          "late_mean_entropy_gain": 1.7555410393269995,
+          "positive_probability": 0.8055555555555556,
+          "negative_probability": 0.0,
+          "zero_probability": 0.19444444444444445
+        }
+      ],
+      "coupling_effect_on_mean": 0.10462870415263681,
+      "coupling_effect_on_positive_probability": 0.02777777777777779
+    },
+    {
+      "mask": 17,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889192,
+            0.06131757330377836,
+            -2.4793840212259527e-16
+          ],
+          "late_mean_entropy_gain": 0.030658786651889054,
+          "positive_probability": 0.38623046875,
+          "negative_probability": 0.48095703125,
+          "zero_probability": 0.1328125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889192,
+            -2.7748460538871977e-16,
+            -1.2625195485414797e-16
+          ],
+          "late_mean_entropy_gain": -2.0186828012143387e-16,
+          "positive_probability": 0.38916015625,
+          "negative_probability": 0.490966796875,
+          "zero_probability": 0.119873046875
+        }
+      ],
+      "coupling_effect_on_mean": -0.030658786651889255,
+      "coupling_effect_on_positive_probability": 0.0029296875
+    },
+    {
+      "mask": 17,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.415873010336231,
+            2.0763390587048187,
+            1.9629255559929173
+          ],
+          "late_mean_entropy_gain": 2.0196323073488682,
+          "positive_probability": 0.9444444444444444,
+          "negative_probability": 0.0,
+          "zero_probability": 0.05555555555555555
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.415873010336231,
+            1.9937221784629733,
+            2.025818655104266
+          ],
+          "late_mean_entropy_gain": 2.0097704167836197,
+          "positive_probability": 0.9652777777777778,
+          "negative_probability": 0.0,
+          "zero_probability": 0.034722222222222224
+        }
+      ],
+      "coupling_effect_on_mean": -0.009861890565248554,
+      "coupling_effect_on_positive_probability": 0.02083333333333337
+    },
+    {
+      "mask": 18,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -7.367153762039003e-17,
+            -2.9593298297991844e-16,
+            -2.0137361288023736e-16
+          ],
+          "late_mean_entropy_gain": -2.486532979300779e-16,
+          "positive_probability": 0.403564453125,
+          "negative_probability": 0.47509765625,
+          "zero_probability": 0.121337890625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -7.367153762039003e-17,
+            0.0011393209268612402,
+            -3.023060588750598e-17
+          ],
+          "late_mean_entropy_gain": 0.000569660463430605,
+          "positive_probability": 0.3916015625,
+          "negative_probability": 0.466552734375,
+          "zero_probability": 0.141845703125
+        }
+      ],
+      "coupling_effect_on_mean": 0.0005696604634308536,
+      "coupling_effect_on_positive_probability": -0.011962890625
+    },
+    {
+      "mask": 18,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.1962809624046489,
+            1.581363195526005,
+            1.8333567147789855
+          ],
+          "late_mean_entropy_gain": 1.7073599551524954,
+          "positive_probability": 0.8333333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.16666666666666666
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.1962809624046489,
+            1.6774935737636556,
+            1.8131203173081343
+          ],
+          "late_mean_entropy_gain": 1.7453069455358952,
+          "positive_probability": 0.875,
+          "negative_probability": 0.0,
+          "zero_probability": 0.125
+        }
+      ],
+      "coupling_effect_on_mean": 0.03794699038339977,
+      "coupling_effect_on_positive_probability": 0.04166666666666663
+    },
+    {
+      "mask": 19,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889203,
+            0.03065878665188939,
+            -2.3215479018345864e-16
+          ],
+          "late_mean_entropy_gain": 0.015329393325944579,
+          "positive_probability": 0.3865966796875,
+          "negative_probability": 0.48651123046875,
+          "zero_probability": 0.12689208984375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889203,
+            7.428478947420214e-17,
+            1.0723437112239442e-17
+          ],
+          "late_mean_entropy_gain": 4.250411329322079e-17,
+          "positive_probability": 0.3883056640625,
+          "negative_probability": 0.49169921875,
+          "zero_probability": 0.1199951171875
+        }
+      ],
+      "coupling_effect_on_mean": -0.015329393325944535,
+      "coupling_effect_on_positive_probability": 0.001708984375
+    },
+    {
+      "mask": 19,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.5106382144710535,
+            1.9816089869825986,
+            1.9237202355713698
+          ],
+          "late_mean_entropy_gain": 1.9526646112769843,
+          "positive_probability": 0.9583333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.041666666666666664
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.5106382144710535,
+            1.9589704237540329,
+            1.7973101212385387
+          ],
+          "late_mean_entropy_gain": 1.8781402724962857,
+          "positive_probability": 0.9739583333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.026041666666666668
+        }
+      ],
+      "coupling_effect_on_mean": -0.07452433878069864,
+      "coupling_effect_on_positive_probability": 0.015625
+    },
+    {
+      "mask": 20,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -5.951727825859177e-16,
+            -1.3930134443954773e-16,
+            -1.2753775086808e-16
+          ],
+          "late_mean_entropy_gain": -1.3341954765381386e-16,
+          "positive_probability": 0.398681640625,
+          "negative_probability": 0.490478515625,
+          "zero_probability": 0.11083984375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -5.951727825859177e-16,
+            0.06131757330377801,
+            4.635303100554433e-17
+          ],
+          "late_mean_entropy_gain": 0.03065878665188903,
+          "positive_probability": 0.427978515625,
+          "negative_probability": 0.454833984375,
+          "zero_probability": 0.1171875
+        }
+      ],
+      "coupling_effect_on_mean": 0.03065878665188916,
+      "coupling_effect_on_positive_probability": 0.029296875
+    },
+    {
+      "mask": 20,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8682286576230187,
+            1.599738785583054,
+            1.9498208635073395
+          ],
+          "late_mean_entropy_gain": 1.774779824545197,
+          "positive_probability": 0.8611111111111112,
+          "negative_probability": 0.0,
+          "zero_probability": 0.1388888888888889
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8682286576230187,
+            1.802340153351321,
+            1.7377694669635018
+          ],
+          "late_mean_entropy_gain": 1.7700548101574114,
+          "positive_probability": 0.9305555555555556,
+          "negative_probability": 0.0,
+          "zero_probability": 0.06944444444444445
+        }
+      ],
+      "coupling_effect_on_mean": -0.004725014387785498,
+      "coupling_effect_on_positive_probability": 0.06944444444444442
+    },
+    {
+      "mask": 21,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889265,
+            0.06131757330377812,
+            2.5929372581348642e-17
+          ],
+          "late_mean_entropy_gain": 0.030658786651889074,
+          "positive_probability": 0.39349365234375,
+          "negative_probability": 0.4796142578125,
+          "zero_probability": 0.12689208984375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889265,
+            -6.948041859737575e-17,
+            -2.479400961884898e-16
+          ],
+          "late_mean_entropy_gain": -1.5871025739293276e-16,
+          "positive_probability": 0.40582275390625,
+          "negative_probability": 0.48583984375,
+          "zero_probability": 0.10833740234375
+        }
+      ],
+      "coupling_effect_on_mean": -0.030658786651889234,
+      "coupling_effect_on_positive_probability": 0.0123291015625
+    },
+    {
+      "mask": 21,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.807031598689291,
+            2.061097794005958,
+            1.946881866868382
+          ],
+          "late_mean_entropy_gain": 2.00398983043717,
+          "positive_probability": 0.9652777777777778,
+          "negative_probability": 0.0,
+          "zero_probability": 0.034722222222222224
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.807031598689291,
+            1.9608861467725645,
+            1.973438587398859
+          ],
+          "late_mean_entropy_gain": 1.9671623670857115,
+          "positive_probability": 0.9704861111111112,
+          "negative_probability": 0.015625,
+          "zero_probability": 0.013888888888888888
+        }
+      ],
+      "coupling_effect_on_mean": -0.03682746335145848,
+      "coupling_effect_on_positive_probability": 0.00520833333333337
+    },
+    {
+      "mask": 22,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -1.7818862704799265e-16,
+            -2.0686577451023425e-16,
+            -1.8188846696159944e-16
+          ],
+          "late_mean_entropy_gain": -1.9437712073591684e-16,
+          "positive_probability": 0.39569091796875,
+          "negative_probability": 0.4871826171875,
+          "zero_probability": 0.11712646484375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -1.7818862704799265e-16,
+            0.001139320926860809,
+            -9.463390899903945e-17
+          ],
+          "late_mean_entropy_gain": 0.0005696604634303572,
+          "positive_probability": 0.39898681640625,
+          "negative_probability": 0.47601318359375,
+          "zero_probability": 0.125
+        }
+      ],
+      "coupling_effect_on_mean": 0.0005696604634305516,
+      "coupling_effect_on_positive_probability": 0.0032958984375
+    },
+    {
+      "mask": 22,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8478368230685729,
+            1.6343897152951958,
+            1.9249418237443494
+          ],
+          "late_mean_entropy_gain": 1.7796657695197726,
+          "positive_probability": 0.8958333333333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.10416666666666667
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8478368230685729,
+            1.645162250731558,
+            1.8909603942830375
+          ],
+          "late_mean_entropy_gain": 1.7680613225072976,
+          "positive_probability": 0.953125,
+          "negative_probability": 0.0,
+          "zero_probability": 0.046875
+        }
+      ],
+      "coupling_effect_on_mean": -0.011604447012474983,
+      "coupling_effect_on_positive_probability": 0.05729166666666663
+    },
+    {
+      "mask": 23,
+      "active_agents": 4,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889525,
+            0.0306587866518895,
+            -1.5669431897846753e-16
+          ],
+          "late_mean_entropy_gain": 0.015329393325944672,
+          "positive_probability": 0.390777587890625,
+          "negative_probability": 0.4942779541015625,
+          "zero_probability": 0.1149444580078125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889525,
+            -3.5612653234359803e-17,
+            -0.000253940572899799
+          ],
+          "late_mean_entropy_gain": -0.00012697028644991732,
+          "positive_probability": 0.39178466796875,
+          "negative_probability": 0.4906768798828125,
+          "zero_probability": 0.1175384521484375
+        }
+      ],
+      "coupling_effect_on_mean": -0.01545636361239459,
+      "coupling_effect_on_positive_probability": 0.001007080078125
+    },
+    {
+      "mask": 23,
+      "active_agents": 4,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.863057547250253,
+            2.069184724851446,
+            1.9045896067694388
+          ],
+          "late_mean_entropy_gain": 1.9868871658104423,
+          "positive_probability": 0.9661458333333334,
+          "negative_probability": 0.0078125,
+          "zero_probability": 0.026041666666666668
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.863057547250253,
+            1.9964575716397388,
+            1.9105878234846694
+          ],
+          "late_mean_entropy_gain": 1.9535226975622042,
+          "positive_probability": 0.9856770833333334,
+          "negative_probability": 0.0,
+          "zero_probability": 0.014322916666666666
+        }
+      ],
+      "coupling_effect_on_mean": -0.03336446824823813,
+      "coupling_effect_on_positive_probability": 0.01953125
+    },
+    {
+      "mask": 24,
+      "active_agents": 2,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -6.131163285405528e-17,
+            -3.1500138868850724e-16,
+            2.990771692801264e-16
+          ],
+          "late_mean_entropy_gain": -7.962109704190423e-18,
+          "positive_probability": 0.40283203125,
+          "negative_probability": 0.473388671875,
+          "zero_probability": 0.123779296875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -6.131163285405528e-17,
+            0.06131757330377836,
+            -6.001059024707267e-17
+          ],
+          "late_mean_entropy_gain": 0.030658786651889147,
+          "positive_probability": 0.380126953125,
+          "negative_probability": 0.458984375,
+          "zero_probability": 0.160888671875
+        }
+      ],
+      "coupling_effect_on_mean": 0.030658786651889154,
+      "coupling_effect_on_positive_probability": -0.022705078125
+    },
+    {
+      "mask": 24,
+      "active_agents": 2,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.3586963331268616,
+            1.7955438162357156,
+            1.8785453335366837
+          ],
+          "late_mean_entropy_gain": 1.8370445748861997,
+          "positive_probability": 0.8541666666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.14583333333333334
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.3586963331268616,
+            1.7483479809267213,
+            1.8592912451877968
+          ],
+          "late_mean_entropy_gain": 1.8038196130572588,
+          "positive_probability": 0.8541666666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.14583333333333334
+        }
+      ],
+      "coupling_effect_on_mean": -0.03322496182894086,
+      "coupling_effect_on_positive_probability": 0.0
+    },
+    {
+      "mask": 25,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889116,
+            0.03065878665188919,
+            6.924324937214454e-17
+          ],
+          "late_mean_entropy_gain": 0.015329393325944629,
+          "positive_probability": 0.3983154296875,
+          "negative_probability": 0.4892578125,
+          "zero_probability": 0.1124267578125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889116,
+            -2.780639759246417e-17,
+            0.030658786651889248
+          ],
+          "late_mean_entropy_gain": 0.01532939332594461,
+          "positive_probability": 0.397216796875,
+          "negative_probability": 0.4814453125,
+          "zero_probability": 0.121337890625
+        }
+      ],
+      "coupling_effect_on_mean": -1.9081958235744878e-17,
+      "coupling_effect_on_positive_probability": -0.0010986328125
+    },
+    {
+      "mask": 25,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.2927834042873558,
+            2.0004375198636875,
+            1.8921928881495564
+          ],
+          "late_mean_entropy_gain": 1.9463152040066218,
+          "positive_probability": 0.9479166666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.052083333333333336
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.2927834042873558,
+            1.921247840211513,
+            1.9809700238584738
+          ],
+          "late_mean_entropy_gain": 1.9511089320349935,
+          "positive_probability": 0.953125,
+          "negative_probability": 0.005208333333333333,
+          "zero_probability": 0.041666666666666664
+        }
+      ],
+      "coupling_effect_on_mean": 0.0047937280283716355,
+      "coupling_effect_on_positive_probability": 0.00520833333333337
+    },
+    {
+      "mask": 26,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.0355895788415346e-16,
+            1.0242152991609549e-16,
+            -0.0022786418537218637
+          ],
+          "late_mean_entropy_gain": -0.0011393209268608807,
+          "positive_probability": 0.3973388671875,
+          "negative_probability": 0.481201171875,
+          "zero_probability": 0.1214599609375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.0355895788415346e-16,
+            -2.522396354287526e-16,
+            4.002569488955471e-17
+          ],
+          "late_mean_entropy_gain": -1.0610697026959895e-16,
+          "positive_probability": 0.40283203125,
+          "negative_probability": 0.50372314453125,
+          "zero_probability": 0.09344482421875
+        }
+      ],
+      "coupling_effect_on_mean": 0.0011393209268607746,
+      "coupling_effect_on_positive_probability": 0.0054931640625
+    },
+    {
+      "mask": 26,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.3480550663229889,
+            1.7594179990586367,
+            1.9224557929743236
+          ],
+          "late_mean_entropy_gain": 1.8409368960164803,
+          "positive_probability": 0.890625,
+          "negative_probability": 0.0,
+          "zero_probability": 0.109375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.3480550663229889,
+            1.7085908747895087,
+            1.8320450094540028
+          ],
+          "late_mean_entropy_gain": 1.7703179421217559,
+          "positive_probability": 0.90625,
+          "negative_probability": 0.0,
+          "zero_probability": 0.09375
+        }
+      ],
+      "coupling_effect_on_mean": -0.07061895389472439,
+      "coupling_effect_on_positive_probability": 0.015625
+    },
+    {
+      "mask": 27,
+      "active_agents": 4,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.03065878665188916,
+            0.015329393325944747,
+            -7.039182604862138e-17
+          ],
+          "late_mean_entropy_gain": 0.007664696662972338,
+          "positive_probability": 0.393341064453125,
+          "negative_probability": 0.4918670654296875,
+          "zero_probability": 0.1147918701171875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.03065878665188916,
+            1.0105103060743803e-16,
+            0.030658786651889074
+          ],
+          "late_mean_entropy_gain": 0.015329393325944587,
+          "positive_probability": 0.3940887451171875,
+          "negative_probability": 0.49273681640625,
+          "zero_probability": 0.1131744384765625
+        }
+      ],
+      "coupling_effect_on_mean": 0.0076646966629722495,
+      "coupling_effect_on_positive_probability": 0.0007476806640625
+    },
+    {
+      "mask": 27,
+      "active_agents": 4,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.39190760127768,
+            1.9442309398202389,
+            1.8790173944073654
+          ],
+          "late_mean_entropy_gain": 1.9116241671138023,
+          "positive_probability": 0.9609375,
+          "negative_probability": 0.0,
+          "zero_probability": 0.0390625
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.39190760127768,
+            1.8603102391392659,
+            2.0214819760764833
+          ],
+          "late_mean_entropy_gain": 1.9408961076078743,
+          "positive_probability": 0.9609375,
+          "negative_probability": 0.015625,
+          "zero_probability": 0.0234375
+        }
+      ],
+      "coupling_effect_on_mean": 0.029271940494072002,
+      "coupling_effect_on_positive_probability": 0.0
+    },
+    {
+      "mask": 28,
+      "active_agents": 3,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.7025504190379976e-17,
+            -9.62585181918732e-17,
+            7.210283260207506e-17
+          ],
+          "late_mean_entropy_gain": -1.2077842794899069e-17,
+          "positive_probability": 0.3876953125,
+          "negative_probability": 0.4921875,
+          "zero_probability": 0.1201171875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -3.7025504190379976e-17,
+            0.061317573303778086,
+            1.0875903042745216e-18
+          ],
+          "late_mean_entropy_gain": 0.030658786651889043,
+          "positive_probability": 0.38336181640625,
+          "negative_probability": 0.4591064453125,
+          "zero_probability": 0.15753173828125
+        }
+      ],
+      "coupling_effect_on_mean": 0.030658786651889054,
+      "coupling_effect_on_positive_probability": -0.00433349609375
+    },
+    {
+      "mask": 28,
+      "active_agents": 3,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9230093046784649,
+            1.6163680394999846,
+            1.9547182627850392
+          ],
+          "late_mean_entropy_gain": 1.785543151142512,
+          "positive_probability": 0.9010416666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.09895833333333333
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9230093046784649,
+            1.8568873073518266,
+            1.8776453734654734
+          ],
+          "late_mean_entropy_gain": 1.8672663404086502,
+          "positive_probability": 0.9479166666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.052083333333333336
+        }
+      ],
+      "coupling_effect_on_mean": 0.08172318926613831,
+      "coupling_effect_on_positive_probability": 0.046875
+    },
+    {
+      "mask": 29,
+      "active_agents": 4,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889383,
+            0.030658786651889064,
+            -1.7313353441877899e-18
+          ],
+          "late_mean_entropy_gain": 0.015329393325944532,
+          "positive_probability": 0.4021453857421875,
+          "negative_probability": 0.486175537109375,
+          "zero_probability": 0.1116790771484375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889383,
+            -1.376225251380897e-16,
+            0.030658786651889043
+          ],
+          "late_mean_entropy_gain": 0.015329393325944452,
+          "positive_probability": 0.4022369384765625,
+          "negative_probability": 0.476593017578125,
+          "zero_probability": 0.1211700439453125
+        }
+      ],
+      "coupling_effect_on_mean": -7.979727989493313e-17,
+      "coupling_effect_on_positive_probability": 9.1552734375e-05
+    },
+    {
+      "mask": 29,
+      "active_agents": 4,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.7522179126776607,
+            1.9722679190217163,
+            1.9641139134500467
+          ],
+          "late_mean_entropy_gain": 1.9681909162358815,
+          "positive_probability": 0.9713541666666666,
+          "negative_probability": 0.0,
+          "zero_probability": 0.028645833333333332
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.7522179126776607,
+            1.9499059481151066,
+            1.9052419662220028
+          ],
+          "late_mean_entropy_gain": 1.9275739571685548,
+          "positive_probability": 0.96484375,
+          "negative_probability": 0.0078125,
+          "zero_probability": 0.02734375
+        }
+      ],
+      "coupling_effect_on_mean": -0.04061695906732665,
+      "coupling_effect_on_positive_probability": -0.00651041666666663
+    },
+    {
+      "mask": 30,
+      "active_agents": 4,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.4779440652156204e-16,
+            -2.787297438211836e-16,
+            8.326672684688674e-17
+          ],
+          "late_mean_entropy_gain": -9.773150848714843e-17,
+          "positive_probability": 0.3887939453125,
+          "negative_probability": 0.4945068359375,
+          "zero_probability": 0.11669921875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -2.4779440652156204e-16,
+            -4.497626365307719e-16,
+            5.77507063437982e-17
+          ],
+          "late_mean_entropy_gain": -1.9600596509348686e-16,
+          "positive_probability": 0.39532470703125,
+          "negative_probability": 0.5224761962890625,
+          "zero_probability": 0.0821990966796875
+        }
+      ],
+      "coupling_effect_on_mean": -9.827445660633843e-17,
+      "coupling_effect_on_positive_probability": 0.00653076171875
+    },
+    {
+      "mask": 30,
+      "active_agents": 4,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9085988728524999,
+            1.6453162934950007,
+            1.9465279583677682
+          ],
+          "late_mean_entropy_gain": 1.7959221259313844,
+          "positive_probability": 0.92578125,
+          "negative_probability": 0.0,
+          "zero_probability": 0.07421875
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.9085988728524999,
+            1.7431648036120708,
+            1.979875662419312
+          ],
+          "late_mean_entropy_gain": 1.8615202330156915,
+          "positive_probability": 0.9609375,
+          "negative_probability": 0.00390625,
+          "zero_probability": 0.03515625
+        }
+      ],
+      "coupling_effect_on_mean": 0.06559810708430702,
+      "coupling_effect_on_positive_probability": 0.03515625
+    },
+    {
+      "mask": 31,
+      "active_agents": 5,
+      "preparation": "all_environment_states",
+      "environment_state_count": 256,
+      "histories_evaluated_each_variant": 8192,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889394,
+            0.015329393325944513,
+            -7.43762690325056e-17
+          ],
+          "late_mean_entropy_gain": 0.007664696662972219,
+          "positive_probability": 0.3920097351074219,
+          "negative_probability": 0.4971961975097656,
+          "zero_probability": 0.1107940673828125
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            -0.030658786651889394,
+            -2.3686429337019255e-17,
+            0.030658786651889064
+          ],
+          "late_mean_entropy_gain": 0.01532939332594452,
+          "positive_probability": 0.3921012878417969,
+          "negative_probability": 0.4919624328613281,
+          "zero_probability": 0.115936279296875
+        }
+      ],
+      "coupling_effect_on_mean": 0.007664696662972301,
+      "coupling_effect_on_positive_probability": 9.1552734375e-05
+    },
+    {
+      "mask": 31,
+      "active_agents": 5,
+      "preparation": "low_K<=1",
+      "environment_state_count": 9,
+      "histories_evaluated_each_variant": 288,
+      "summaries": [
+        {
+          "coupled": false,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8138577027726521,
+            1.9935515725826463,
+            1.9377934579715865
+          ],
+          "late_mean_entropy_gain": 1.9656725152771162,
+          "positive_probability": 0.97265625,
+          "negative_probability": 0.005859375,
+          "zero_probability": 0.021484375
+        },
+        {
+          "coupled": true,
+          "mean_entropy_gain_by_cut": [
+            0.0,
+            1.8138577027726521,
+            1.8881436450430036,
+            2.006085964314747
+          ],
+          "late_mean_entropy_gain": 1.947114804678875,
+          "positive_probability": 0.9713541666666666,
+          "negative_probability": 0.009114583333333334,
+          "zero_probability": 0.01953125
+        }
+      ],
+      "coupling_effect_on_mean": -0.018557710598241073,
+      "coupling_effect_on_positive_probability": -0.0013020833333333703
+    }
+  ],
+  "interpretation": "reference-weighted Boltzmann gains across individual histories, no J selection or ontic law"
+}

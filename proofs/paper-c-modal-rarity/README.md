@@ -19,7 +19,7 @@
 | Legacy ternary string bound: limsup K_n/n <= 0.4691; interpretation as a state on a physical cut requires an explicit bridge | `computational/j_asymptotic_density_bound_v6_77/` |
 | General gap-and-competitor theorem: limsup K_n/n <= u/a | `computational/general_ph_class_bound_v6_78/` |
 | A positive entropy-blind quadratic contribution has the zero-amplitude argmin in the restricted positive TT sector | `variational_ph_proof.md` |
-| The selected datum lies in an exponentially rare regulated macroregion with ratio (e*/E*)^N | `variational_ph_proof.md` |
+| The selected datum lies in a regulated low sector: per-mode ratio (e*/E*)^N; total-energy rarity has the corrected Irwin–Hall/Chernoff form | `variational_ph_proof.md` |
 
 ## Reproduction
 
@@ -61,3 +61,8 @@ The older numerical strings remain reproducible; their physical reading is restr
 ## Agentive status and explanatory comparison
 
 [agentive_status_and_explanatory_test.md](agentive_status_and_explanatory_test.md) audits A against the foundational v3.4 and Paper C: represented agentive information, a goal-conditioned compatibility cost, a scalar task/capacity score and the actuality rule have distinct roles. It retains the operational resource bound and the conditional witnesses without treating them as a cosmological law rewarding agents. It specifies causal comparisons with and without supplied special preparation, a matched global comparator, and the outstanding AE-specific explanatory test. No new simulation or actuality law is introduced.
+
+
+## Integrated preparation and entropy mechanisms
+
+[Retained derivations and scope](integrated_mechanism_results.md) give the corrected regulated volume, late-window selection-compatible bound, five interacting agents and pathwise macroentropy before J. Four self-contained calculation directories and their outputs are included. The complete runner now executes 17 scripts including conserved_source_shell_v1; older counts above describe earlier versions.
