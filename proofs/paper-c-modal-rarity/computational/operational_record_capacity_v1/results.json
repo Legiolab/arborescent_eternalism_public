@@ -1,0 +1,804 @@
+{
+  "model": "operational_record_capacity_v1",
+  "capacity_scope": "same device and preparation for all counterfactual classical messages",
+  "bit_devices": [
+    {
+      "n": 1,
+      "devices_and_preparations_examined": 4,
+      "counterfactual_messages_checked": 8,
+      "capable_devices": [
+        [
+          1,
+          0
+        ]
+      ],
+      "initial_memory_support": 1,
+      "memory_preparation_counting_fraction": 0.5
+    },
+    {
+      "n": 2,
+      "devices_and_preparations_examined": 16,
+      "counterfactual_messages_checked": 64,
+      "capable_devices": [
+        [
+          3,
+          0
+        ]
+      ],
+      "initial_memory_support": 1,
+      "memory_preparation_counting_fraction": 0.25
+    },
+    {
+      "n": 4,
+      "devices_and_preparations_examined": 256,
+      "counterfactual_messages_checked": 4096,
+      "capable_devices": [
+        [
+          15,
+          0
+        ]
+      ],
+      "initial_memory_support": 1,
+      "memory_preparation_counting_fraction": 0.0625
+    },
+    {
+      "n": 6,
+      "devices_and_preparations_examined": 4096,
+      "counterfactual_messages_checked": 262144,
+      "capable_devices": [
+        [
+          63,
+          0
+        ]
+      ],
+      "initial_memory_support": 1,
+      "memory_preparation_counting_fraction": 0.015625
+    }
+  ],
+  "arbitrary_reversible_devices": {
+    "exhaustive_device_count": 576,
+    "capable_preparation_support_histogram": {
+      "0": 96,
+      "1": 384,
+      "2": 96
+    },
+    "max_allowed_joint_preparation_support": 2,
+    "total_joint_states": 4,
+    "blank_auxiliary_permutations_by_source": [
+      [
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        0,
+        3,
+        1
+      ]
+    ],
+    "blank_auxiliary_control": {
+      "memory_initial_entropy": 0.6931471805599453,
+      "aux_initial_entropy": 0,
+      "joint_resource_entropy": 0.6931471805599453,
+      "maximum_joint_resource_entropy": 1.3862943611198906,
+      "resource_entropy_deficit": 0.6931471805599453,
+      "ideal_heat": 0,
+      "joint_entropy_change": 0
+    }
+  },
+  "approximate_resource_bounds": [
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0,
+      "environment_dimension": 1,
+      "resource_entropy": -0.0,
+      "entropy_upper_bound": 0.0,
+      "resource_entropy_deficit": 0.6931471805599453,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0,
+      "environment_dimension": 4,
+      "resource_entropy": 1.3862943611198906,
+      "entropy_upper_bound": 1.3862943611198906,
+      "resource_entropy_deficit": 0.6931471805599452,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0.01,
+      "environment_dimension": 1,
+      "resource_entropy": 0.056001534354847345,
+      "entropy_upper_bound": 0.056001534354847345,
+      "resource_entropy_deficit": 0.637145646205098,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0.01,
+      "environment_dimension": 4,
+      "resource_entropy": 1.442295895474738,
+      "entropy_upper_bound": 1.442295895474738,
+      "resource_entropy_deficit": 0.6371456462050977,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0.05,
+      "environment_dimension": 1,
+      "resource_entropy": 0.1985152433458726,
+      "entropy_upper_bound": 0.1985152433458726,
+      "resource_entropy_deficit": 0.4946319372140727,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0.05,
+      "environment_dimension": 4,
+      "resource_entropy": 1.5848096044657631,
+      "entropy_upper_bound": 1.5848096044657631,
+      "resource_entropy_deficit": 0.4946319372140726,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0.1,
+      "environment_dimension": 1,
+      "resource_entropy": 0.3250829733914482,
+      "entropy_upper_bound": 0.3250829733914482,
+      "resource_entropy_deficit": 0.3680642071684971,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 1,
+      "message_dimension": 2,
+      "whole_message_error": 0.1,
+      "environment_dimension": 4,
+      "resource_entropy": 1.7113773345113388,
+      "entropy_upper_bound": 1.7113773345113388,
+      "resource_entropy_deficit": 0.36806420716849697,
+      "all_messages_checked": 2,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0,
+      "environment_dimension": 1,
+      "resource_entropy": -0.0,
+      "entropy_upper_bound": 0.0,
+      "resource_entropy_deficit": 1.3862943611198906,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0,
+      "environment_dimension": 4,
+      "resource_entropy": 1.3862943611198906,
+      "entropy_upper_bound": 1.3862943611198906,
+      "resource_entropy_deficit": 1.3862943611198906,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0.01,
+      "environment_dimension": 1,
+      "resource_entropy": 0.06698765724152844,
+      "entropy_upper_bound": 0.06698765724152844,
+      "resource_entropy_deficit": 1.3193067038783621,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0.01,
+      "environment_dimension": 4,
+      "resource_entropy": 1.4532820183614192,
+      "entropy_upper_bound": 1.453282018361419,
+      "resource_entropy_deficit": 1.319306703878362,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0.05,
+      "environment_dimension": 1,
+      "resource_entropy": 0.2534458577792781,
+      "entropy_upper_bound": 0.2534458577792781,
+      "resource_entropy_deficit": 1.1328485033406124,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0.05,
+      "environment_dimension": 4,
+      "resource_entropy": 1.6397402188991685,
+      "entropy_upper_bound": 1.6397402188991685,
+      "resource_entropy_deficit": 1.1328485033406126,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0.1,
+      "environment_dimension": 1,
+      "resource_entropy": 0.4349442022582592,
+      "entropy_upper_bound": 0.4349442022582592,
+      "resource_entropy_deficit": 0.9513501588616313,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 2,
+      "message_dimension": 4,
+      "whole_message_error": 0.1,
+      "environment_dimension": 4,
+      "resource_entropy": 1.8212385633781498,
+      "entropy_upper_bound": 1.8212385633781498,
+      "resource_entropy_deficit": 0.9513501588616313,
+      "all_messages_checked": 4,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0,
+      "environment_dimension": 1,
+      "resource_entropy": -0.0,
+      "entropy_upper_bound": 0.0,
+      "resource_entropy_deficit": 2.772588722239781,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0,
+      "environment_dimension": 4,
+      "resource_entropy": 1.3862943611198906,
+      "entropy_upper_bound": 1.3862943611198906,
+      "resource_entropy_deficit": 2.7725887222397807,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0.01,
+      "environment_dimension": 1,
+      "resource_entropy": 0.08308203636586944,
+      "entropy_upper_bound": 0.08308203636586944,
+      "resource_entropy_deficit": 2.6895066858739116,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0.01,
+      "environment_dimension": 4,
+      "resource_entropy": 1.46937639748576,
+      "entropy_upper_bound": 1.46937639748576,
+      "resource_entropy_deficit": 2.689506685873911,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0.05,
+      "environment_dimension": 1,
+      "resource_entropy": 0.3339177534009831,
+      "entropy_upper_bound": 0.33391775340098306,
+      "resource_entropy_deficit": 2.438670968838798,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0.05,
+      "environment_dimension": 4,
+      "resource_entropy": 1.7202121145208737,
+      "entropy_upper_bound": 1.7202121145208737,
+      "resource_entropy_deficit": 2.4386709688387977,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0.1,
+      "environment_dimension": 1,
+      "resource_entropy": 0.5958879935016692,
+      "entropy_upper_bound": 0.5958879935016692,
+      "resource_entropy_deficit": 2.176700728738112,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 4,
+      "message_dimension": 16,
+      "whole_message_error": 0.1,
+      "environment_dimension": 4,
+      "resource_entropy": 1.9821823546215598,
+      "entropy_upper_bound": 1.9821823546215598,
+      "resource_entropy_deficit": 2.176700728738112,
+      "all_messages_checked": 16,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0,
+      "environment_dimension": 1,
+      "resource_entropy": -0.0,
+      "entropy_upper_bound": 0.0,
+      "resource_entropy_deficit": 4.1588830833596715,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0,
+      "environment_dimension": 4,
+      "resource_entropy": 1.3862943611198906,
+      "entropy_upper_bound": 1.3862943611198906,
+      "resource_entropy_deficit": 4.1588830833596715,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 1
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0.01,
+      "environment_dimension": 1,
+      "resource_entropy": 0.09743288161876268,
+      "entropy_upper_bound": 0.09743288161876268,
+      "resource_entropy_deficit": 4.061450201740909,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0.01,
+      "environment_dimension": 4,
+      "resource_entropy": 1.4837272427386534,
+      "entropy_upper_bound": 1.4837272427386534,
+      "resource_entropy_deficit": 4.061450201740909,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 0.99
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0.05,
+      "environment_dimension": 1,
+      "resource_entropy": 0.40567197966544927,
+      "entropy_upper_bound": 0.4056719796654492,
+      "resource_entropy_deficit": 3.7532111036942224,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0.05,
+      "environment_dimension": 4,
+      "resource_entropy": 1.79196634078534,
+      "entropy_upper_bound": 1.79196634078534,
+      "resource_entropy_deficit": 3.7532111036942224,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 0.95
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0.1,
+      "environment_dimension": 1,
+      "resource_entropy": 0.7393964460306015,
+      "entropy_upper_bound": 0.7393964460306015,
+      "resource_entropy_deficit": 3.41948663732907,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 0.9
+    },
+    {
+      "n": 6,
+      "message_dimension": 64,
+      "whole_message_error": 0.1,
+      "environment_dimension": 4,
+      "resource_entropy": 2.1256908071504923,
+      "entropy_upper_bound": 2.125690807150492,
+      "resource_entropy_deficit": 3.41948663732907,
+      "all_messages_checked": 64,
+      "fidelity_each_message": 0.9
+    }
+  ],
+  "history_MAP_with_capacity_reward": [
+    {
+      "n": 1,
+      "histories_examined": 16,
+      "beta": 0.19,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.2,
+      "winner_count": 2,
+      "winners_mask_memory_source_reset": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "all_winners_capable": false,
+      "realised_source_entropy_uniform_tiebreak": 0.6931471805599453,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 1,
+      "histories_examined": 16,
+      "beta": 0.2,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.2,
+      "winner_count": 3,
+      "winners_mask_memory_source_reset": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_winners_capable": false,
+      "realised_source_entropy_uniform_tiebreak": 0.6931471805599453,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 1,
+      "histories_examined": 16,
+      "beta": 0.21000000000000002,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.2,
+      "winner_count": 1,
+      "winners_mask_memory_source_reset": [
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_winners_capable": true,
+      "realised_source_entropy_uniform_tiebreak": 0.0,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 2,
+      "histories_examined": 256,
+      "beta": 0.39,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.4,
+      "winner_count": 4,
+      "winners_mask_memory_source_reset": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "all_winners_capable": false,
+      "realised_source_entropy_uniform_tiebreak": 1.3862943611198906,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 2,
+      "histories_examined": 256,
+      "beta": 0.4,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.4,
+      "winner_count": 5,
+      "winners_mask_memory_source_reset": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_winners_capable": false,
+      "realised_source_entropy_uniform_tiebreak": 1.3862943611198906,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 2,
+      "histories_examined": 256,
+      "beta": 0.41000000000000003,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.4,
+      "winner_count": 1,
+      "winners_mask_memory_source_reset": [
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_winners_capable": true,
+      "realised_source_entropy_uniform_tiebreak": 0.0,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 3,
+      "histories_examined": 4096,
+      "beta": 0.5900000000000001,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.6000000000000001,
+      "winner_count": 8,
+      "winners_mask_memory_source_reset": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ]
+      ],
+      "all_winners_capable": false,
+      "realised_source_entropy_uniform_tiebreak": 2.0794415416798357,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 3,
+      "histories_examined": 4096,
+      "beta": 0.6000000000000001,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.6000000000000001,
+      "winner_count": 9,
+      "winners_mask_memory_source_reset": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_winners_capable": false,
+      "realised_source_entropy_uniform_tiebreak": 2.0794415416798357,
+      "all_register_histories_constant": true
+    },
+    {
+      "n": 3,
+      "histories_examined": 4096,
+      "beta": 0.6100000000000001,
+      "controller_cost_per_cnot": 0.2,
+      "threshold_beta": 0.6000000000000001,
+      "winner_count": 1,
+      "winners_mask_memory_source_reset": [
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_winners_capable": true,
+      "realised_source_entropy_uniform_tiebreak": 0.0,
+      "all_register_histories_constant": true
+    }
+  ],
+  "conditional_thermal_operations": [
+    {
+      "source_probability_one": 0.1,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "source_entropy": 0.3250829733914482,
+      "sigma_joint_mean": 0.48681265442717186,
+      "heat_to_memory": -0.4198821708407182,
+      "work_on_memory": 0.4198821708407182,
+      "delta_joint_entropy": 0.06693048358645365,
+      "causal_and_global_conditional_law_equal": true
+    },
+    {
+      "source_probability_one": 0.5,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "source_entropy": 0.6931471805599453,
+      "sigma_joint_mean": 2.4073413362595217,
+      "heat_to_memory": -2.219882170840718,
+      "work_on_memory": 2.219882170840718,
+      "delta_joint_entropy": 0.18745916541880348,
+      "causal_and_global_conditional_law_equal": true
+    },
+    {
+      "source_probability_one": 0.9,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "source_entropy": 0.3250829733914482,
+      "sigma_joint_mean": 4.327870018091872,
+      "heat_to_memory": -4.019882170840718,
+      "work_on_memory": 4.019882170840718,
+      "delta_joint_entropy": 0.30798784725115336,
+      "causal_and_global_conditional_law_equal": true
+    }
+  ],
+  "conclusion": "capacity constrains preparation resources; history MAP still chooses a trivial realised message; no AE-specific arrow"
+}
