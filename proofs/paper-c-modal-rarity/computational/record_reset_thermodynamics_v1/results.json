@@ -1,0 +1,1809 @@
+{
+  "model": "record_reset_thermodynamics_v1",
+  "scope": "ideal reservoir, driven Hamiltonian, external work source; no controller cost",
+  "bath_sweep": [
+    {
+      "epsilon": 0,
+      "alpha": 0.1,
+      "q1": 0.5,
+      "K": [
+        [
+          0.9500000000000001,
+          0.05
+        ],
+        [
+          0.05,
+          0.9500000000000001
+        ]
+      ],
+      "reset_error_per_bit": 0.5,
+      "delta_joint_entropy": 0.19851524334587256,
+      "delta_memory_entropy": 0.0,
+      "heat_to_memory": 0.0,
+      "bath_entropy_change": -0.0,
+      "work_on_device": 0.0,
+      "sigma_joint_mean": 0.19851524334587256,
+      "sigma_memory_plus_bath_mean": 0.0,
+      "mutual_information_lost": 0.19851524334587256,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.47500000000000003,
+          "sigma_joint": 0.05129329438755048
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.025,
+          "sigma_joint": 2.995732273553991
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.025,
+          "sigma_joint": 2.995732273553991
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.47500000000000003,
+          "sigma_joint": 0.05129329438755048
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.47500000000000003,
+          "sigma": 0.0
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.025,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.025,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.47500000000000003,
+          "sigma": 0.0
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 0,
+      "alpha": 0.5,
+      "q1": 0.5,
+      "K": [
+        [
+          0.75,
+          0.25
+        ],
+        [
+          0.25,
+          0.75
+        ]
+      ],
+      "reset_error_per_bit": 0.5,
+      "delta_joint_entropy": 0.5623351446188082,
+      "delta_memory_entropy": 0.0,
+      "heat_to_memory": 0.0,
+      "bath_entropy_change": -0.0,
+      "work_on_device": 0.0,
+      "sigma_joint_mean": 0.5623351446188082,
+      "sigma_memory_plus_bath_mean": 0.0,
+      "mutual_information_lost": 0.5623351446188082,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.375,
+          "sigma_joint": 0.28768207245178085
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.125,
+          "sigma_joint": 1.3862943611198906
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.125,
+          "sigma_joint": 1.3862943611198906
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.375,
+          "sigma_joint": 0.28768207245178085
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.375,
+          "sigma": 0.0
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.125,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.125,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.375,
+          "sigma": 0.0
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 0,
+      "alpha": 0.9,
+      "q1": 0.5,
+      "K": [
+        [
+          0.55,
+          0.45
+        ],
+        [
+          0.45,
+          0.55
+        ]
+      ],
+      "reset_error_per_bit": 0.5,
+      "delta_joint_entropy": 0.6881388137135885,
+      "delta_memory_entropy": 0.0,
+      "heat_to_memory": 0.0,
+      "bath_entropy_change": -0.0,
+      "work_on_device": 0.0,
+      "sigma_joint_mean": 0.6881388137135885,
+      "sigma_memory_plus_bath_mean": 0.0,
+      "mutual_information_lost": 0.6881388137135885,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.275,
+          "sigma_joint": 0.5978370007556204
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.225,
+          "sigma_joint": 0.7985076962177716
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.225,
+          "sigma_joint": 0.7985076962177716
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.275,
+          "sigma_joint": 0.5978370007556204
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.275,
+          "sigma": 0.0
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.225,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.225,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.275,
+          "sigma": 0.0
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 0,
+      "alpha": 1,
+      "q1": 0.5,
+      "K": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "reset_error_per_bit": 0.5,
+      "delta_joint_entropy": 0.6931471805599453,
+      "delta_memory_entropy": 0.0,
+      "heat_to_memory": 0.0,
+      "bath_entropy_change": -0.0,
+      "work_on_device": 0.0,
+      "sigma_joint_mean": 0.6931471805599453,
+      "sigma_memory_plus_bath_mean": 0.0,
+      "mutual_information_lost": 0.6931471805599453,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.25,
+          "sigma_joint": 0.6931471805599453
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.25,
+          "sigma_joint": 0.6931471805599453
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.25,
+          "sigma_joint": 0.6931471805599453
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.25,
+          "sigma_joint": 0.6931471805599453
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.25,
+          "sigma": 0.0
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.25,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.25,
+          "sigma": 0.0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.25,
+          "sigma": 0.0
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 1,
+      "alpha": 0.1,
+      "q1": 0.2689414213699951,
+      "K": [
+        [
+          0.9731058578630005,
+          0.026894142136999512
+        ],
+        [
+          0.07310585786300049,
+          0.9268941421369995
+        ]
+      ],
+      "reset_error_per_bit": 0.4768941421369995,
+      "delta_joint_entropy": 0.19268702222707634,
+      "delta_memory_entropy": -0.001068141698263858,
+      "heat_to_memory": -0.023105857863000512,
+      "bath_entropy_change": 0.023105857863000512,
+      "work_on_device": 0.023105857863000512,
+      "sigma_joint_mean": 0.21579288009007686,
+      "sigma_memory_plus_bath_mean": 0.022037716164736654,
+      "mutual_information_lost": 0.1937551639253402,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.48655292893150026,
+          "sigma_joint": 0.02726240737681319
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.013447071068499756,
+          "sigma_joint": 2.6158467805122685
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.03655292893150024,
+          "sigma_joint": 3.6158467805122685
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.46344707106849975,
+          "sigma_joint": 0.07591591396388546
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.48655292893150026,
+          "sigma": -0.04517575025336346
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.013447071068499756,
+          "sigma": -0.9526864435962299
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.03655292893150024,
+          "sigma": 0.9548242497466365
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.46344707106849975,
+          "sigma": 0.047313556403770086
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 1,
+      "alpha": 0.5,
+      "q1": 0.2689414213699951,
+      "K": [
+        [
+          0.8655292893150024,
+          0.13447071068499755
+        ],
+        [
+          0.36552928931500245,
+          0.6344707106849976
+        ]
+      ],
+      "reset_error_per_bit": 0.3844707106849976,
+      "delta_joint_entropy": 0.5256655885698088,
+      "delta_memory_entropy": -0.026936779635466923,
+      "heat_to_memory": -0.11552928931500239,
+      "bath_entropy_change": 0.11552928931500239,
+      "work_on_device": 0.11552928931500239,
+      "sigma_joint_mean": 0.6411948778848112,
+      "sigma_memory_plus_bath_mean": 0.08859250967953547,
+      "mutual_information_lost": 0.5526023682052758,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.4327646446575012,
+          "sigma_joint": 0.14441406401991708
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.06723535534249878,
+          "sigma_joint": 1.0064088680781684
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.18276464465750122,
+          "sigma_joint": 2.006408868078168
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.3172353553424988,
+          "sigma_joint": 0.4549641541461169
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.4327646446575012,
+          "sigma": -0.20787443228459213
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.06723535534249878,
+          "sigma": -0.7372595125505113
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.18276464465750122,
+          "sigma": 0.7921255677154079
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.3172353553424988,
+          "sigma": 0.2627404874494888
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 1,
+      "alpha": 0.9,
+      "q1": 0.2689414213699951,
+      "K": [
+        [
+          0.7579527207670044,
+          0.2420472792329956
+        ],
+        [
+          0.6579527207670044,
+          0.3420472792329956
+        ]
+      ],
+      "reset_error_per_bit": 0.2920472792329956,
+      "delta_joint_entropy": 0.5979062070427298,
+      "delta_memory_entropy": -0.08917256082371117,
+      "heat_to_memory": -0.20795272076700438,
+      "bath_entropy_change": 0.20795272076700438,
+      "work_on_device": 0.20795272076700438,
+      "sigma_joint_mean": 0.8058589278097341,
+      "sigma_memory_plus_bath_mean": 0.11878015994329322,
+      "mutual_information_lost": 0.6870787678664411,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.3789763603835022,
+          "sigma_joint": 0.2771342689433885
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.1210236396164978,
+          "sigma_joint": 0.41862220317604915
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.3289763603835022,
+          "sigma_joint": 1.4186222031760491
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.1710236396164978,
+          "sigma_joint": 1.072806308102934
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.3789763603835022,
+          "sigma": -0.34776921446406217
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.1210236396164978,
+          "sigma": -0.4623076059207336
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.3289763603835022,
+          "sigma": 0.6522307855359378
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.1710236396164978,
+          "sigma": 0.5376923940792664
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 1,
+      "alpha": 1,
+      "q1": 0.2689414213699951,
+      "K": [
+        [
+          0.7310585786300049,
+          0.2689414213699951
+        ],
+        [
+          0.7310585786300049,
+          0.2689414213699951
+        ]
+      ],
+      "reset_error_per_bit": 0.2689414213699951,
+      "delta_joint_entropy": 0.5822031088882179,
+      "delta_memory_entropy": -0.11094407167172737,
+      "heat_to_memory": -0.2310585786300049,
+      "bath_entropy_change": 0.2310585786300049,
+      "work_on_device": 0.2310585786300049,
+      "sigma_joint_mean": 0.8132616875182228,
+      "sigma_memory_plus_bath_mean": 0.12011450695827752,
+      "mutual_information_lost": 0.6931471805599453,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.36552928931500245,
+          "sigma_joint": 0.31326168751822286
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.13447071068499755,
+          "sigma_joint": 0.3132616875182228
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.36552928931500245,
+          "sigma_joint": 1.3132616875182228
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.13447071068499755,
+          "sigma_joint": 1.3132616875182228
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.36552928931500245,
+          "sigma": -0.3798854930417225
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.13447071068499755,
+          "sigma": -0.37988549304172237
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.36552928931500245,
+          "sigma": 0.6201145069582775
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.13447071068499755,
+          "sigma": 0.6201145069582776
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 3,
+      "alpha": 0.1,
+      "q1": 0.04742587317756678,
+      "K": [
+        [
+          0.9952574126822433,
+          0.004742587317756678
+        ],
+        [
+          0.09525741268224333,
+          0.9047425873177567
+        ]
+      ],
+      "reset_error_per_bit": 0.4547425873177567,
+      "delta_joint_entropy": 0.17232270716014353,
+      "delta_memory_entropy": -0.004102078897808004,
+      "heat_to_memory": -0.13577223804672994,
+      "bath_entropy_change": 0.13577223804672994,
+      "work_on_device": 0.13577223804672994,
+      "sigma_joint_mean": 0.30809494520687347,
+      "sigma_memory_plus_bath_mean": 0.13167015914892194,
+      "mutual_information_lost": 0.17642478605795164,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.49762870634112166,
+          "sigma_joint": 0.004753869068916359
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.002371293658878339,
+          "sigma_joint": 2.351172444567788
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.047628706341121665,
+          "sigma_joint": 5.351172444567787
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.45237129365887835,
+          "sigma_joint": 0.1001048096442369
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.49762870634112166,
+          "sigma": -0.08664990158271237
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.002371293658878339,
+          "sigma": -2.9051234182775034
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.047628706341121665,
+          "sigma": 2.9133500984172875
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.45237129365887835,
+          "sigma": 0.0948765817224966
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 3,
+      "alpha": 0.5,
+      "q1": 0.04742587317756678,
+      "K": [
+        [
+          0.9762870634112166,
+          0.02371293658878339
+        ],
+        [
+          0.4762870634112166,
+          0.5237129365887834
+        ]
+      ],
+      "reset_error_per_bit": 0.2737129365887834,
+      "delta_joint_entropy": 0.4020896007184739,
+      "delta_memory_entropy": -0.10623024154085814,
+      "heat_to_memory": -0.6788611902336499,
+      "bath_entropy_change": 0.6788611902336499,
+      "work_on_device": 0.6788611902336499,
+      "sigma_joint_mean": 1.0809507909521239,
+      "sigma_memory_plus_bath_mean": 0.5726309486927917,
+      "mutual_information_lost": 0.5083198422593321,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.4881435317056083,
+          "sigma_joint": 0.023998613466984817
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.011856468294391695,
+          "sigma_joint": 0.7417345321336875
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.2381435317056083,
+          "sigma_joint": 3.7417345321336875
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.2618564682943917,
+          "sigma_joint": 0.6468115757127265
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.4881435317056083,
+          "sigma": -0.373337242398666
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.011856468294391695,
+          "sigma": -2.397471782085769
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.2381435317056083,
+          "sigma": 2.626662757601334
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.2618564682943917,
+          "sigma": 0.6025282179142308
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 3,
+      "alpha": 0.9,
+      "q1": 0.04742587317756678,
+      "K": [
+        [
+          0.9573167141401899,
+          0.042683285859810106
+        ],
+        [
+          0.85731671414019,
+          0.14268328585981008
+        ]
+      ],
+      "reset_error_per_bit": 0.09268328585981009,
+      "delta_joint_entropy": 0.2930923266566732,
+      "delta_memory_entropy": -0.38444478194764303,
+      "heat_to_memory": -1.2219501424205697,
+      "bath_entropy_change": 1.2219501424205697,
+      "work_on_device": 1.2219501424205697,
+      "sigma_joint_mean": 1.5150424690772428,
+      "sigma_memory_plus_bath_mean": 0.8375053604729266,
+      "mutual_information_lost": 0.6775371086043163,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.47865835707009496,
+          "sigma_joint": 0.04362099751423353
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.021341642929905053,
+          "sigma_joint": 0.1539478672315684
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.428658357070095,
+          "sigma_joint": 3.1539478672315684
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.07134164292990504,
+          "sigma_joint": 1.9471278891812789
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.47865835707009496,
+          "sigma": -0.5958834794289553
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.021341642929905053,
+          "sigma": -1.314580054331057
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.428658357070095,
+          "sigma": 2.4041165205710446
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.07134164292990504,
+          "sigma": 1.685419945668943
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 3,
+      "alpha": 1,
+      "q1": 0.04742587317756678,
+      "K": [
+        [
+          0.9525741268224333,
+          0.04742587317756678
+        ],
+        [
+          0.9525741268224333,
+          0.04742587317756678
+        ]
+      ],
+      "reset_error_per_bit": 0.04742587317756678,
+      "delta_joint_entropy": 0.1908649711064424,
+      "delta_memory_entropy": -0.5022822094535029,
+      "heat_to_memory": -1.3577223804672995,
+      "bath_entropy_change": 1.3577223804672995,
+      "work_on_device": 1.3577223804672995,
+      "sigma_joint_mean": 1.548587351573742,
+      "sigma_memory_plus_bath_mean": 0.8554401710137967,
+      "mutual_information_lost": 0.6931471805599453,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.4762870634112166,
+          "sigma_joint": 0.04858735157374196
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.02371293658878339,
+          "sigma_joint": 0.048587351573742055
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.4762870634112166,
+          "sigma_joint": 3.048587351573742
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.02371293658878339,
+          "sigma_joint": 3.048587351573742
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.4762870634112166,
+          "sigma": -0.6445598289862033
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.02371293658878339,
+          "sigma": -0.6445598289862033
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.4762870634112166,
+          "sigma": 2.3554401710137967
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.02371293658878339,
+          "sigma": 2.3554401710137967
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 5,
+      "alpha": 0.1,
+      "q1": 0.0066928509242848554,
+      "K": [
+        [
+          0.9993307149075715,
+          0.0006692850924284856
+        ],
+        [
+          0.09933071490757152,
+          0.9006692850924285
+        ]
+      ],
+      "reset_error_per_bit": 0.4506692850924285,
+      "delta_joint_entropy": 0.1645854885542063,
+      "delta_memory_entropy": -0.0048749657945244,
+      "heat_to_memory": -0.24665357453785758,
+      "bath_entropy_change": 0.24665357453785758,
+      "work_on_device": 0.24665357453785758,
+      "sigma_joint_mean": 0.4112390630920639,
+      "sigma_memory_plus_bath_mean": 0.24177860874333318,
+      "mutual_information_lost": 0.1694604543487307,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.49966535745378576,
+          "sigma_joint": 0.0006695091636798723
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.0003346425462142428,
+          "sigma_joint": 2.309300441483164
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.04966535745378576,
+          "sigma_joint": 7.309300441483163
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.45033464254621425,
+          "sigma_joint": 0.1046171419258586
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.49966535745378576,
+          "sigma": -0.0940925568160045
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.0003346425462142428,
+          "sigma": -4.896125679612065
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.04966535745378576,
+          "sigma": 4.905907443183995
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.45033464254621425,
+          "sigma": 0.10387432038793536
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 5,
+      "alpha": 0.5,
+      "q1": 0.0066928509242848554,
+      "K": [
+        [
+          0.9966535745378575,
+          0.0033464254621424277
+        ],
+        [
+          0.4966535745378576,
+          0.5033464254621425
+        ]
+      ],
+      "reset_error_per_bit": 0.2533464254621425,
+      "delta_joint_entropy": 0.357769884144015,
+      "delta_memory_entropy": -0.12716538649933118,
+      "heat_to_memory": -1.2332678726892876,
+      "bath_entropy_change": 1.2332678726892876,
+      "work_on_device": 1.2332678726892876,
+      "sigma_joint_mean": 1.5910377568333027,
+      "sigma_memory_plus_bath_mean": 1.1061024861899564,
+      "mutual_information_lost": 0.4849352706433462,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.49832678726892876,
+          "sigma_joint": 0.0033520372669847286
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.0016732127310712139,
+          "sigma_joint": 0.6998625290490637
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.2483267872689288,
+          "sigma_joint": 5.699862529049064
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.25167321273107124,
+          "sigma_joint": 0.6864766273276144
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.49832678726892876,
+          "sigma": -0.40099322350397626
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.0016732127310712139,
+          "sigma": -4.320149724310564
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.2483267872689288,
+          "sigma": 4.599006776496024
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.25167321273107124,
+          "sigma": 0.6798502756894361
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 5,
+      "alpha": 0.9,
+      "q1": 0.0066928509242848554,
+      "K": [
+        [
+          0.9939764341681436,
+          0.00602356583185637
+        ],
+        [
+          0.8939764341681437,
+          0.10602356583185635
+        ]
+      ],
+      "reset_error_per_bit": 0.05602356583185636,
+      "delta_joint_entropy": 0.18745916541880348,
+      "delta_memory_entropy": -0.47726413419193114,
+      "heat_to_memory": -2.219882170840718,
+      "bath_entropy_change": 2.219882170840718,
+      "work_on_device": 2.219882170840718,
+      "sigma_joint_mean": 2.4073413362595217,
+      "sigma_memory_plus_bath_mean": 1.742618036648787,
+      "mutual_information_lost": 0.6647232996107346,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.4969882170840718,
+          "sigma_joint": 0.006041780686942375
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.003011782915928185,
+          "sigma_joint": 0.11207586414694415
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.4469882170840718,
+          "sigma_joint": 5.112075864146944
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.053011782915928174,
+          "sigma_joint": 2.244093890410858
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.4969882170840718,
+          "sigma": -0.6354931036067752
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.003011782915928185,
+          "sigma": -2.8111643222197227
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.4469882170840718,
+          "sigma": 4.364506896393225
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.053011782915928174,
+          "sigma": 2.1888356777802773
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 5,
+      "alpha": 1,
+      "q1": 0.0066928509242848554,
+      "K": [
+        [
+          0.9933071490757152,
+          0.0066928509242848554
+        ],
+        [
+          0.9933071490757152,
+          0.0066928509242848554
+        ]
+      ],
+      "reset_error_per_bit": 0.0066928509242848554,
+      "delta_joint_entropy": 0.04017960311054236,
+      "delta_memory_entropy": -0.6529675774494029,
+      "heat_to_memory": -2.4665357453785757,
+      "bath_entropy_change": 2.4665357453785757,
+      "work_on_device": 2.4665357453785757,
+      "sigma_joint_mean": 2.5067153484891183,
+      "sigma_memory_plus_bath_mean": 1.8135681679291729,
+      "mutual_information_lost": 0.6931471805599453,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.4966535745378576,
+          "sigma_joint": 0.006715348489117967
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.0033464254621424277,
+          "sigma_joint": 0.006715348489118256
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.4966535745378576,
+          "sigma_joint": 5.006715348489118
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.0033464254621424277,
+          "sigma_joint": 5.006715348489118
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.4966535745378576,
+          "sigma": -0.6864318320708274
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.0033464254621424277,
+          "sigma": -0.6864318320708271
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.4966535745378576,
+          "sigma": 4.313568167929173
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.0033464254621424277,
+          "sigma": 4.313568167929173
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 8,
+      "alpha": 0.1,
+      "q1": 0.0003353501304664781,
+      "K": [
+        [
+          0.9999664649869534,
+          3.353501304664781e-05
+        ],
+        [
+          0.09996646498695336,
+          0.9000335350130466
+        ]
+      ],
+      "reset_error_per_bit": 0.4500335350130466,
+      "delta_joint_entropy": 0.1626941631061526,
+      "delta_memory_entropy": -0.005001639623869458,
+      "heat_to_memory": -0.39973171989562717,
+      "bath_entropy_change": 0.39973171989562717,
+      "work_on_device": 0.39973171989562717,
+      "sigma_joint_mean": 0.5624258830017798,
+      "sigma_memory_plus_bath_mean": 0.3947300802717577,
+      "mutual_information_lost": 0.16769580273002205,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.4999832324934767,
+          "sigma_joint": 3.3535575357618255e-05
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 1.6767506523323905e-05,
+          "sigma_joint": 2.302920499366941
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.04998323249347668,
+          "sigma_joint": 10.302920499366941
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.4500167675065233,
+          "sigma_joint": 0.10532325522639735
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.4999832324934767,
+          "sigma": -0.09524920519441721
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 1.6767506523323905e-05,
+          "sigma": -7.894714003816743
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.04998323249347668,
+          "sigma": 7.904750794805583
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.4500167675065233,
+          "sigma": 0.10528599618325665
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 8,
+      "alpha": 0.5,
+      "q1": 0.0003353501304664781,
+      "K": [
+        [
+          0.9998323249347667,
+          0.00016767506523323905
+        ],
+        [
+          0.49983232493476676,
+          0.5001676750652332
+        ]
+      ],
+      "reset_error_per_bit": 0.2501676750652332,
+      "delta_joint_entropy": 0.3473862327984706,
+      "delta_memory_entropy": -0.13062790101593846,
+      "heat_to_memory": -1.9986585994781345,
+      "bath_entropy_change": 1.9986585994781345,
+      "work_on_device": 1.9986585994781345,
+      "sigma_joint_mean": 2.346044832276605,
+      "sigma_memory_plus_bath_mean": 1.8680306984621962,
+      "mutual_information_lost": 0.47801413381440916,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.49991616246738335,
+          "sigma_joint": 0.0001676891242685644
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 8.383753261661953e-05,
+          "sigma_joint": 0.6934825869328414
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.24991616246738338,
+          "sigma_joint": 8.693482586932841
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.2500838375326166,
+          "sigma_joint": 0.692811886646766
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.49991616246738335,
+          "sigma": -0.40524151635974814
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 8.383753261661953e-05,
+          "sigma": -7.307523294882086
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.24991616246738338,
+          "sigma": 7.594758483640252
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.2500838375326166,
+          "sigma": 0.6924767051179141
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 8,
+      "alpha": 0.9,
+      "q1": 0.0003353501304664781,
+      "K": [
+        [
+          0.9996981848825801,
+          0.0003018151174198303
+        ],
+        [
+          0.8996981848825801,
+          0.10030181511741981
+        ]
+      ],
+      "reset_error_per_bit": 0.050301815117419824,
+      "delta_joint_entropy": 0.16424690725078028,
+      "delta_memory_entropy": -0.4937442180625609,
+      "heat_to_memory": -3.5975854790606414,
+      "bath_entropy_change": 3.5975854790606414,
+      "work_on_device": 3.5975854790606414,
+      "sigma_joint_mean": 3.7618323863114216,
+      "sigma_memory_plus_bath_mean": 3.1038412609980806,
+      "mutual_information_lost": 0.6579911253133411,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.49984909244129005,
+          "sigma_joint": 0.0003018606727689523
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.00015090755870991515,
+          "sigma_joint": 0.10569592203072276
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.44984909244129007,
+          "sigma_joint": 8.105695922030723
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.050150907558709906,
+          "sigma_joint": 2.2995714872944464
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.49984909244129005,
+          "sigma": -0.6415361355714194
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.00015090755870991515,
+          "sigma": -5.70343306386582
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.44984909244129007,
+          "sigma": 7.358463864428581
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.050150907558709906,
+          "sigma": 2.2965669361341803
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    },
+    {
+      "epsilon": 8,
+      "alpha": 1,
+      "q1": 0.0003353501304664781,
+      "K": [
+        [
+          0.9996646498695335,
+          0.0003353501304664781
+        ],
+        [
+          0.9996646498695335,
+          0.0003353501304664781
+        ]
+      ],
+      "reset_error_per_bit": 0.0003353501304664781,
+      "delta_joint_entropy": 0.0030182074166275052,
+      "delta_memory_entropy": -0.6901289731433177,
+      "heat_to_memory": -3.997317198956268,
+      "bath_entropy_change": 3.997317198956268,
+      "work_on_device": 3.997317198956268,
+      "sigma_joint_mean": 4.000335406372896,
+      "sigma_memory_plus_bath_mean": 3.3071882258129506,
+      "mutual_information_lost": 0.6931471805599452,
+      "record_reset_paths": [
+        {
+          "s": 0,
+          "y": 0,
+          "probability": 0.49983232493476676,
+          "sigma_joint": 0.0003354063728958843
+        },
+        {
+          "s": 0,
+          "y": 1,
+          "probability": 0.00016767506523323905,
+          "sigma_joint": 0.0003354063728959744
+        },
+        {
+          "s": 1,
+          "y": 0,
+          "probability": 0.49983232493476676,
+          "sigma_joint": 8.000335406372896
+        },
+        {
+          "s": 1,
+          "y": 1,
+          "probability": 0.00016767506523323905,
+          "sigma_joint": 8.000335406372896
+        }
+      ],
+      "independent_reset_paths": [
+        {
+          "x": 0,
+          "y": 0,
+          "probability": 0.49983232493476676,
+          "sigma": -0.6928117741870494
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "probability": 0.00016767506523323905,
+          "sigma": -0.6928117741870494
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "probability": 0.49983232493476676,
+          "sigma": 7.307188225812951
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "probability": 0.00016767506523323905,
+          "sigma": 7.307188225812951
+        }
+      ],
+      "causal_and_global_conditional_ensembles_equal": true
+    }
+  ],
+  "global_history_MAP": [
+    {
+      "n": 1,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "beta": 1,
+      "histories_enumerated": 8,
+      "winner_count": 1,
+      "winners": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "minimum_score": 0.39233614180683296,
+      "winner_source_entropy_uniform_tiebreak": 0.0
+    },
+    {
+      "n": 2,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "beta": 1,
+      "histories_enumerated": 64,
+      "winner_count": 1,
+      "winners": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "minimum_score": 1.784672283613666,
+      "winner_source_entropy_uniform_tiebreak": 0.0
+    },
+    {
+      "n": 4,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "beta": 1,
+      "histories_enumerated": 4096,
+      "winner_count": 1,
+      "winners": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "minimum_score": 4.569344567227332,
+      "winner_source_entropy_uniform_tiebreak": 0.0
+    },
+    {
+      "n": 6,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "beta": 1,
+      "histories_enumerated": 262144,
+      "winner_count": 1,
+      "winners": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "minimum_score": 7.354016850840997,
+      "winner_source_entropy_uniform_tiebreak": 0.0
+    },
+    {
+      "n": 4,
+      "epsilon": 5,
+      "alpha": 1,
+      "beta": 1,
+      "histories_enumerated": 4096,
+      "winner_count": 16,
+      "winners": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          0
+        ],
+        [
+          14,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          0
+        ]
+      ],
+      "minimum_score": 4.572038838436034,
+      "winner_source_entropy_uniform_tiebreak": 2.772588722239781
+    },
+    {
+      "n": 4,
+      "epsilon": 5,
+      "alpha": 0.9,
+      "beta": 0,
+      "histories_enumerated": 4096,
+      "winner_count": 16,
+      "winners": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          5,
+          5,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ],
+        [
+          7,
+          7,
+          0
+        ],
+        [
+          8,
+          8,
+          0
+        ],
+        [
+          9,
+          9,
+          0
+        ],
+        [
+          10,
+          10,
+          0
+        ],
+        [
+          11,
+          11,
+          0
+        ],
+        [
+          12,
+          12,
+          0
+        ],
+        [
+          13,
+          13,
+          0
+        ],
+        [
+          14,
+          14,
+          0
+        ],
+        [
+          15,
+          15,
+          0
+        ]
+      ],
+      "minimum_score": 5.569344567227332,
+      "winner_source_entropy_uniform_tiebreak": 2.772588722239781
+    }
+  ],
+  "uncopy_control": {
+    "n": 6,
+    "sources_checked": 64,
+    "heat": 0,
+    "work_ideal": 0,
+    "joint_entropy_change": 0,
+    "memory_final": "blank"
+  },
+  "causal_discrimination": "none for matched preparation and protocol"
+}
