@@ -1,0 +1,8430 @@
+{
+  "decision_id": "paper-c-five_agent_cascades_v1",
+  "passed": 41,
+  "total": 41,
+  "all_checks_pass": true,
+  "overall_pass": true,
+  "checks": {
+    "transport_inverse_all_environment_states": true,
+    "universal_first_record_requires_blank": true,
+    "reference_normalized": true,
+    "macrovolume_exact_counts": true,
+    "record_phase_commutes": true,
+    "reference_sample_constant_volume_factor": true,
+    "actions_commute_shared_targets": true,
+    "full_history_inverse_memory_cover": true,
+    "uncoupled_no_cross_agent_decision_change_mask0": true,
+    "uncoupled_no_cross_agent_decision_change_mask1": true,
+    "uncoupled_no_cross_agent_decision_change_mask2": true,
+    "uncoupled_no_cross_agent_decision_change_mask3": true,
+    "uncoupled_no_cross_agent_decision_change_mask4": true,
+    "uncoupled_no_cross_agent_decision_change_mask5": true,
+    "uncoupled_no_cross_agent_decision_change_mask6": true,
+    "uncoupled_no_cross_agent_decision_change_mask7": true,
+    "uncoupled_no_cross_agent_decision_change_mask8": true,
+    "uncoupled_no_cross_agent_decision_change_mask9": true,
+    "uncoupled_no_cross_agent_decision_change_mask10": true,
+    "uncoupled_no_cross_agent_decision_change_mask11": true,
+    "uncoupled_no_cross_agent_decision_change_mask12": true,
+    "uncoupled_no_cross_agent_decision_change_mask13": true,
+    "uncoupled_no_cross_agent_decision_change_mask14": true,
+    "uncoupled_no_cross_agent_decision_change_mask15": true,
+    "uncoupled_no_cross_agent_decision_change_mask16": true,
+    "uncoupled_no_cross_agent_decision_change_mask17": true,
+    "uncoupled_no_cross_agent_decision_change_mask18": true,
+    "uncoupled_no_cross_agent_decision_change_mask19": true,
+    "uncoupled_no_cross_agent_decision_change_mask20": true,
+    "uncoupled_no_cross_agent_decision_change_mask21": true,
+    "uncoupled_no_cross_agent_decision_change_mask22": true,
+    "uncoupled_no_cross_agent_decision_change_mask23": true,
+    "uncoupled_no_cross_agent_decision_change_mask24": true,
+    "uncoupled_no_cross_agent_decision_change_mask25": true,
+    "uncoupled_no_cross_agent_decision_change_mask26": true,
+    "uncoupled_no_cross_agent_decision_change_mask27": true,
+    "uncoupled_no_cross_agent_decision_change_mask28": true,
+    "uncoupled_no_cross_agent_decision_change_mask29": true,
+    "uncoupled_no_cross_agent_decision_change_mask30": true,
+    "uncoupled_no_cross_agent_decision_change_mask31": true,
+    "coupled_cross_agent_influence_exists": true
+  },
+  "network": {
+    "sensors": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "target_masks": [
+      28,
+      32,
+      192,
+      2,
+      33
+    ],
+    "goal_bits": 21,
+    "rounds": 3,
+    "event_structure": "root -> prep conflicts -> parallel records -> parallel actions -> transport; repeat three rounds; require previous transport for next record; preserve full prep provenance",
+    "serialization_quotient": "record and action phase permutations identified, active count k gives (k!)^6 serializations per physical history",
+    "projection": "reversible register evaluation on event configurations",
+    "actuality": "all argmins plus lexicographic prep tie rule, illustrative",
+    "physical_registers": "8 environment +5 memory +5 initial plan bits +8 preserved initial-sample reference bits; phase label supplied",
+    "reference": "uniform environment, independent biased plans, blank memory constrained by readiness; reference sample initialized equal to x0 in both controls",
+    "macrovolume_reference_factor": 256,
+    "macrovolume_convention": "reported V is raw physical macrovolume divided by constant256 of unobserved sample reference; entropy differences unchanged"
+  },
+  "cases": [
+    {
+      "mask": 0,
+      "participants": [],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": []
+    },
+    {
+      "mask": 0,
+      "participants": [],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": []
+    },
+    {
+      "mask": 1,
+      "participants": [
+        0
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 3,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 4,
+        "plans": 0,
+        "environment_trace": [
+          4,
+          48,
+          216,
+          9
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          1,
+          1,
+          1
+        ],
+        "macrovolumes": [
+          8,
+          28,
+          70,
+          28
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          3.332204510175204,
+          4.248495242049359,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 4,
+          "plans": 0,
+          "environment_trace": [
+            4,
+            48,
+            216,
+            9
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            28,
+            70,
+            28
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            3.332204510175204,
+            4.248495242049359,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 64,
+          "plans": 0,
+          "environment_trace": [
+            64,
+            56,
+            200,
+            41
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 128,
+          "plans": 0,
+          "environment_trace": [
+            128,
+            185,
+            115,
+            95
+          ],
+          "records": [
+            0,
+            1,
+            0
+          ],
+          "decisions": [
+            1,
+            0,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            28
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.6666666666666665
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 1,
+      "participants": [
+        0
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          184,
+          201,
+          43
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          1,
+          1,
+          1
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            184,
+            201,
+            43
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 2,
+      "participants": [
+        1
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 2,
+      "participants": [
+        1
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 3,
+      "participants": [
+        0,
+        1
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 2,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 4,
+        "plans": 0,
+        "environment_trace": [
+          4,
+          48,
+          216,
+          9
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          1,
+          1,
+          1
+        ],
+        "macrovolumes": [
+          8,
+          28,
+          70,
+          28
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          3.332204510175204,
+          4.248495242049359,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 4,
+          "plans": 0,
+          "environment_trace": [
+            4,
+            48,
+            216,
+            9
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            28,
+            70,
+            28
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            3.332204510175204,
+            4.248495242049359,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 64,
+          "plans": 0,
+          "environment_trace": [
+            64,
+            56,
+            200,
+            41
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 3,
+      "participants": [
+        0,
+        1
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          184,
+          201,
+          43
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          1,
+          1,
+          1
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            184,
+            201,
+            43
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 4,
+      "participants": [
+        2
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          129,
+          130,
+          132
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            129,
+            130,
+            132
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 4,
+      "participants": [
+        2
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          129,
+          130,
+          132
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            129,
+            130,
+            132
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 5,
+      "participants": [
+        0,
+        2
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          57,
+          243,
+          223
+        ],
+        "records": [
+          0,
+          1,
+          0
+        ],
+        "decisions": [
+          5,
+          4,
+          5
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          28,
+          8
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          3.332204510175204,
+          2.0794415416798357
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            57,
+            243,
+            223
+          ],
+          "records": [
+            0,
+            1,
+            0
+          ],
+          "decisions": [
+            5,
+            4,
+            5
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            28,
+            8
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            3.332204510175204,
+            2.0794415416798357
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 5,
+      "participants": [
+        0,
+        2
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          57,
+          75,
+          174
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          5,
+          5,
+          5
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            57,
+            75,
+            174
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            5,
+            5,
+            5
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 6,
+      "participants": [
+        1,
+        2
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 128,
+        "plans": 0,
+        "environment_trace": [
+          128,
+          128,
+          128,
+          128
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          2.0794415416798357,
+          2.0794415416798357,
+          2.0794415416798357
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 128,
+          "plans": 0,
+          "environment_trace": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            2.0794415416798357,
+            2.0794415416798357,
+            2.0794415416798357
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 6,
+      "participants": [
+        1,
+        2
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          129,
+          130,
+          132
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            129,
+            130,
+            132
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 7,
+      "participants": [
+        0,
+        1,
+        2
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 8.082200095406575,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 2,
+        "environment_trace": [
+          0,
+          121,
+          51,
+          94
+        ],
+        "records": [
+          0,
+          1,
+          2
+        ],
+        "decisions": [
+          7,
+          6,
+          5
+        ],
+        "macrovolumes": [
+          1,
+          56,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.02535169073515,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 2,
+          "environment_trace": [
+            0,
+            121,
+            51,
+            94
+          ],
+          "records": [
+            0,
+            1,
+            2
+          ],
+          "decisions": [
+            7,
+            6,
+            5
+          ],
+          "macrovolumes": [
+            1,
+            56,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.02535169073515,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        }
+      ]
+    },
+    {
+      "mask": 7,
+      "participants": [
+        0,
+        1,
+        2
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          57,
+          75,
+          174
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          5,
+          5,
+          5
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            57,
+            75,
+            174
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            5,
+            5,
+            5
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 8,
+      "participants": [
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 8,
+      "participants": [
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 9,
+      "participants": [
+        0,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 64,
+        "plans": 0,
+        "environment_trace": [
+          64,
+          56,
+          204,
+          161
+        ],
+        "records": [
+          0,
+          8,
+          0
+        ],
+        "decisions": [
+          1,
+          9,
+          1
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 64,
+          "plans": 0,
+          "environment_trace": [
+            64,
+            56,
+            204,
+            161
+          ],
+          "records": [
+            0,
+            8,
+            0
+          ],
+          "decisions": [
+            1,
+            9,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 9,
+      "participants": [
+        0,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          184,
+          201,
+          43
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          1,
+          1,
+          1
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            184,
+            201,
+            43
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 10,
+      "participants": [
+        1,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 10,
+      "participants": [
+        1,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          0,
+          0,
+          0
+        ],
+        "macrovolumes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "entropy_trace": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            0,
+            0,
+            0
+          ],
+          "macrovolumes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "entropy_trace": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 11,
+      "participants": [
+        0,
+        1,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 64,
+        "plans": 0,
+        "environment_trace": [
+          64,
+          56,
+          204,
+          161
+        ],
+        "records": [
+          0,
+          8,
+          0
+        ],
+        "decisions": [
+          1,
+          9,
+          1
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 64,
+          "plans": 0,
+          "environment_trace": [
+            64,
+            56,
+            204,
+            161
+          ],
+          "records": [
+            0,
+            8,
+            0
+          ],
+          "decisions": [
+            1,
+            9,
+            1
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 11,
+      "participants": [
+        0,
+        1,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          184,
+          201,
+          43
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          1,
+          1,
+          1
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            184,
+            201,
+            43
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            1,
+            1,
+            1
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 12,
+      "participants": [
+        2,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          129,
+          130,
+          132
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            129,
+            130,
+            132
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 12,
+      "participants": [
+        2,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          129,
+          130,
+          132
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            129,
+            130,
+            132
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            4.0,
+            6.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 13,
+      "participants": [
+        0,
+        2,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 2,
+        "plans": 0,
+        "environment_trace": [
+          2,
+          61,
+          255,
+          71
+        ],
+        "records": [
+          0,
+          13,
+          0
+        ],
+        "decisions": [
+          5,
+          8,
+          5
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          1,
+          70
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          0.0,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 2,
+          "plans": 0,
+          "environment_trace": [
+            2,
+            61,
+            255,
+            71
+          ],
+          "records": [
+            0,
+            13,
+            0
+          ],
+          "decisions": [
+            5,
+            8,
+            5
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            1,
+            70
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            0.0,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 13,
+      "participants": [
+        0,
+        2,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          57,
+          75,
+          174
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          5,
+          5,
+          5
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            57,
+            75,
+            174
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            5,
+            5,
+            5
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 14,
+      "participants": [
+        1,
+        2,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 0.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 128,
+        "plans": 0,
+        "environment_trace": [
+          128,
+          128,
+          128,
+          128
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          2.0794415416798357,
+          2.0794415416798357,
+          2.0794415416798357
+        ],
+        "low_initial": true,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 128,
+          "plans": 0,
+          "environment_trace": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            2.0794415416798357,
+            2.0794415416798357,
+            2.0794415416798357
+          ],
+          "low_initial": true,
+          "late_growth": false,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 14,
+      "participants": [
+        1,
+        2,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          129,
+          130,
+          132
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          4,
+          4,
+          4
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            129,
+            130,
+            132
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            4,
+            4,
+            4
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            4.0,
+            6.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 15,
+      "participants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 2,
+        "plans": 0,
+        "environment_trace": [
+          2,
+          125,
+          63,
+          198
+        ],
+        "records": [
+          2,
+          15,
+          0
+        ],
+        "decisions": [
+          7,
+          10,
+          5
+        ],
+        "macrovolumes": [
+          8,
+          28,
+          28,
+          70
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          3.332204510175204,
+          3.332204510175204,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 2,
+          "plans": 0,
+          "environment_trace": [
+            2,
+            125,
+            63,
+            198
+          ],
+          "records": [
+            2,
+            15,
+            0
+          ],
+          "decisions": [
+            7,
+            10,
+            5
+          ],
+          "macrovolumes": [
+            8,
+            28,
+            28,
+            70
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            3.332204510175204,
+            3.332204510175204,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 15,
+      "participants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          57,
+          75,
+          174
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          5,
+          5,
+          5
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            57,
+            75,
+            174
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            5,
+            5,
+            5
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 16,
+      "participants": [
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          199,
+          77
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          16,
+          16,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            199,
+            77
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            16,
+            16,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 16,
+      "participants": [
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          199,
+          77
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          16,
+          16,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            199,
+            77
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            16,
+            16,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 17,
+      "participants": [
+        0,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 2,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 4,
+        "plans": 0,
+        "environment_trace": [
+          4,
+          114,
+          92,
+          194
+        ],
+        "records": [
+          0,
+          16,
+          0
+        ],
+        "decisions": [
+          17,
+          1,
+          17
+        ],
+        "macrovolumes": [
+          8,
+          70,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.248495242049359,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 4,
+          "plans": 0,
+          "environment_trace": [
+            4,
+            114,
+            92,
+            194
+          ],
+          "records": [
+            0,
+            16,
+            0
+          ],
+          "decisions": [
+            17,
+            1,
+            17
+          ],
+          "macrovolumes": [
+            8,
+            70,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.248495242049359,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 8,
+          "plans": 0,
+          "environment_trace": [
+            8,
+            234,
+            46,
+            39
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            17,
+            17,
+            17
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            3.0,
+            6.5
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.5,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.5,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 17,
+      "participants": [
+        0,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          250,
+          14,
+          103
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          17,
+          17,
+          17
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            250,
+            14,
+            103
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            17,
+            17,
+            17
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 18,
+      "participants": [
+        1,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          135,
+          205
+        ],
+        "records": [
+          0,
+          2,
+          0
+        ],
+        "decisions": [
+          16,
+          18,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            135,
+            205
+          ],
+          "records": [
+            0,
+            2,
+            0
+          ],
+          "decisions": [
+            16,
+            18,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 18,
+      "participants": [
+        1,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          199,
+          77
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          16,
+          16,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            199,
+            77
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            16,
+            16,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 19,
+      "participants": [
+        0,
+        1,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 8,
+        "plans": 0,
+        "environment_trace": [
+          8,
+          234,
+          110,
+          167
+        ],
+        "records": [
+          0,
+          2,
+          0
+        ],
+        "decisions": [
+          17,
+          19,
+          17
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 8,
+          "plans": 0,
+          "environment_trace": [
+            8,
+            234,
+            110,
+            167
+          ],
+          "records": [
+            0,
+            2,
+            0
+          ],
+          "decisions": [
+            17,
+            19,
+            17
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            3.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 19,
+      "participants": [
+        0,
+        1,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          250,
+          14,
+          103
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          17,
+          17,
+          17
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            250,
+            14,
+            103
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            17,
+            17,
+            17
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 20,
+      "participants": [
+        2,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 2,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 1,
+        "plans": 0,
+        "environment_trace": [
+          1,
+          193,
+          64,
+          67
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          8,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          2.0794415416798357,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 1,
+          "plans": 0,
+          "environment_trace": [
+            1,
+            193,
+            64,
+            67
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            8,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            2.0794415416798357,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 2,
+          "plans": 0,
+          "environment_trace": [
+            2,
+            198,
+            78,
+            222
+          ],
+          "records": [
+            0,
+            4,
+            0
+          ],
+          "decisions": [
+            20,
+            16,
+            20
+          ],
+          "macrovolumes": [
+            8,
+            70,
+            70,
+            28
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.248495242049359,
+            4.248495242049359,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.5,
+            3.5
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.5,
+            4.5,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 20,
+      "participants": [
+        2,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          195,
+          68,
+          203
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          28,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          3.332204510175204,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            195,
+            68,
+            203
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            28,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            3.332204510175204,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 21,
+      "participants": [
+        0,
+        2,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 4,
+        "plans": 0,
+        "environment_trace": [
+          4,
+          114,
+          92,
+          67
+        ],
+        "records": [
+          4,
+          20,
+          0
+        ],
+        "decisions": [
+          17,
+          1,
+          21
+        ],
+        "macrovolumes": [
+          8,
+          70,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.248495242049359,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 4,
+          "plans": 0,
+          "environment_trace": [
+            4,
+            114,
+            92,
+            67
+          ],
+          "records": [
+            4,
+            20,
+            0
+          ],
+          "decisions": [
+            17,
+            1,
+            21
+          ],
+          "macrovolumes": [
+            8,
+            70,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.248495242049359,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            3.0,
+            7.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 21,
+      "participants": [
+        0,
+        2,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          123,
+          141,
+          224
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          21,
+          21,
+          21
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            123,
+            141,
+            224
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            21,
+            21,
+            21
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 22,
+      "participants": [
+        1,
+        2,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 1,
+        "plans": 0,
+        "environment_trace": [
+          1,
+          193,
+          64,
+          67
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          8,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          2.0794415416798357,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 1,
+          "plans": 0,
+          "environment_trace": [
+            1,
+            193,
+            64,
+            67
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            8,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            2.0794415416798357,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 22,
+      "participants": [
+        1,
+        2,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          195,
+          68,
+          203
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          28,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          3.332204510175204,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            195,
+            68,
+            203
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            28,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            3.332204510175204,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 23,
+      "participants": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 9.082200095406575,
+      "winner_count": 2,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 4,
+        "plans": 2,
+        "environment_trace": [
+          4,
+          50,
+          220,
+          66
+        ],
+        "records": [
+          4,
+          22,
+          2
+        ],
+        "decisions": [
+          19,
+          1,
+          21
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          56,
+          28
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          4.02535169073515,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 4,
+          "plans": 2,
+          "environment_trace": [
+            4,
+            50,
+            220,
+            66
+          ],
+          "records": [
+            4,
+            22,
+            2
+          ],
+          "decisions": [
+            19,
+            1,
+            21
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            28
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 8,
+          "plans": 4,
+          "environment_trace": [
+            8,
+            234,
+            110,
+            38
+          ],
+          "records": [
+            0,
+            2,
+            4
+          ],
+          "decisions": [
+            17,
+            19,
+            21
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            3.0,
+            5.5
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.5,
+            5.0
+          ],
+          "mean_changed_other_decisions": 2.5,
+          "max_changed_other_decisions": 3
+        }
+      ]
+    },
+    {
+      "mask": 23,
+      "participants": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          123,
+          141,
+          224
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          21,
+          21,
+          21
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            123,
+            141,
+            224
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            21,
+            21,
+            21
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 24,
+      "participants": [
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          199,
+          77
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          16,
+          16,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            199,
+            77
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            16,
+            16,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            6.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 24,
+      "participants": [
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          199,
+          77
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          16,
+          16,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            199,
+            77
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            16,
+            16,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 25,
+      "participants": [
+        0,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 2,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 2,
+        "plans": 0,
+        "environment_trace": [
+          2,
+          255,
+          123,
+          12
+        ],
+        "records": [
+          0,
+          25,
+          0
+        ],
+        "decisions": [
+          17,
+          8,
+          17
+        ],
+        "macrovolumes": [
+          8,
+          1,
+          28,
+          28
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          0.0,
+          3.332204510175204,
+          3.332204510175204
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 2,
+          "plans": 0,
+          "environment_trace": [
+            2,
+            255,
+            123,
+            12
+          ],
+          "records": [
+            0,
+            25,
+            0
+          ],
+          "decisions": [
+            17,
+            8,
+            17
+          ],
+          "macrovolumes": [
+            8,
+            1,
+            28,
+            28
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            0.0,
+            3.332204510175204,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 16,
+          "plans": 0,
+          "environment_trace": [
+            16,
+            152,
+            206,
+            230
+          ],
+          "records": [
+            16,
+            8,
+            0
+          ],
+          "decisions": [
+            1,
+            25,
+            17
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.5,
+            5.0
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.5,
+            4.0,
+            2.5
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.5,
+            5.5,
+            5.5
+          ],
+          "mean_changed_other_decisions": 1.5,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 25,
+      "participants": [
+        0,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          250,
+          14,
+          103
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          17,
+          17,
+          17
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            250,
+            14,
+            103
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            17,
+            17,
+            17
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 26,
+      "participants": [
+        1,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          135,
+          205
+        ],
+        "records": [
+          0,
+          2,
+          0
+        ],
+        "decisions": [
+          16,
+          18,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            135,
+            205
+          ],
+          "records": [
+            0,
+            2,
+            0
+          ],
+          "decisions": [
+            16,
+            18,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            7.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 26,
+      "participants": [
+        1,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          66,
+          199,
+          77
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          16,
+          16,
+          16
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          70
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.248495242049359
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            66,
+            199,
+            77
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            16,
+            16,
+            16
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            70
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 27,
+      "participants": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 8.082200095406575,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 1,
+        "environment_trace": [
+          0,
+          66,
+          135,
+          117
+        ],
+        "records": [
+          0,
+          2,
+          1
+        ],
+        "decisions": [
+          16,
+          18,
+          17
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 1,
+          "environment_trace": [
+            0,
+            66,
+            135,
+            117
+          ],
+          "records": [
+            0,
+            2,
+            1
+          ],
+          "decisions": [
+            16,
+            18,
+            17
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 4.0,
+          "max_changed_other_decisions": 4
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 3.0,
+          "max_changed_other_decisions": 3
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 27,
+      "participants": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          250,
+          14,
+          103
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          17,
+          17,
+          17
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            250,
+            14,
+            103
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            17,
+            17,
+            17
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 28,
+      "participants": [
+        2,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 1,
+        "plans": 0,
+        "environment_trace": [
+          1,
+          193,
+          64,
+          67
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          8,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          2.0794415416798357,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 1,
+          "plans": 0,
+          "environment_trace": [
+            1,
+            193,
+            64,
+            67
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            8,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            2.0794415416798357,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        }
+      ]
+    },
+    {
+      "mask": 28,
+      "participants": [
+        2,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          195,
+          68,
+          203
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          28,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          3.332204510175204,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            195,
+            68,
+            203
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            28,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            3.332204510175204,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 29,
+      "participants": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 8.983587806738466,
+      "winner_count": 2,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 12,
+        "plans": 0,
+        "environment_trace": [
+          12,
+          103,
+          137,
+          104
+        ],
+        "records": [
+          12,
+          9,
+          0
+        ],
+        "decisions": [
+          25,
+          28,
+          21
+        ],
+        "macrovolumes": [
+          28,
+          56,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          3.332204510175204,
+          4.02535169073515,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 12,
+          "plans": 0,
+          "environment_trace": [
+            12,
+            103,
+            137,
+            104
+          ],
+          "records": [
+            12,
+            9,
+            0
+          ],
+          "decisions": [
+            25,
+            28,
+            21
+          ],
+          "macrovolumes": [
+            28,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 72,
+          "plans": 0,
+          "environment_trace": [
+            72,
+            238,
+            166,
+            183
+          ],
+          "records": [
+            8,
+            4,
+            0
+          ],
+          "decisions": [
+            29,
+            17,
+            21
+          ],
+          "macrovolumes": [
+            28,
+            28,
+            70,
+            28
+          ],
+          "entropy_trace": [
+            3.332204510175204,
+            3.332204510175204,
+            4.248495242049359,
+            3.332204510175204
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            6.0
+          ],
+          "mean_changed_other_decisions": 4.0,
+          "max_changed_other_decisions": 4
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.5,
+            3.5
+          ],
+          "mean_changed_other_decisions": 3.5,
+          "max_changed_other_decisions": 4
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            2.5
+          ],
+          "mean_changed_other_decisions": 4.0,
+          "max_changed_other_decisions": 4
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            3.0,
+            5.5,
+            5.0
+          ],
+          "mean_changed_other_decisions": 3.5,
+          "max_changed_other_decisions": 4
+        }
+      ]
+    },
+    {
+      "mask": 29,
+      "participants": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          123,
+          141,
+          224
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          21,
+          21,
+          21
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            123,
+            141,
+            224
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            21,
+            21,
+            21
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 30,
+      "participants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 7.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 1,
+        "plans": 0,
+        "environment_trace": [
+          1,
+          193,
+          64,
+          67
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          8,
+          56,
+          8,
+          56
+        ],
+        "entropy_trace": [
+          2.0794415416798357,
+          4.02535169073515,
+          2.0794415416798357,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 1,
+          "plans": 0,
+          "environment_trace": [
+            1,
+            193,
+            64,
+            67
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            8,
+            56,
+            8,
+            56
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.02535169073515,
+            2.0794415416798357,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            2.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 1.0,
+          "max_changed_other_decisions": 1
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 30,
+      "participants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          195,
+          68,
+          203
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          20,
+          20,
+          20
+        ],
+        "macrovolumes": [
+          1,
+          70,
+          28,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          4.248495242049359,
+          3.332204510175204,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            195,
+            68,
+            203
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            20,
+            20,
+            20
+          ],
+          "macrovolumes": [
+            1,
+            70,
+            28,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            4.248495242049359,
+            3.332204510175204,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 31,
+      "participants": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "full",
+      "min_J": 8.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 72,
+        "plans": 0,
+        "environment_trace": [
+          72,
+          238,
+          230,
+          55
+        ],
+        "records": [
+          8,
+          6,
+          0
+        ],
+        "decisions": [
+          29,
+          19,
+          21
+        ],
+        "macrovolumes": [
+          28,
+          28,
+          56,
+          56
+        ],
+        "entropy_trace": [
+          3.332204510175204,
+          3.332204510175204,
+          4.02535169073515,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 72,
+          "plans": 0,
+          "environment_trace": [
+            72,
+            238,
+            230,
+            55
+          ],
+          "records": [
+            8,
+            6,
+            0
+          ],
+          "decisions": [
+            29,
+            19,
+            21
+          ],
+          "macrovolumes": [
+            28,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            3.332204510175204,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 5.0,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 4.0,
+          "max_changed_other_decisions": 4
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            5.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 5.0,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            3.0,
+            5.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 5.0,
+          "max_changed_other_decisions": 5
+        }
+      ]
+    },
+    {
+      "mask": 31,
+      "participants": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coupled": false,
+      "variant": "full",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          123,
+          141,
+          224
+        ],
+        "records": [
+          0,
+          0,
+          0
+        ],
+        "decisions": [
+          21,
+          21,
+          21
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            123,
+            141,
+            224
+          ],
+          "records": [
+            0,
+            0,
+            0
+          ],
+          "decisions": [
+            21,
+            21,
+            21
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        }
+      ]
+    },
+    {
+      "mask": 31,
+      "participants": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "no_A",
+      "min_J": 6.983587806738466,
+      "winner_count": 1,
+      "low_fraction": 1.0,
+      "growth_fraction": 1.0,
+      "all_goals_satisfied": false,
+      "H_star_lexicographic": {
+        "x0": 0,
+        "plans": 0,
+        "environment_trace": [
+          0,
+          123,
+          51,
+          25
+        ],
+        "records": [
+          0,
+          27,
+          8
+        ],
+        "decisions": [
+          21,
+          14,
+          29
+        ],
+        "macrovolumes": [
+          1,
+          28,
+          70,
+          56
+        ],
+        "entropy_trace": [
+          0.0,
+          3.332204510175204,
+          4.248495242049359,
+          4.02535169073515
+        ],
+        "low_initial": true,
+        "late_growth": true,
+        "goal_errors": 1
+      },
+      "winners": [
+        {
+          "x0": 0,
+          "plans": 0,
+          "environment_trace": [
+            0,
+            123,
+            51,
+            25
+          ],
+          "records": [
+            0,
+            27,
+            8
+          ],
+          "decisions": [
+            21,
+            14,
+            29
+          ],
+          "macrovolumes": [
+            1,
+            28,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            0.0,
+            3.332204510175204,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 1
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            5.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 5.0,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.0,
+            4.0
+          ],
+          "mean_changed_other_decisions": 5.0,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            6.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 4.0,
+          "max_changed_other_decisions": 4
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            3.0,
+            5.0
+          ],
+          "mean_changed_other_decisions": 2.0,
+          "max_changed_other_decisions": 2
+        }
+      ]
+    },
+    {
+      "mask": 31,
+      "participants": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coupled": true,
+      "variant": "no_B",
+      "min_J": 6.983587806738466,
+      "winner_count": 8,
+      "low_fraction": 0.375,
+      "growth_fraction": 0.5,
+      "all_goals_satisfied": true,
+      "H_star_lexicographic": {
+        "x0": 26,
+        "plans": 0,
+        "environment_trace": [
+          26,
+          73,
+          83,
+          221
+        ],
+        "records": [
+          26,
+          19,
+          0
+        ],
+        "decisions": [
+          15,
+          6,
+          21
+        ],
+        "macrovolumes": [
+          56,
+          56,
+          70,
+          28
+        ],
+        "entropy_trace": [
+          4.02535169073515,
+          4.02535169073515,
+          4.248495242049359,
+          3.332204510175204
+        ],
+        "low_initial": false,
+        "late_growth": false,
+        "goal_errors": 0
+      },
+      "winners": [
+        {
+          "x0": 26,
+          "plans": 0,
+          "environment_trace": [
+            26,
+            73,
+            83,
+            221
+          ],
+          "records": [
+            26,
+            19,
+            0
+          ],
+          "decisions": [
+            15,
+            6,
+            21
+          ],
+          "macrovolumes": [
+            56,
+            56,
+            70,
+            28
+          ],
+          "entropy_trace": [
+            4.02535169073515,
+            4.02535169073515,
+            4.248495242049359,
+            3.332204510175204
+          ],
+          "low_initial": false,
+          "late_growth": false,
+          "goal_errors": 0
+        },
+        {
+          "x0": 58,
+          "plans": 0,
+          "environment_trace": [
+            58,
+            9,
+            211,
+            220
+          ],
+          "records": [
+            26,
+            19,
+            0
+          ],
+          "decisions": [
+            15,
+            6,
+            21
+          ],
+          "macrovolumes": [
+            70,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            4.248495242049359,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": false,
+          "late_growth": false,
+          "goal_errors": 0
+        },
+        {
+          "x0": 72,
+          "plans": 0,
+          "environment_trace": [
+            72,
+            238,
+            230,
+            55
+          ],
+          "records": [
+            8,
+            6,
+            0
+          ],
+          "decisions": [
+            29,
+            19,
+            21
+          ],
+          "macrovolumes": [
+            28,
+            28,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            3.332204510175204,
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 104,
+          "plans": 0,
+          "environment_trace": [
+            104,
+            174,
+            102,
+            54
+          ],
+          "records": [
+            8,
+            6,
+            0
+          ],
+          "decisions": [
+            29,
+            19,
+            21
+          ],
+          "macrovolumes": [
+            56,
+            56,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            4.02535169073515,
+            4.02535169073515,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": false,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 197,
+          "plans": 0,
+          "environment_trace": [
+            197,
+            73,
+            108,
+            35
+          ],
+          "records": [
+            5,
+            12,
+            0
+          ],
+          "decisions": [
+            16,
+            25,
+            21
+          ],
+          "macrovolumes": [
+            70,
+            56,
+            70,
+            56
+          ],
+          "entropy_trace": [
+            4.248495242049359,
+            4.02535169073515,
+            4.248495242049359,
+            4.02535169073515
+          ],
+          "low_initial": false,
+          "late_growth": false,
+          "goal_errors": 0
+        },
+        {
+          "x0": 215,
+          "plans": 0,
+          "environment_trace": [
+            215,
+            110,
+            217,
+            200
+          ],
+          "records": [
+            23,
+            25,
+            0
+          ],
+          "decisions": [
+            2,
+            12,
+            21
+          ],
+          "macrovolumes": [
+            28,
+            56,
+            56,
+            56
+          ],
+          "entropy_trace": [
+            3.332204510175204,
+            4.02535169073515,
+            4.02535169073515,
+            4.02535169073515
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        },
+        {
+          "x0": 229,
+          "plans": 0,
+          "environment_trace": [
+            229,
+            9,
+            236,
+            34
+          ],
+          "records": [
+            5,
+            12,
+            0
+          ],
+          "decisions": [
+            16,
+            25,
+            21
+          ],
+          "macrovolumes": [
+            56,
+            28,
+            56,
+            28
+          ],
+          "entropy_trace": [
+            4.02535169073515,
+            3.332204510175204,
+            4.02535169073515,
+            3.332204510175204
+          ],
+          "low_initial": false,
+          "late_growth": false,
+          "goal_errors": 0
+        },
+        {
+          "x0": 247,
+          "plans": 0,
+          "environment_trace": [
+            247,
+            46,
+            89,
+            201
+          ],
+          "records": [
+            23,
+            25,
+            0
+          ],
+          "decisions": [
+            2,
+            12,
+            21
+          ],
+          "macrovolumes": [
+            8,
+            70,
+            70,
+            70
+          ],
+          "entropy_trace": [
+            2.0794415416798357,
+            4.248495242049359,
+            4.248495242049359,
+            4.248495242049359
+          ],
+          "low_initial": true,
+          "late_growth": true,
+          "goal_errors": 0
+        }
+      ],
+      "counterfactual_effects": [
+        {
+          "agent": 0,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            4.0,
+            4.5,
+            4.25
+          ],
+          "mean_changed_other_decisions": 5.0,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 1,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "mean_changed_other_decisions": 0.0,
+          "max_changed_other_decisions": 0
+        },
+        {
+          "agent": 2,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.0,
+            4.5,
+            4.25
+          ],
+          "mean_changed_other_decisions": 4.5,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 3,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            1.5,
+            3.75,
+            3.0
+          ],
+          "mean_changed_other_decisions": 3.25,
+          "max_changed_other_decisions": 5
+        },
+        {
+          "agent": 4,
+          "mean_environment_hamming_by_cut": [
+            0.0,
+            2.5,
+            3.75,
+            4.0
+          ],
+          "mean_changed_other_decisions": 3.75,
+          "max_changed_other_decisions": 6
+        }
+      ]
+    }
+  ],
+  "all_five_full_summary": {
+    "mask": 31,
+    "participants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "coupled": true,
+    "variant": "full",
+    "min_J": 8.983587806738466,
+    "winner_count": 1,
+    "low_fraction": 1.0,
+    "growth_fraction": 1.0,
+    "all_goals_satisfied": true,
+    "H_star_lexicographic": {
+      "x0": 72,
+      "plans": 0,
+      "environment_trace": [
+        72,
+        238,
+        230,
+        55
+      ],
+      "records": [
+        8,
+        6,
+        0
+      ],
+      "decisions": [
+        29,
+        19,
+        21
+      ],
+      "macrovolumes": [
+        28,
+        28,
+        56,
+        56
+      ],
+      "entropy_trace": [
+        3.332204510175204,
+        3.332204510175204,
+        4.02535169073515,
+        4.02535169073515
+      ],
+      "low_initial": true,
+      "late_growth": true,
+      "goal_errors": 0
+    },
+    "counterfactual_effects": [
+      {
+        "agent": 0,
+        "mean_environment_hamming_by_cut": [
+          0.0,
+          4.0,
+          4.0,
+          5.0
+        ],
+        "mean_changed_other_decisions": 5.0,
+        "max_changed_other_decisions": 5
+      },
+      {
+        "agent": 1,
+        "mean_environment_hamming_by_cut": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "mean_changed_other_decisions": 0.0,
+        "max_changed_other_decisions": 0
+      },
+      {
+        "agent": 2,
+        "mean_environment_hamming_by_cut": [
+          0.0,
+          2.0,
+          5.0,
+          5.0
+        ],
+        "mean_changed_other_decisions": 4.0,
+        "max_changed_other_decisions": 4
+      },
+      {
+        "agent": 3,
+        "mean_environment_hamming_by_cut": [
+          0.0,
+          2.0,
+          5.0,
+          3.0
+        ],
+        "mean_changed_other_decisions": 5.0,
+        "max_changed_other_decisions": 5
+      },
+      {
+        "agent": 4,
+        "mean_environment_hamming_by_cut": [
+          0.0,
+          3.0,
+          5.0,
+          5.0
+        ],
+        "mean_changed_other_decisions": 5.0,
+        "max_changed_other_decisions": 5
+      }
+    ]
+  },
+  "limits": [
+    "finite sensitivity not asymptotic chaos or Lyapunov exponent",
+    "no autonomous clock or Hamiltonian derivation",
+    "source/goal/network and partition frozen but illustrative",
+    "no interaction between alternative realized universes"
+  ]
+}

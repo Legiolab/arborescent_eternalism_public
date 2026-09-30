@@ -28,3 +28,6 @@ python proofs/paper-c-modal-rarity/computational/delayed_agentive_selection_v1_6
 Each existing gate writes its own `results.json`; the delayed-agency script prints deterministic checks. The code uses only the Python standard library.
 
 The V6.72 output reports eleven executed checks and three separate design declarations. The declarations record how the model was constructed; they are not counted as tests.
+
+
+The integrated models are preparation_volume_v1, record_selection_exception_bridge_v1, five_agent_cascades_v1 and cascade_entropy_before_selection_v1. See [the derivations](../integrated_mechanism_results.md). The runner executes 17 scripts, including the conserved-source shell control.

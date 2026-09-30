@@ -1,0 +1,549 @@
+{
+  "decision_id": "paper-c-record_selection_exception_bridge_v1",
+  "checks": {
+    "full_circuit_inverse_n1": true,
+    "universal_fidelity_forces_blank_n1": true,
+    "closed_cycle_recovers_all_resources_n1": true,
+    "full_circuit_inverse_n2": true,
+    "universal_fidelity_forces_blank_n2": true,
+    "closed_cycle_recovers_all_resources_n2": true,
+    "full_circuit_inverse_n3": true,
+    "universal_fidelity_forces_blank_n3": true,
+    "closed_cycle_recovers_all_resources_n3": true,
+    "dp_equals_all_histories_n4": true,
+    "exact_macrocell_counts_n4": true,
+    "causal_record_action_all_messages_n4": true,
+    "dp_equals_all_histories_n8": true,
+    "exact_macrocell_counts_n8": true,
+    "causal_record_action_all_messages_n8": true,
+    "dp_equals_all_histories_n12": true,
+    "exact_macrocell_counts_n12": true,
+    "causal_record_action_all_messages_n12": true,
+    "parity_normalization_n8": true,
+    "late_window_hoeffding_n8": true,
+    "selection_density_bound_n8_e1/4_g0": true,
+    "selection_density_bound_n8_e1/4_g1": true,
+    "goal_flip_changes_output_n8_e1/4": true,
+    "selection_density_bound_n8_e1/10_g0": true,
+    "selection_density_bound_n8_e1/10_g1": true,
+    "goal_flip_changes_output_n8_e1/10": true,
+    "selection_density_bound_n8_e1/100_g0": true,
+    "selection_density_bound_n8_e1/100_g1": true,
+    "goal_flip_changes_output_n8_e1/100": true,
+    "argmin_exception_n8_g0": true,
+    "argmin_exception_n8_g1": true,
+    "parity_normalization_n16": true,
+    "late_window_hoeffding_n16": true,
+    "selection_density_bound_n16_e1/4_g0": true,
+    "selection_density_bound_n16_e1/4_g1": true,
+    "goal_flip_changes_output_n16_e1/4": true,
+    "selection_density_bound_n16_e1/10_g0": true,
+    "selection_density_bound_n16_e1/10_g1": true,
+    "goal_flip_changes_output_n16_e1/10": true,
+    "selection_density_bound_n16_e1/100_g0": true,
+    "selection_density_bound_n16_e1/100_g1": true,
+    "goal_flip_changes_output_n16_e1/100": true,
+    "argmin_exception_n16_g0": true,
+    "argmin_exception_n16_g1": true,
+    "parity_normalization_n32": true,
+    "late_window_hoeffding_n32": true,
+    "selection_density_bound_n32_e1/4_g0": true,
+    "selection_density_bound_n32_e1/4_g1": true,
+    "goal_flip_changes_output_n32_e1/4": true,
+    "selection_density_bound_n32_e1/10_g0": true,
+    "selection_density_bound_n32_e1/10_g1": true,
+    "goal_flip_changes_output_n32_e1/10": true,
+    "selection_density_bound_n32_e1/100_g0": true,
+    "selection_density_bound_n32_e1/100_g1": true,
+    "goal_flip_changes_output_n32_e1/100": true,
+    "argmin_exception_n32_g0": true,
+    "argmin_exception_n32_g1": true,
+    "parity_normalization_n64": true,
+    "late_window_hoeffding_n64": true,
+    "selection_density_bound_n64_e1/4_g0": true,
+    "selection_density_bound_n64_e1/4_g1": true,
+    "goal_flip_changes_output_n64_e1/4": true,
+    "selection_density_bound_n64_e1/10_g0": true,
+    "selection_density_bound_n64_e1/10_g1": true,
+    "goal_flip_changes_output_n64_e1/10": true,
+    "selection_density_bound_n64_e1/100_g0": true,
+    "selection_density_bound_n64_e1/100_g1": true,
+    "goal_flip_changes_output_n64_e1/100": true,
+    "argmin_exception_n64_g0": true,
+    "argmin_exception_n64_g1": true,
+    "parity_normalization_n128": true,
+    "late_window_hoeffding_n128": true,
+    "selection_density_bound_n128_e1/4_g0": true,
+    "selection_density_bound_n128_e1/4_g1": true,
+    "goal_flip_changes_output_n128_e1/4": true,
+    "selection_density_bound_n128_e1/10_g0": true,
+    "selection_density_bound_n128_e1/10_g1": true,
+    "goal_flip_changes_output_n128_e1/10": true,
+    "selection_density_bound_n128_e1/100_g0": true,
+    "selection_density_bound_n128_e1/100_g1": true,
+    "goal_flip_changes_output_n128_e1/100": true,
+    "argmin_exception_n128_g0": true,
+    "argmin_exception_n128_g1": true,
+    "parity_normalization_n256": true,
+    "late_window_hoeffding_n256": true,
+    "selection_density_bound_n256_e1/4_g0": true,
+    "selection_density_bound_n256_e1/4_g1": true,
+    "goal_flip_changes_output_n256_e1/4": true,
+    "selection_density_bound_n256_e1/10_g0": true,
+    "selection_density_bound_n256_e1/10_g1": true,
+    "goal_flip_changes_output_n256_e1/10": true,
+    "selection_density_bound_n256_e1/100_g0": true,
+    "selection_density_bound_n256_e1/100_g1": true,
+    "goal_flip_changes_output_n256_e1/100": true,
+    "argmin_exception_n256_g0": true,
+    "argmin_exception_n256_g1": true,
+    "parity_normalization_n512": true,
+    "late_window_hoeffding_n512": true,
+    "selection_density_bound_n512_e1/4_g0": true,
+    "selection_density_bound_n512_e1/4_g1": true,
+    "goal_flip_changes_output_n512_e1/4": true,
+    "selection_density_bound_n512_e1/10_g0": true,
+    "selection_density_bound_n512_e1/10_g1": true,
+    "goal_flip_changes_output_n512_e1/10": true,
+    "selection_density_bound_n512_e1/100_g0": true,
+    "selection_density_bound_n512_e1/100_g1": true,
+    "goal_flip_changes_output_n512_e1/100": true,
+    "argmin_exception_n512_g0": true,
+    "argmin_exception_n512_g1": true,
+    "fidelity_refined_partition_removes_macrovolume_growth": true
+  },
+  "passed": 110,
+  "total": 110,
+  "all_checks_pass": true,
+  "overall_pass": true,
+  "rows": [
+    {
+      "n": 8,
+      "blank_memory_counting_fraction": 0.00390625,
+      "blank_action_and_memory_fraction": 0.001953125,
+      "late_window_start": 6,
+      "late_entropy_gain_lower_bound_nats": 3.332204510175204,
+      "baseline_bad_probability": 0.14453125,
+      "late_hoeffding_bound": 1.0,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 0.130859375,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.130859375
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 0.158203125,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.158203125
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 0.12265625,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.12265625
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 0.16640625,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.16640625
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 0.117734375,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.117734375
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 0.171328125,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.171328125
+        }
+      ],
+      "argmin_count": "128",
+      "argmin_has_bad_history_each_goal": true
+    },
+    {
+      "n": 16,
+      "blank_memory_counting_fraction": 1.52587890625e-05,
+      "blank_action_and_memory_fraction": 7.62939453125e-06,
+      "late_window_start": 12,
+      "late_entropy_gain_lower_bound_nats": 7.506591780070841,
+      "baseline_bad_probability": 0.0836334228515625,
+      "late_hoeffding_bound": 1.0,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 0.08016204833984375,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.08016204833984375
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 0.08710479736328125,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.08710479736328125
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 0.0780792236328125,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.0780792236328125
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 0.0891876220703125,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.0891876220703125
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 0.07682952880859376,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.07682952880859376
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 0.09043731689453124,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.09043731689453124
+        }
+      ],
+      "argmin_count": "32768",
+      "argmin_has_bad_history_each_goal": true
+    },
+    {
+      "n": 32,
+      "blank_memory_counting_fraction": 2.3283064365386963e-10,
+      "blank_action_and_memory_fraction": 1.1641532182693481e-10,
+      "late_window_start": 24,
+      "late_entropy_gain_lower_bound_nats": 16.168627155257468,
+      "baseline_bad_probability": 0.03300852910615504,
+      "late_hoeffding_bound": 1.0,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 0.032702406286261976,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.032702406286261976
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 0.0333146519260481,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.0333146519260481
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 0.03251873259432614,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.03251873259432614
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 0.03349832561798394,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.03349832561798394
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 0.032408528379164636,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.032408528379164636
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 0.03360852983314544,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.03360852983314544
+        }
+      ],
+      "argmin_count": "2147483648",
+      "argmin_has_bad_history_each_goal": true
+    },
+    {
+      "n": 64,
+      "blank_memory_counting_fraction": 5.421010862427522e-20,
+      "blank_action_and_memory_fraction": 2.710505431213761e-20,
+      "late_window_start": 48,
+      "late_entropy_gain_lower_bound_nats": 33.82241572832627,
+      "baseline_bad_probability": 0.006653823067203971,
+      "late_hoeffding_bound": 1.0,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 0.0066505126799133495,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.0066505126799133495
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 0.006657133454494592,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.006657133454494592
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 0.006648526447538977,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.006648526447538977
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 0.006659119686868964,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.006659119686868964
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 0.006647334708114353,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.006647334708114353
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 0.0066603114262935885,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.0066603114262935885
+        }
+      ],
+      "argmin_count": "9223372036854775808",
+      "argmin_has_bad_history_each_goal": true
+    },
+    {
+      "n": 128,
+      "blank_memory_counting_fraction": 2.938735877055719e-39,
+      "blank_action_and_memory_fraction": 1.4693679385278594e-39,
+      "late_window_start": 96,
+      "late_entropy_gain_lower_bound_nats": 69.46811196883573,
+      "baseline_bad_probability": 0.00033736136316438284,
+      "late_hoeffding_bound": 1.0,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 0.0003373608203038554,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.0003373608203038554
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 0.0003373619060249103,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 0.0003373619060249103
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 0.00033736049458753893,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.00033736049458753893
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 0.00033736223174122675,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 0.00033736223174122675
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 0.00033736029915774906,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.00033736029915774906
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 0.00033736242717101667,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 0.00033736242717101667
+        }
+      ],
+      "argmin_count": "170141183460469231731687303715884105728",
+      "argmin_has_bad_history_each_goal": true
+    },
+    {
+      "n": 256,
+      "blank_memory_counting_fraction": 8.636168555094445e-78,
+      "blank_action_and_memory_fraction": 4.3180842775472223e-78,
+      "late_window_start": 192,
+      "late_entropy_gain_lower_bound_nats": 141.10184740430108,
+      "baseline_bad_probability": 1.0919336680360775e-06,
+      "late_hoeffding_bound": 0.04361014162732654,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 1.0919336680155194e-06,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 1.0919336680155194e-06
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 1.0919336680566356e-06,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 1.0919336680566356e-06
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 1.0919336680031844e-06,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 1.0919336680031844e-06
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 1.0919336680689705e-06,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 1.0919336680689705e-06
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 1.0919336679957835e-06,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 1.0919336679957835e-06
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 1.0919336680763715e-06,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 1.0919336680763715e-06
+        }
+      ],
+      "argmin_count": "57896044618658097711785492504343953926634992332820282019728792003956564819968",
+      "argmin_has_bad_history_each_goal": true
+    },
+    {
+      "n": 512,
+      "blank_memory_counting_fraction": 7.458340731200207e-155,
+      "blank_action_and_memory_fraction": 3.7291703656001034e-155,
+      "late_window_start": 384,
+      "late_entropy_gain_lower_bound_nats": 284.7137761221053,
+      "baseline_bad_probability": 1.5048140780711837e-11,
+      "late_hoeffding_bound": 2.9034075077568853e-05,
+      "selected_cases": [
+        {
+          "error": "1/4",
+          "goal": 0,
+          "selected_bad_probability": 1.5048140780711837e-11,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 1.5048140780711837e-11
+        },
+        {
+          "error": "1/4",
+          "goal": 1,
+          "selected_bad_probability": 1.5048140780711837e-11,
+          "density_bound": 1.5,
+          "selected_action_goal_probability": 0.75,
+          "matched_causal_bad_probability": 1.5048140780711837e-11
+        },
+        {
+          "error": "1/10",
+          "goal": 0,
+          "selected_bad_probability": 1.5048140780711837e-11,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 1.5048140780711837e-11
+        },
+        {
+          "error": "1/10",
+          "goal": 1,
+          "selected_bad_probability": 1.5048140780711837e-11,
+          "density_bound": 1.8,
+          "selected_action_goal_probability": 0.9,
+          "matched_causal_bad_probability": 1.5048140780711837e-11
+        },
+        {
+          "error": "1/100",
+          "goal": 0,
+          "selected_bad_probability": 1.5048140780711837e-11,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 1.5048140780711837e-11
+        },
+        {
+          "error": "1/100",
+          "goal": 1,
+          "selected_bad_probability": 1.5048140780711837e-11,
+          "density_bound": 1.98,
+          "selected_action_goal_probability": 0.99,
+          "matched_causal_bad_probability": 1.5048140780711837e-11
+        }
+      ],
+      "argmin_count": "6703903964971298549787012499102923063739682910296196688861780721860882015036773488400937149083451713845015929093243025426876941405973284973216824503042048",
+      "argmin_has_bad_history_each_goal": true
+    }
+  ],
+  "scope": "conditional probabilistic late-window macrovolume growth, not argmin actuality or cosmological thermodynamics"
+}
