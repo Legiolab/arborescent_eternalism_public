@@ -29,7 +29,7 @@ python proofs/paper-c-modal-rarity/computational/run_all.py
 
 The delayed-agency witness also runs independently with `python proofs/paper-c-modal-rarity/computational/delayed_agentive_selection_v1_6/check.py`.
 
-The scripts use only the Python standard library. Legacy gates overwrite their result files; the two new checks emit results on standard output, with recorded snapshots provided alongside them. See `analytic_results.md` for the paper proofs and `computational/README.md` for the evidential status of each computational stage.
+The scripts use only the Python standard library. Legacy gates overwrite their result files; the three new checks emit results on standard output, with recorded snapshots provided alongside them. See `analytic_results.md` for the paper proofs and `computational/README.md` for the evidential status of each computational stage.
 
 ## Limits
 
@@ -45,3 +45,7 @@ These materials establish finite constructive witnesses, a model-relative asympt
 These are different models and do not combine into one theorem. The local task is deliberately chosen to reward the increasing-entropy class; causal agency and an independent physical motivation for this task are not derived. A late objective may overcome the reference cost of a rare preparation, but this is not universal or cosmological.
 
 The older numerical strings remain reproducible; their physical reading is restricted by the explicit state-on-cut requirement.
+
+## Independent reliable-record test added 30 September 2026
+
+[reliable_record_v1](computational/reliable_record_v1/) defines a faithful nondemolition copying task without an entropy reward or prescribed entropy trajectory. Exhaustive checks cover n=2,4,6,8. Under its uniform reference, every positive reward selects blank-memory preparations, of counting measure 2^(-n). Joint Shannon entropy remains constant; coarse Boltzmann entropy depends on the partition and is not nondecreasing on all winners. For n=6, 62/64 winners have greater final entropy under separate-register counts, but only 42/64 are nondecreasing throughout. A merged-count partition has seven winners with lower final entropy. Identity, SWAP and inversion controls restrict the interpretation. The same records can be obtained by a causal preparation-and-copy protocol, so this test does not uniquely support AE. Code, analytic argument, outputs and limits are provided; it is included in the ten checks in run_all.py.
