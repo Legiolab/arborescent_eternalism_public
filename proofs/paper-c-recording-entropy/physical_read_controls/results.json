@@ -1,0 +1,73 @@
+{
+  "status": "CONDITIONAL_HAMILTONIAN_PARTITION_WITH_PROTOCOL_COUNTERCONTROL",
+  "n": 8,
+  "pointer_levels": 9,
+  "arithmetic": "exact integer/rational counting; Fourier identities checked with numpy tolerance 1e-12",
+  "numpy_version": "2.3.5",
+  "checks": {
+    "hermitian_pointer_generator": true,
+    "hamiltonian_unitary_is_shift_for_every_K": true,
+    "collective_generator_invariant_under_all_site_swaps": true,
+    "readout_cells_are_binomial": true,
+    "universal_exact_display_forces_singleton_pointer_support": true,
+    "uniform_pointer_has_no_K_information": true,
+    "readout_inverse_for_all_memory_pointer_states": true,
+    "endpoint_positive_254_of_256": true,
+    "unequal_exact_probe_resolves_all_256_states": true,
+    "fixed_resolution_preserves_K_despite_unequal_couplings_and_bounded_noise": true,
+    "coarse_cells_unchanged": true,
+    "full_write_trace_singleton_for_every_prepared_source": true,
+    "all_one_source_write_trace_resolves_all_initial_memories": true,
+    "zero_source_write_trace_only_occupation": true,
+    "readout_bijection_on_full_memory_pointer_reference": true,
+    "source_preserving_copy_invertible": true,
+    "fine_joint_support_size_preserved": true
+  },
+  "all_checks_pass": true,
+  "endpoint_memory_macrovolume": {
+    "positive": 254,
+    "histories": 256,
+    "mean_gain_nats": 3.7816741154003153
+  },
+  "pointer_capacity": {
+    "supports_tested": 511,
+    "admissible_supports": 9,
+    "support_size": 1,
+    "reference_entropy_deficit_nats": 2.1972245773362196,
+    "is_energy_cost": false
+  },
+  "robustness": {
+    "coupling_numerators": [
+      1025,
+      1026,
+      1028,
+      1032,
+      1040,
+      1056,
+      1088,
+      1152
+    ],
+    "coupling_denominator": 1024,
+    "nearest_unit_bin_width": 1,
+    "noise_bound": "1/8",
+    "fine_distinguishable_states": 256,
+    "prepared_full_trace_cell_sizes": [
+      1
+    ]
+  },
+  "fine_joint_entropy": {
+    "initial_nats": 5.545177444479562,
+    "final_nats": 5.545177444479562,
+    "reason": "invertible copy+pointer permutation preserves uniform support size 256"
+  },
+  "limits": [
+    "Read stage and allowed operations supplied; universal writer does not intrinsically forbid reciprocal/site/time-resolved read access.",
+    "Uniform collective coupling derives K indistinguishability within this interface; AE does not uniquely derive the interface.",
+    "Quantized finite pointer is an explicit Hermitian model, not a local field or laboratory implementation.",
+    "Resolution and noise bound are apparatus assumptions fixed before counting.",
+    "Pointer readiness is functionally constrained; preparing/resetting it is not thermodynamically explained.",
+    "Macrovolume uses full memory reference, not posterior restricted to prepared histories.",
+    "Endpoint gain is not proof of monotonic growth, heat production or cosmological arrow."
+  ],
+  "runtime_seconds": 0.08429059999980382
+}

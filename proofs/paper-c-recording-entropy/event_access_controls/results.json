@@ -1,0 +1,91 @@
+{
+  "status": "AE_ACCESS_COMPOSITION_PROVED_CONDITIONALLY_NOT_BARE_STRUCTURE_ENTROPY",
+  "n": 8,
+  "checks": {
+    "terminal_collective_q9_matched_causal_records": true,
+    "terminal_collective_q9_binomial_cell_volume": true,
+    "terminal_collective_q256_matched_causal_records": true,
+    "terminal_collective_q256_binomial_cell_volume": true,
+    "terminal_fine_q256_matched_causal_records": true,
+    "terminal_fine_q256_prepared_history_cell_singleton": true,
+    "retained_write_trace_matched_causal_records": true,
+    "retained_write_trace_prepared_history_cell_singleton": true,
+    "same_E_different_Pi_changes_partition": true,
+    "same_capacity_and_dynamics_coarse_or_fine": true,
+    "one_realized_collective_record_not_all_available_information": true,
+    "independent_serialization_does_not_change_projection": true,
+    "quotient_avoids_24_fold_counting": true,
+    "event_prerequisites_change_which_cut_is_observed": true
+  },
+  "all_checks_pass": true,
+  "rows": [
+    {
+      "protocol": "terminal_collective_q9",
+      "pointer_capacity": 9,
+      "retains_writing_past": false,
+      "distinguishable_cells_min": 9,
+      "distinguishable_cells_max": 9,
+      "prepared_cell_volume_min": 1,
+      "prepared_cell_volume_max": 70,
+      "positive_endpoint_volumes_vs_blank_reference": 254,
+      "sources": 256,
+      "mean_log_volume": 3.7816741154003153
+    },
+    {
+      "protocol": "terminal_collective_q256",
+      "pointer_capacity": 256,
+      "retains_writing_past": false,
+      "distinguishable_cells_min": 9,
+      "distinguishable_cells_max": 9,
+      "prepared_cell_volume_min": 1,
+      "prepared_cell_volume_max": 70,
+      "positive_endpoint_volumes_vs_blank_reference": 254,
+      "sources": 256,
+      "mean_log_volume": 3.7816741154003153
+    },
+    {
+      "protocol": "terminal_fine_q256",
+      "pointer_capacity": 256,
+      "retains_writing_past": false,
+      "distinguishable_cells_min": 256,
+      "distinguishable_cells_max": 256,
+      "prepared_cell_volume_min": 1,
+      "prepared_cell_volume_max": 1,
+      "positive_endpoint_volumes_vs_blank_reference": 0,
+      "sources": 256,
+      "mean_log_volume": 0.0
+    },
+    {
+      "protocol": "retained_write_trace",
+      "pointer_capacity": 9,
+      "retains_writing_past": true,
+      "distinguishable_cells_min": 9,
+      "distinguishable_cells_max": 256,
+      "prepared_cell_volume_min": 1,
+      "prepared_cell_volume_max": 1,
+      "positive_endpoint_volumes_vs_blank_reference": 0,
+      "sources": 256,
+      "mean_log_volume": 0.0
+    }
+  ],
+  "controller": {
+    "realized_collective_cells": 9,
+    "available_collective_and_fine_cells": 256,
+    "interpretation": "Choice of a coarse record does not remove an unused fine read capability."
+  },
+  "serialization": {
+    "n": 4,
+    "physical_histories": 16,
+    "linearized_descriptions": 384,
+    "factor": 24
+  },
+  "limits": [
+    "AE E and Pi here are a concrete event/register module, not the full five-agent Hamiltonian or cosmos.",
+    "E determines available order/protocols; Pi supplies the physical coupling. Identical generic E supports both coarse and fine Pi.",
+    "Stored trace and terminal snapshot use different information and different resource budgets.",
+    "Capacities, retained-record budget and permitted physical operations are apparatus inputs, not derived from AE alone.",
+    "Source reference uniform and memory full-state measure supplied; numbers are conditional macrovolumes, not thermodynamic dissipation.",
+    "The causal comparator copies the specified physical package; this is equivalence of this model, not exclusivity or necessity of AE."
+  ],
+  "runtime_seconds": 0.9069192169999951
+}
