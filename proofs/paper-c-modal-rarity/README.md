@@ -1,4 +1,8 @@
-# Proof and reproducibility supplement
+# Archived rarity and selection results
+
+This directory preserves the evidence for earlier versions of Paper C. It is not the current recording paper. The current **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism**, version 2.1, uses the [recording supplement](../paper-c-recording-entropy/README.md). Historical proofs and outputs below remain unchanged and retain their original scope.
+
++# Proof and reproducibility supplement
 
 ## Paper
 
@@ -66,3 +70,4 @@ The older numerical strings remain reproducible; their physical reading is restr
 ## Integrated preparation and entropy mechanisms
 
 [Retained derivations and scope](integrated_mechanism_results.md) give the corrected regulated volume, late-window selection-compatible bound, five interacting agents and pathwise macroentropy before J. Four self-contained calculation directories and their outputs are included. The complete runner now executes 17 scripts including conserved_source_shell_v1; older counts above describe earlier versions.
+
