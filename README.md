@@ -24,12 +24,12 @@ Private research governance, internal canon, exploratory calculations, negative 
 
 ## Manuscript versions
 
-- **Arborescent Eternalism: An Objective Modal Structure for the Block Universe. Architecture, Interactions and Variational Actualisation** — V4.
+- **Arborescent Eternalism: An Objective Modal Structure for the Block Universe. Architecture, Interactions and Variational Actualisation** — [V4 (PDF)](papers/foundational/AE_Foundational_V4_Mury.pdf).
 - **Temporal Directedness Without an Open Future** — V1.
 - **Global Constraints Beyond Finite Modal Data** — V1.
 - **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism** — V1.
 
-These are publication version numbers. Earlier internal draft numbers and calculation-directory names remain historical identifiers; the renumbering changes no result. Manuscripts are deposited separately. The public supplements are indexed in [proofs/README.md](proofs/README.md).
+These are publication version numbers. Earlier internal draft numbers and calculation-directory names remain historical identifiers; the renumbering changes no result. The foundational V4 PDF is available in this repository; Zenodo provides the publication DOI and version history. Companion manuscripts are deposited separately. The public supplements are indexed in [proofs/README.md](proofs/README.md).
 
 ## Scientific status
 
