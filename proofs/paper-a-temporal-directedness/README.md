@@ -1,5 +1,7 @@
 # Proof supplement for Temporal Directedness Without an Open Future
 
+Supports **Temporal Directedness Without an Open Future**, version 1.
+
 ## Claims supported
 
 1. A reversal-invariant package of admitted block data cannot select one member of a reversal pair by an intrinsic reversal-equivariant rule.
@@ -8,7 +10,7 @@
 
 ## Proof status
 
-The propositions and proofs are reproduced in the preprint itself. No numerical experiment is needed for their validity. This supplement exists to make the proof dependency explicit and to prevent the orientation theorem from being confused with the entropy results in Paper C.
+The propositions and proofs are reproduced in the preprint itself. No numerical experiment is needed for their validity. This supplement exists to make the proof dependency explicit and to prevent the orientation theorem from being confused with the results in the recording study.
 
 ## Scope limitation
 

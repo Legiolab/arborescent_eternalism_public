@@ -1,6 +1,6 @@
 # Recording capacity and macroscopic entropy supplement
 
-Supports **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism**, version 2.1. The essential proofs and exact late-window counting algorithm are in the manuscript. This supplement supplies executable finite controls for §5.5; it does not replace those proofs.
+Supports **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism**, version 1. The essential proofs and exact late-window counting algorithm are in the manuscript. This supplement supplies executable finite controls for §5.5; it does not replace those proofs.
 
 | Source | Supported control | Domain |
 |---|---|---|

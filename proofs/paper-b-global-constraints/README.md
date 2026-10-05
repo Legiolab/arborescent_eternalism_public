@@ -1,5 +1,7 @@
 # Proof supplement for Global Constraints Beyond Finite Modal Data
 
+Supports **Global Constraints Beyond Finite Modal Data**, version 1.
+
 The public proof is contained in [prefix_factorisation_theorem.md](prefix_factorisation_theorem.md).
 
 It establishes, under explicit assumptions, a canonical rooted prefix object, a minimal factorisation theorem for prefix-adequate representations and the distinction between an arborescent unfolding and a configuration quotient with diamonds.

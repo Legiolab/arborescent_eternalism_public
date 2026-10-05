@@ -1,6 +1,6 @@
 # Foundation proof supplement
 
-**Arborescent Eternalism: An Objective Modal Structure for the Block Universe. Architecture, Interactions and Variational Actualisation**, version 3.9, describes the ontology, physical interactions and programme. It does not claim that the sector results already derive one cosmological model.
+**Arborescent Eternalism: An Objective Modal Structure for the Block Universe. Architecture, Interactions and Variational Actualisation**, version 4, describes the ontology, physical interactions and programme. It does not claim that the sector results already derive one cosmological model.
 
 The minimal conceptual core distinguishes the tenseless base M, rooted event structure E, physical projection Π and one actual complete history. Reference weights, a global evaluator and agency have separate roles in extensions; causal physical realizations of a module do not establish the whole ontology.
 

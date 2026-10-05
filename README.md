@@ -22,6 +22,15 @@ documentation and recorded results are licensed under CC BY 4.0
 
 Private research governance, internal canon, exploratory calculations, negative experiments, prompts, audits, roadmap, and research-harness material are deliberately excluded.
 
+## Manuscript versions
+
+- **Arborescent Eternalism: An Objective Modal Structure for the Block Universe. Architecture, Interactions and Variational Actualisation** — V4.
+- **Temporal Directedness Without an Open Future** — V1.
+- **Global Constraints Beyond Finite Modal Data** — V1.
+- **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism** — V1.
+
+These are publication version numbers. Earlier internal draft numbers and calculation-directory names remain historical identifiers; the renumbering changes no result. Manuscripts are deposited separately. The public supplements are indexed in [proofs/README.md](proofs/README.md).
+
 ## Scientific status
 
 AE is a research programme in development. Mathematical results, physical assumptions, philosophical interpretations, and open questions are kept distinct.

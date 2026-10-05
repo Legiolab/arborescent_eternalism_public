@@ -1,6 +1,6 @@
 # Archived rarity and selection results
 
-This directory preserves the evidence for earlier versions of Paper C. It is not the current recording paper. The current **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism**, version 2.1, uses the [recording supplement](../paper-c-recording-entropy/README.md). Historical proofs and outputs below remain unchanged and retain their original scope.
+This directory preserves the evidence for earlier versions of Paper C. It is not the current recording paper. The current **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism**, version 1, uses the [recording supplement](../paper-c-recording-entropy/README.md). Historical proofs and outputs below remain unchanged and retain their original scope.
 
 +# Proof and reproducibility supplement
 
