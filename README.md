@@ -26,10 +26,10 @@ Private research governance, internal canon, exploratory calculations, negative 
 
 - **Arborescent Eternalism: An Objective Modal Structure for the Block Universe. Architecture, Interactions and Variational Actualisation** — [V4 (PDF)](papers/foundational/AE_Foundational_V4_Mury.pdf).
 - **Temporal Directedness Without an Open Future** — [V1 (PDF)](papers/paper_A/AE_Temporal_Directedness_V1_Mury.pdf); [all versions DOI](https://doi.org/10.5281/zenodo.23206143).
-- **Global Constraints Beyond Finite Modal Data** — V1.
+- **Global Constraints Beyond Finite Modal Data** — [V1 (PDF)](papers/paper_B/AE_Global_Constraints_V1_Mury.pdf); [all versions DOI](https://doi.org/10.5281/zenodo.23256192).
 - **Recording Capacity and Macroscopic Entropy in Arborescent Eternalism** — [V1 (PDF)](papers/paper_C/AE_Recording_Capacity_V1_Mury.pdf); [all versions DOI](https://doi.org/10.5281/zenodo.23242803).
 
-These are publication version numbers. Earlier internal draft numbers and calculation-directory names remain historical identifiers; the renumbering changes no result. The foundational V4 PDF and the orientation and recording V1 PDFs are available in this repository. Zenodo provides publication DOIs and version histories. The global-admissibility manuscript is deposited separately. The public supplements are indexed in [proofs/README.md](proofs/README.md).
+These are publication version numbers. Earlier internal draft numbers and calculation-directory names remain historical identifiers; the renumbering changes no result. All four manuscripts are available as PDFs in this repository. Zenodo provides publication DOIs and version histories. Bibliographic updates to repository copies are identified in the paper directories. The public supplements are indexed in [proofs/README.md](proofs/README.md).
 
 ## Scientific status
 
@@ -50,3 +50,4 @@ For every non-trivial published result:
 ## Author
 
 **Emmanuelle Mury — Legiolab**
+
