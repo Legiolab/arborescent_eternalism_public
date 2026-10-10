@@ -13,10 +13,11 @@ Internal research material from the private AE repository is not copied here.
 
 ## Available manuscripts
 
-- [Arborescent Eternalism](foundational/AE_Foundational_V4_Mury.pdf) — V4.
+- [Arborescent Eternalism](foundational/AE_Foundational_V4_Mury.pdf) — V4; [all versions DOI](https://doi.org/10.5281/zenodo.18898748).
 - [Temporal Directedness Without an Open Future](paper_A/AE_Temporal_Directedness_V1_Mury.pdf) — V1; [all versions DOI](https://doi.org/10.5281/zenodo.23206143).
 - [Global Constraints Beyond Finite Modal Data](paper_B/AE_Global_Constraints_V1_Mury.pdf) — V1; [all versions DOI](https://doi.org/10.5281/zenodo.23256192).
 - [Recording Capacity and Macroscopic Entropy in Arborescent Eternalism](paper_C/AE_Recording_Capacity_V1_Mury.pdf) — V1; [all versions DOI](https://doi.org/10.5281/zenodo.23242803).
 
 The proof and computation supplements are indexed in [proofs/README.md](../proofs/README.md). Publication version numbers are independent of historical calculation-directory identifiers.
 
+The four PDFs are the author-supplied files received on 10 October 2026, reproduced without modification.

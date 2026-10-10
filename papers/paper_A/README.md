@@ -6,4 +6,4 @@ Author: Emmanuelle Mury, independent researcher.
 
 Cite all versions: https://doi.org/10.5281/zenodo.23206143
 
-This PDF incorporates the current concept DOI of the recording study in its bibliography. The manuscript contains the essential proofs; the [proof supplement](../../proofs/paper-a-temporal-directedness/README.md) identifies their dependencies and scope. Existing calculations remain in `calculations/`.
+The PDF is the author-supplied V1 received on 10 October 2026, reproduced without modification. The manuscript contains the essential proofs; the [proof supplement](../../proofs/paper-a-temporal-directedness/README.md) identifies their dependencies and scope. Existing calculations remain in `calculations/`.
