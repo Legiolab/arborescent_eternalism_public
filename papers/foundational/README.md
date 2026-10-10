@@ -8,7 +8,7 @@ Author: Emmanuelle Mury, independent researcher.
 
 Cite all versions: https://doi.org/10.5281/zenodo.18898748
 
-The repository copy preserves the deposited PDF with three companion bibliography entries updated on 9 October 2026. These entries cite the concept DOIs of the orientation, global-admissibility and recording studies. The remaining pages and mathematical content are unchanged. This bibliographic update does not modify the Zenodo deposit.
+The PDF is the author-supplied V4 received on 10 October 2026, reproduced without modification.
 
 The programme and its scope are described in the manuscript; the [public supplement](../../proofs/foundation/README.md) identifies the archived witnesses.
 
