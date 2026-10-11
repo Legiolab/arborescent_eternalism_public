@@ -10,10 +10,4 @@ Current sector sources:
 - [Global Constraints Beyond Finite Modal Data](../paper-b-global-constraints/README.md): finite descriptions, global admissibility and concurrency.
 - [Recording Capacity and Macroscopic Entropy in Arborescent Eternalism](../paper-c-recording-entropy/README.md): task-constrained local preparation, reversible writing and collective read access; no cosmological boundary derivation.
 
-Archived constructive results retained in Foundational:
-
-- §2.4 calibrated witness: `../paper-c-modal-rarity/computational/j_reference_calibrated_v6_73/`.
-- §7.4 five-component composition: `../paper-c-modal-rarity/computational/five_agent_cascades_v1/`, with definitions in `../paper-c-modal-rarity/integrated_mechanism_results.md`, §3.
-- §11 rarity transfer and calibration: `../paper-c-modal-rarity/analytic_results.md`, §§4–5. The separate positive-sector argument is `../paper-c-modal-rarity/variational_ph_proof.md`.
-
-Archive availability does not make an archived claim a premise of the current recording paper, or establish a global actuality law. Manuscripts and public calculation code have separate publication statuses.
+The public repository contains only the material within scope of the four published manuscripts. Manuscripts and public proof code have separate publication statuses.

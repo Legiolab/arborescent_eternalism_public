@@ -19,4 +19,4 @@ Both scripts exit nonzero on failed checks and regenerate the adjacent output. S
 
 These are conditional checks of a specified recorder and reader, not a new proof that all AE systems increase entropy. The source law, physical operations, read access and resources remain explicit apparatus assumptions. No thermodynamic heat, physical production of readiness, global actuality law or cosmological preparation is derived.
 
-[Earlier rarity and selection work](../paper-c-modal-rarity/README.md) is archived separately. A script supporting this current paper should be cited through its path at the same immutable commit as this README.
+A script supporting this current paper should be cited through its path at the same immutable commit as this README.
