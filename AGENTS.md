@@ -30,3 +30,39 @@ Applies to ChatGPT, Claude, Codex, other AI assistants, automations and delegate
 
 ### Security boundary
 These are behavioral instructions, not enforceable access controls. The owner must separately configure GitHub rulesets, least-privilege agent identities, CI permissions and secret restrictions. A PR may trigger workflows; do not assume an unmerged PR is harmless.
+
+## LEGIOlab — AI contribution provenance (mandatory)
+
+GitHub branch names, commit author/email and PR author do **not** prove which
+AI system performed the work. A connected assistant may use the owner's GitHub
+identity; never present that identity as proof of human authorship.
+
+### Commit and PR identification
+- Prefix AI-authored commit subjects with the **actual** executing agent:
+  `[ChatGPT] ...`, `[Claude] ...`, `[Codex] ...`, or
+  `[Agent: <verified name>] ...`. Never guess an agent/model/version.
+- In every AI-authored PR, include a **Contribution provenance** section:
+  - Executing agent/provider and model/version, if reliably known; otherwise
+    state `unknown`.
+  - Authenticated GitHub account used, if known, and whether it is shared
+    with the repository owner.
+  - Exact PR head SHA and changed-file scope.
+  - Reviewer/auditor agent and audited SHA, or `not yet audited`.
+  - Audit verdict (`ACCEPTABLE`, `CORRECTIONS REQUIRED`, `BLOCKED`)
+    when an audit was actually completed, plus test evidence/limitations.
+  - Human decision: `pending owner decision` until explicitly made.
+- A second-pass audit must re-read the diff at the exact current SHA. If the
+  head changes, mark the previous audit stale. An agent reviewing its own
+  changes must state `same-agent second pass; not independent`.
+- Do not claim that a GitHub PR approval, a green CI run, a commit signature,
+  a label, or a provenance declaration establishes human approval.
+- Never overwrite Git author identity or email to impersonate a different
+  person. Where the connector forces the owner's identity, disclose that
+  explicitly in the PR; do not attempt to rewrite history to conceal it.
+- Only the owner may authorize a merge. An audit verdict is advice, never
+  merge authorization.
+
+### Security boundary
+This is **declarative provenance**, not cryptographic attribution or
+enforceable separation of identities. Real attribution requires distinct,
+least-privilege agent credentials and effective branch protection.
