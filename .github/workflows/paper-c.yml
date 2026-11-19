@@ -14,7 +14,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Reproduce complete public calculation chain
-        run: python proofs/paper-c-modal-rarity/computational/run_all.py
-      - name: Reproduce independent delayed-agentive example
-        run: python proofs/paper-c-modal-rarity/computational/delayed_agentive_selection_v1_6/check.py
+      - name: Install computational dependency
+        run: python -m pip install numpy
+      - name: Reproduce AE event access controls
+        run: python proofs/paper-c-recording-entropy/event_access_controls/check.py
+      - name: Reproduce physical read controls
+        run: python proofs/paper-c-recording-entropy/physical_read_controls/check.py
